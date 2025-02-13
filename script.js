@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (!isLoggedIn) {
       alert("请先登录！");
-      window.location.href = "login.html"; // **未登录则跳转回 `login.html`**
+      window.location.href = "index.html"; // **未登录则跳转回 `login.html`**
     }
   }
 });
