@@ -57,7 +57,7 @@
       },
       "cooling Issue": {
         "customer": [
-          "Confirm with the customer which icons are displayed on the screen. <br><span style='color: red'>(The icons indicate that the corresponding components are functioning<a href='/icon.png' target='_blank'> Basic Unit Functions)",
+          "Confirm with the customer which icons are displayed on the screen. <br><span style='color: red'>(The icons indicate that the corresponding components are functioning<a href='/icon.png' target='_blank'> Basic Unit Functions </a>)",
           "1.Is the condenser fan working?<br><span style='color: red'>①.If not, check if the fan blade is obstructed by any foreign objects. <br><span style='color: red'>②.If it’s not obstructed but still not working, the fan needs to be replaced",
           "2.Check if the internal evaporator fan is working?<br><span style='color: red'>If only one fan is not working, replace the faulty fan."
         ],
