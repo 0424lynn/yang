@@ -68,7 +68,7 @@
     
     "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1. <span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 44-46 PSI, please refer to this parameter <a href='https://0424lynn.github.io/yang/psi.png' target='_blank'>Pressure Temperature Chart</a>.</span><br>2. <span style='color: red'>Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor. <a href='https://0424lynn.github.io/yang/Solder%20joint%20diagram.png' target='_blank'>Refrigerant Circuit Diagram</a>.</span><br>3. <span style='color: red'>If the tech needs us to provide capillary tube fittings, please let the tech know we recommend cutting 2-3 inches of the end cap tube and blowing the whole system with nitrogen, then replacing with a new universal filter drier, vacuuming, and recharging the unit.</span>"
   ]
-        ]
+        
       },
       "Power Issue": {
         "customer": [
