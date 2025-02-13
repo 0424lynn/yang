@@ -1,0 +1,49 @@
+<script>
+    // 动态填充数据的函数
+    function loadData(data) {
+      // 1. 渲染问题大类列表
+      const problemList = document.getElementById("problemCategoryList");
+      data.problems.forEach(problem => {
+        const listItem = document.createElement("li");
+        listItem.innerHTML = `<a href="#" onclick="showSolution('${problem.id}')">${problem.title}</a>`;
+        problemList.appendChild(listItem);
+      });
+  
+      // 2. 渲染文档列表
+      const documentList = document.getElementById("documentList");
+      data.documents.forEach(doc => {
+        const docItem = document.createElement("li");
+        docItem.innerHTML = `<a href="${doc.url}" target="_blank">${doc.name}</a>`;
+        documentList.appendChild(docItem);
+      });
+  
+      // 3. 设置图片
+      const diagramImage = document.getElementById("diagramImage");
+      diagramImage.src = data.images.diagram;
+      diagramImage.alt = "Diagram";
+    }
+  
+    // 根据问题 ID 显示对应的解决方案
+    function showSolution(categoryId) {
+      const problem = data.problems.find(p => p.id === categoryId);
+      if (problem) {
+        // 渲染客户解决方案
+        const customerSolution = document.getElementById("customerSolution");
+        customerSolution.innerHTML = `
+          <div class="solution-header">Customer Solution</div>
+          <ul>${problem.customerSolution.map(item => `<li>${item}</li>`).join("")}</ul>
+        `;
+  
+        // 渲染技术员解决方案
+        const technicianSolution = document.getElementById("technicianSolution");
+        technicianSolution.innerHTML = `
+          <div class="solution-header">Technician Solution</div>
+          <ul>${problem.technicianSolution.map(item => `<li>${item}</li>`).join("")}</ul>
+        `;
+      }
+    }
+  
+    // 初始化加载数据
+    loadData(data);
+  </script>
+  
