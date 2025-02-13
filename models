@@ -1,0 +1,5 @@
+mkdir models
+cd models
+echo "<h1>MSF8302GR 详情页面</h1>" > msf8302gr.html
+echo "<h1>MSF8308GR 详情页面</h1>" > msf8308gr.html
+echo "<h1>MSF17GR-NTCV 详情页面</h1>" > msf17gr-ntcv.html
