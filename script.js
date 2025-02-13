@@ -186,9 +186,7 @@ function renderProductList() {
 "YR280-AP-161",
 "YR450-AP-161",
 "YR450S-AP-161",
-"YR800-AP-261",
-
-      // 其余型号...
+"YR800-AP-261"
     ];
 // 渲染产品列表
 function renderProductList() {
@@ -202,6 +200,9 @@ function renderProductList() {
     a.href = `${product.toLowerCase()}.html`; // 跳转到产品详情页面
     a.textContent = product;
     li.appendChild(a);
+    // ⚠️ 让列表默认可见，否则搜索时不会出现
+    li.style.display = "list-item"; 
+
     productList.appendChild(li);
   });
 }
@@ -213,7 +214,8 @@ function searchProduct() {
 
   listItems.forEach((item) => {
     const text = item.textContent || item.innerText;
-    item.style.display = text.toUpperCase().includes(input) ? "list-item" : "none";
+   // 匹配关键字时显示，否则隐藏
+   item.style.display = text.toUpperCase().includes(input) ? "list-item" : "none";
   });
 }
 
