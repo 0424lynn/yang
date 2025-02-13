@@ -1,38 +1,23 @@
-document.getElementById("login-form").addEventListener("submit", function(event) {
-  event.preventDefault();  // 阻止默认提交，防止 405 错误
+// 登录表单逻辑
+document.addEventListener("DOMContentLoaded", function () {
+  const loginForm = document.getElementById("login-form");
+  if (loginForm) {
+    loginForm.addEventListener("submit", function (event) {
+      event.preventDefault(); // 阻止默认提交，防止 405 错误
 
-  var username = document.getElementById("username").value;
-  var password = document.getElementById("password").value;
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
 
-  // 假设用户名是 "admin"，密码是 "1234"
-  if (username === "admin" && password === "1234") {
-      alert("登录成功！");
-      window.location.href = "dashboard.html";  // 成功后跳转
-  } else {
-      alert("用户名或密码错误，请重试！");
+      // 假设用户名是 "admin"，密码是 "1234"
+      if (username === "admin" && password === "1234") {
+        alert("登录成功！");
+        window.location.href = "dashboard.html"; // 成功后跳转
+      } else {
+        alert("用户名或密码错误，请重试！");
+      }
+    });
   }
 });
-// 渲染产品列表
-function renderProductList() {
-  const sortedProducts = [...new Set(products)].sort(); // 去重并排序
-  const productList = document.getElementById("productList");
-  productList.innerHTML = ""; // 清空列表
-
-  sortedProducts.forEach((product) => {
-    const li = document.createElement("li");
-    const a = document.createElement("a");
-
-    // 跳转到 models/ 目录下的型号详情页面
-    a.href = `models/${product.toLowerCase()}.html`;
-    a.textContent = product;
-
-    li.appendChild(a);
-
-    // **改动**：默认显示所有产品
-    li.style.display = "list-item"; 
-    productList.appendChild(li);
-  });
-}
  // 产品列表
     const products = [
     "MSF8302GR", "MSF8308GR", "MSF17GR-NTCV", "MSF3610GR", "MSF3615GR",
@@ -188,41 +173,72 @@ function renderProductList() {
 "YR450S-AP-161",
 "YR800-AP-261"
     ];
-// 渲染产品列表
+// **📌 渲染产品列表**
 function renderProductList() {
   const productList = document.getElementById("productList");
+
+  // **防止 productList 为空**
+  if (!productList) {
+    console.error("❌ `productList` 未找到，检查 HTML 里是否有 `<ul id='productList'></ul>`");
+    return;
+  }
+
   productList.innerHTML = ""; // 清空列表
 
   products.forEach((product) => {
     const li = document.createElement("li");
     const a = document.createElement("a");
 
-    a.href = `${product.toLowerCase()}.html`; // 跳转到产品详情页面
+    // **确保 HTML 文件名和产品名一致（保持大写）**
+    a.href = `${product}.html`;
     a.textContent = product;
-    li.appendChild(a);
-    // ⚠️ 让列表默认可见，否则搜索时不会出现
-    li.style.display = "list-item"; 
+    a.target = "_blank"; // 在新标签页打开
 
+    li.appendChild(a);
+    li.style.display = "none"; // **默认隐藏所有产品**
     productList.appendChild(li);
   });
+
+  console.log("✅ `renderProductList()` 执行成功，产品数量:", products.length);
 }
 
-// 搜索功能
+// **📌 搜索功能**
 function searchProduct() {
-  const input = document.getElementById("searchInput").value.toUpperCase();
+  const input = document.getElementById("searchInput");
+
+  if (!input) {
+    console.error("❌ `searchInput` 未找到，检查 HTML 里是否有 `<input id='searchInput'>`");
+    return;
+  }
+
+  const filter = input.value.toUpperCase();
   const listItems = document.querySelectorAll("#productList li");
 
+  let matchFound = false;
   listItems.forEach((item) => {
     const text = item.textContent || item.innerText;
-   // 匹配关键字时显示，否则隐藏
-   item.style.display = text.toUpperCase().includes(input) ? "list-item" : "none";
+    if (text.includes(filter) && filter.length > 0) {
+      item.style.display = "list-item";
+      matchFound = true;
+    } else {
+      item.style.display = "none"; // **输入为空时隐藏**
+    }
   });
+
+  if (!matchFound && filter.length > 0) {
+    console.warn(`⚠️ 没有找到匹配的产品型号: "${filter}"`);
+  }
 }
 
-// 关闭公告栏
+// **📌 关闭公告栏**
 function closeAnnouncement() {
-  document.getElementById("announcementBar").style.display = "none";
+  const announcementBar = document.getElementById("announcementBar");
+  if (announcementBar) {
+    announcementBar.style.display = "none";
+  }
 }
 
-// 初始化产品列表
-renderProductList();
+// **📌 初始化**
+document.addEventListener("DOMContentLoaded", function () {
+  renderProductList();
+});
