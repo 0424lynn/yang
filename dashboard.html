@@ -6,20 +6,6 @@
 
   <style>
     body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  height: 100vh;
-  margin: 0;
-  background-color: #f4f4f4;
-  background-image: url('https://img-baofun.zhhainiao.com/fs/3fc54f2b553dc552c23fd2df0ee0159e.jpg'); /* 替换为你的图片路径 */
-  background-size: cover;  /* 确保图片覆盖整个背景 */
-  background-position: center; /* 图片居中 */
-  background-repeat: no-repeat; /* 防止图片重复 */
-}
-
-    body {
       font-family: Arial, sans-serif;
       display: flex;
       justify-content: center;
@@ -27,84 +13,91 @@
       height: 100vh;
       margin: 0;
       background-color: #f4f4f4;
+      background-image: url('https://img-baofun.zhhainiao.com/fs/3fc54f2b553dc552c23fd2df0ee0159e.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
+
     .container {
       text-align: center;
       padding: 20px;
       background-color: white;
       border-radius: 8px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      width: 140%;
-      max-width: 1400px;
+      width: 90%;
+      max-width: 1200px;
     }
+
     .announcement-bar {
       background-color: #fff3cd;
       border: 1px solid #ffeeba;
       color: #856404;
-      padding: 20px 30px 100px 30px;
+      padding: 20px;
       border-radius: 8px;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       position: relative;
     }
+
     .announcement-bar h2 {
-      font-size: 2rem;
+      font-size: 1.5rem;
       margin: 0 0 10px;
     }
-    .announcement-subtitle {
-      font-size: 1rem;
-      margin: 0 0 10px;
-      color: #666;
-    }
-    .announcement-bar hr {
-      margin: 15px 0;
-      border: none;
-      border-top: 1px solid #ffeeba;
-    }
+
     .announcement-content {
-      font-size: 1.2rem;
+      font-size: 1rem;
       line-height: 1.5;
       text-align: left;
       margin: 0;
       color: red;
     }
+
     .close-btn {
       background: none;
       border: none;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       position: absolute;
       top: 10px;
       right: 10px;
       cursor: pointer;
       color: #856404;
     }
+
     .close-btn:hover {
       color: #000;
     }
+
     #searchInput {
-      padding: 8px;
+      padding: 10px;
       width: 60%;
       margin-bottom: 20px;
-      border-radius: 4px;
+      border-radius: 5px;
       border: 1px solid #ccc;
     }
+
     #productList {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
       padding: 0;
       margin: 0;
+      justify-content: center;
     }
+
     #productList li {
       list-style-type: none;
-      margin: 2px 0;
-      width: 160px;
+      margin: 5px;
+      width: 200px;
       text-align: left;
-      display: none; /* 默认隐藏所有型号 */
     }
+
     #productList a {
       text-decoration: none;
       color: #007BFF;
+      font-size: 16px;
+      cursor: pointer;
     }
+
     #productList a:hover {
       text-decoration: underline;
     }
@@ -116,276 +109,24 @@
     <div class="announcement-bar" id="announcementBar">
       <button class="close-btn" onclick="closeAnnouncement()">×</button>
       <h2>Announcement</h2>
-      <p class="announcement-subtitle">We will update the latest issue developments here.</p>
-      <hr>
       <p class="announcement-content">
-        <span style="color: rgb(230, 5, 5);"> 1.The MCF, MBF, MSF series products have been updated. Next, We will continue updating the ice maker series issue.
-          <br>2.If you have any new requirements, please organize your questions in a timely manner and send them to Lynn; operator53@smartkitchenservice.com
-          <!-- 你的主要公告内容放在这里，例如最新维护安排、产品更新信息等。 -->
+        1. The MCF, MBF, MSF series products have been updated. Next, We will continue updating the ice maker series issue. <br>
+        2. If you have any new requirements, please organize your questions in a timely manner and send them to Lynn; operator53@smartkitchenservice.com
       </p>
     </div>
 
     <h1>ATOSA——Technical Documentation Center</h1>
-    <p id="welcome-message"></p>
 
     <!-- 搜索框 -->
     <input type="text" id="searchInput" placeholder="Search for a product model..." onkeyup="searchProduct()">
 
     <div class="directory">
       <ul id="productList"></ul>
-<<<<<<< HEAD
-    <!-- 型号详情显示区域 -->
-    <div id="productDetail">
-      <h2 id="productTitle"></h2>
-      <p id="productDescription"></p>
-      <button onclick="closeDetail()">Close</button>
-    </div>
-  </div>
-=======
     </div>
   </div>
 
->>>>>>> 59e5480 (优化 Dashboard，点击型号直接显示详情)
-  <script>
-    // 产品列表
-    const products = [
-    "MSF8302GR", "MSF8308GR", "MSF17GR-NTCV", "MSF3610GR", "MSF3615GR",
-      "MSF8301GR",  "MSF8302GR", 
-      "MSF8303GR", "MSF8304GR", 
-      "MSF8305GR",  "MSF8306GR", 
-      "MSF8307GR",  "MSF8308GR", 
-      "test","MBF15FSGR",
-"MBF15RSGR",
-"MBF8001GR",
-"MBF8002GR",
-"MBF8003GR",
-"MBF8004GR",
-"MBF8005GR",
-"MBF8006GR",
-"MBF8007GR",
-"MBF8008GR",
-"MBF8010GR",
-"MBF8011GR",
-"MBF8129GR",
-"MBF8501GR",
-"MBF8502GR",
-"MBF8503GR",
-"MBF8504GR",
-"MBF8505GR",
-"MBF8506GR",
-"MBF8507GR",
-"MBF8508GR",
-"MBF8519GR",
-"MBF8520GR",
-"MBF8531GR",
-"MBF8532GR",
-"MCF8701GR",
-"MCF8703ES",
-"MCF8703GR",
-"MCF8704GR",
-"MCF8705GR",
-"MCF8707GR",
-"MCF8708GR",
-"MCF8709GR",
-"MCF8720GR",
-"MCF8721ES",
-"MCF8721GR",
-"MCF8722GR",
-"MCF8723GR",
-"MCF8724GR",
-"MCF8725GR",
-"MCF8726GR",
-"MCF8727GR",
-"MCF8728GR",
-"MCF8729GR",
-"MCF8732GR",
-"MCF8733GR",
-"MGF24FGR",
-"MGF24RGR",
-"MGF36FGR",
-"MGF36RGR",
-"MGF44GR",
-"MGF67GR",
-"MGF8401GR",
-"MGF8402GR",
-"MGF8403GR",
-"MGF8404GR",
-"MGF8405GR",
-"MGF8406GR",
-"MGF8407GR",
-"MGF8408GR",
-"MGF8409GR",
-"MGF8410GR",
-"MGF8412GR",
-"MGF8413GR",
-"MGF8414GR",
-"MGF8415GR",
-"MGF8420GR",
-"MGF8423GR",
-"MGF8428GR",
-"MGF8448GR",
-"MGF8450GR",
-"MGF8451GR",
-"MGF8452GR",
-"MGF8453GR",
-"MGF8454GR",
-"MPF8201GR",
-"MPF8202GR",
-"MPF8203GR",
-"MBB23GGR",
-"MBB23GR",
-"MBB48GGR",
-"MBB48GR",
-"MBB59GGR",
-"MBB59GR",
-"MBB69GGR",
-"MBB69GR",
-"MBB90GGR",
-"MBB90GR",
-"MBC24GR",
-"MBC36GR",
-"MBC50GR",
-"MBC65GR",
-"MBC80GR",
-"MBC95GR",
-"MKC23GR",
-"MKC58GR",
-"MKC68GR",
-"MKC90GR",
-"SBB48GGR",
-"SBB48GR",
-"SBB48SGGR",
-"SBB59GGR",
-"SBB59GR",
-"SBB69GGR",
-"SBB69GR",
-"SBB69SGGR",
-"SBB90GGR",
-"YR140-AP-161",
-"YR280-AP-161",
-"YR450-AP-161",
-"YR450S-AP-161",
-"YR800-AP-261",
-"ATFS-35ES",
-"ATFS-40",
-"ATFS-40ES",
-"ATFS-50",
-"ATFS-50ES",
-"ATFS-75",
-"ATFS-75ES",
-"ATTG-24",
-"ATTG-36",
-"ATTG-48",
-"ATO-10B",
-"ATO-12G4B",
-"ATO-24G",
-"ATO-24G2B",
-"ATO-24G6B",
-"ATO-2B24G",
-"ATO-2B48G",
-"ATO-36G",
-"ATO-36G4B",
-"ATO-48G2B",
-"ATO-4B",
-"ATO-4B12G",
-"ATO-4B36G",
-"ATO-6B",
-"ATO-6B24G",
-"ATMG-24",
-"ATMG-36",
-"ATMG-48",
-"ATSP-18-1",
-"ATSP-18-2 ",
-"YR140-AP-161",
-"YR280-AP-161",
-"YR450-AP-161",
-"YR450S-AP-161",
-"YR800-AP-261",
+  <!-- ✅ 添加 script.js 引用 -->
+  <script src="script.js"></script>
 
-      // 其余型号...
-    ];
-<<<<<<< HEAD
- // 渲染产品列表
-    function renderProductList() {
-      const productList = document.getElementById("productList");
-      productList.innerHTML = ""; // 清空列表
-
-      Object.keys(products).forEach((product) => {
-        const li = document.createElement("li");
-        const a = document.createElement("a");
-
-        a.textContent = product;
-        a.onclick = () => showProductDetail(product); // 点击显示详情
-
-        li.appendChild(a);
-=======
-
-    // 渲染产品列表，默认隐藏所有型号
-    function renderProductList() {
-      const sortedProducts = [...new Set(products)].sort(); // 去重并排序
-      const productList = document.getElementById("productList");
-      productList.innerHTML = ""; // 清空列表
-
-      sortedProducts.forEach((product) => {
-        const li = document.createElement("li");
-        const a = document.createElement("a");
-        a.href = `${product.toLowerCase()}.html`;
-        a.textContent = product;
-        li.appendChild(a);
-
-        // 默认隐藏所有型号
-        li.style.display = "none";
->>>>>>> 59e5480 (优化 Dashboard，点击型号直接显示详情)
-        productList.appendChild(li);
-      });
-    }
-
-<<<<<<< HEAD
-    // 显示产品详情
-    function showProductDetail(product) {
-      document.getElementById("productTitle").textContent = product;
-      document.getElementById("productDescription").textContent = products[product];
-      document.getElementById("productDetail").style.display = "block";
-    }
-
-    // 关闭产品详情
-    function closeDetail() {
-      document.getElementById("productDetail").style.display = "none";
-    }
-
-    // 搜索功能
-    function searchProduct() {
-      const input = document.getElementById("searchInput").value.toUpperCase();
-=======
-    // 搜索功能
-    function searchProduct() {
-      const input = document.getElementById("searchInput");
-      const filter = input.value.toUpperCase();
->>>>>>> 59e5480 (优化 Dashboard，点击型号直接显示详情)
-      const listItems = document.querySelectorAll("#productList li");
-
-      listItems.forEach((item) => {
-        const text = item.textContent || item.innerText;
-<<<<<<< HEAD
-        item.style.display = text.toUpperCase().includes(input) ? "list-item" : "none";
-=======
-
-        // 匹配关键字时显示，否则隐藏
-        item.style.display = text.toUpperCase().includes(filter) ? "list-item" : "none";
->>>>>>> 59e5480 (优化 Dashboard，点击型号直接显示详情)
-      });
-    }
-
-    // 初始化产品列表
-    renderProductList();
-<<<<<<< HEAD
-=======
-
-    // 关闭公告栏
-    function closeAnnouncement() {
-      document.getElementById("announcementBar").style.display = "none";
-    }
->>>>>>> 59e5480 (优化 Dashboard，点击型号直接显示详情)
-  </script>
 </body>
 </html>
