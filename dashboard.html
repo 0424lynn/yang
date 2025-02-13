@@ -133,9 +133,13 @@
 
     <div class="directory">
       <ul id="productList"></ul>
+    <!-- 型号详情显示区域 -->
+    <div id="productDetail">
+      <h2 id="productTitle"></h2>
+      <p id="productDescription"></p>
+      <button onclick="closeDetail()">Close</button>
     </div>
   </div>
-
   <script>
     // 产品列表
     const products = [
