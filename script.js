@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const loginForm = document.getElementById("login-form");
-  
+
   if (loginForm) {
     loginForm.addEventListener("submit", function (event) {
       event.preventDefault(); // 阻止默认提交，防止 405 错误
@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
       if (username === "admin" && password === "1234") {
         alert("登录成功！");
         
-        // **📌 1️⃣ 记录登录状态（存入 `sessionStorage`）**
-        sessionStorage.setItem("loggedIn", "true");
+        // **📌 1️⃣ 记录登录状态（存入 `localStorage`）**
+        localStorage.setItem("loggedIn", "true");
 
         // **📌 2️⃣ 跳转到 `dashboard.html`**
         window.location.href = "dashboard.html";
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // **📌 3️⃣ 让 `dashboard.html` 只能在登录后访问**
   if (window.location.pathname.includes("dashboard.html")) {
-    const isLoggedIn = sessionStorage.getItem("loggedIn");
+    const isLoggedIn = localStorage.getItem("loggedIn");
 
     if (!isLoggedIn) {
       alert("请先登录！");
@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
+
  // 产品列表
     const products = [
     "MSF8302GR", "MSF8308GR", "MSF17GR-NTCV", "MSF3610GR", "MSF3615GR",
