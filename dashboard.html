@@ -298,47 +298,48 @@
 
       // 其余型号...
     ];
-
-    // 渲染产品列表，默认隐藏所有型号
+ // 渲染产品列表
     function renderProductList() {
-      const sortedProducts = [...new Set(products)].sort(); // 去重并排序
       const productList = document.getElementById("productList");
       productList.innerHTML = ""; // 清空列表
 
-      sortedProducts.forEach((product) => {
+      Object.keys(products).forEach((product) => {
         const li = document.createElement("li");
         const a = document.createElement("a");
-        a.href = `${product.toLowerCase()}.html`;
-        a.textContent = product;
-        li.appendChild(a);
 
-        // 默认隐藏所有型号
-        li.style.display = "none";
+        a.textContent = product;
+        a.onclick = () => showProductDetail(product); // 点击显示详情
+
+        li.appendChild(a);
         productList.appendChild(li);
       });
     }
 
+    // 显示产品详情
+    function showProductDetail(product) {
+      document.getElementById("productTitle").textContent = product;
+      document.getElementById("productDescription").textContent = products[product];
+      document.getElementById("productDetail").style.display = "block";
+    }
+
+    // 关闭产品详情
+    function closeDetail() {
+      document.getElementById("productDetail").style.display = "none";
+    }
+
     // 搜索功能
     function searchProduct() {
-      const input = document.getElementById("searchInput");
-      const filter = input.value.toUpperCase();
+      const input = document.getElementById("searchInput").value.toUpperCase();
       const listItems = document.querySelectorAll("#productList li");
 
       listItems.forEach((item) => {
         const text = item.textContent || item.innerText;
-
-        // 匹配关键字时显示，否则隐藏
-        item.style.display = text.toUpperCase().includes(filter) ? "list-item" : "none";
+        item.style.display = text.toUpperCase().includes(input) ? "list-item" : "none";
       });
     }
 
     // 初始化产品列表
     renderProductList();
-
-    // 关闭公告栏
-    function closeAnnouncement() {
-      document.getElementById("announcementBar").style.display = "none";
-    }
   </script>
 </body>
 </html>
