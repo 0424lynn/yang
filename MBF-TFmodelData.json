@@ -47,12 +47,12 @@
         "customer": [
           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)",
           "If the door gasket is damaged, suggest the customer replace it themselves <br><span style='color: red'>(as door gaskets are considered consumable parts Send the replacement tutorial video to the customer<a href='https://youtu.be/8fOAAQySY6w' target='_blank'> Door Gasket Replacement Video </a>)",
-          "How to replace the Pilasters and Clips?<br><span style='color: red'>(Send the parts to the customer for self-replacement<a href='/Clips.png' target='_blank'> Pilasters and Clips)",
+           "How to replace the Pilasters and Clips?<br><span style='color: red'>(Send the parts to the customer for self-replacement <a href='https://0424lynn.github.io/yang/Clips.png' target='_blank'>Pilasters and Clips</a>)",
         "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)"
         ],
         "technician": [
           "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)",
-          "If there is an issue with the door, pay attention to the following when replacing it:<br><span style='color: red'>(When you install the new door, try opening and closing it to see if it closes by itself. If not, then it is not turned correctly or the resistance is not strong enough <a href='/replace door.png' target='_blank'>Door Installation Method)"
+          "If there is an issue with the door, pay attention to the following when replacing it:<br><span style='color: red'>(When you install the new door, try opening and closing it to see if it closes by itself. If not, then it is not turned correctly or the resistance is not strong enough <a href='https://0424lynn.github.io/yang/replace_door.png' target='_blank'>Door Installation Method</a>)"
         ]
       },
       "cooling Issue": {
