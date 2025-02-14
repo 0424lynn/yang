@@ -19,9 +19,13 @@ body {
 }
 
 .solution-header {
-    font-size: 24px; /* 增大字体 */
+    font-size: 26px; /* 再增大一点字体 */
     font-weight: bold; /* 加粗 */
     color: #007BFF; /* 蓝色 */
+    padding: 10px 0; /* 上下间距 */
+    border-bottom: 2px solid #007BFF; /* 添加蓝色底边 */
+    background-color: #f0f8ff; /* 添加浅蓝色背景 */
+    text-align: center;
 }
 
 
@@ -108,14 +112,19 @@ h1 {
 .back-home-button:hover {
     background-color: #0056b3;
 }
-
 /* 适用于 PC 端的图片调整 */
 @media screen and (min-width: 769px) {
+    .frame.diagram-box {
+        display: flex;
+        justify-content: center; /* 水平居中 */
+        align-items: center; /* 垂直居中 */
+        height: 100%; /* 让容器填充满 */
+    }
+
     .frame.diagram-box img {
         max-width: 80%; /* 限制图片最大宽度 */
         height: auto; /* 保持比例 */
         display: block;
-        margin: 0 auto; /* 让图片居中 */
     }
 }
 
@@ -154,10 +163,14 @@ h1 {
     }
 
     .frame.diagram-box {
-        width: 90%; /* 限制框的最大宽度 */
+        display: flex;
+        justify-content: center; /* 水平居中 */
+        align-items: center; /* 垂直居中 */
     }
 
-    .frame.diagram-box img {
-        width: 100%; /* 图片自适应 */
+      .frame.diagram-box img {
+        width: 90%; /* 限制最大宽度，防止超出 */
+        height: auto; /* 保持比例 */
+        display: block;
     }
 }
