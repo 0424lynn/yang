@@ -81,7 +81,7 @@
         },
       "error Code": {
         "customer": [
-          "Dixell Parameters: <br>P1:Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style=x'color: black;'>P2:<span style='color: red;'>This unit doesn't have a defrost probe. Please calibrate the parameters first (Check the P2 parameter to see if it's set to 'n')or replace the control board.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>Door open long time or door magnetic switches issue.",
+           "Dixell Parameters: <br>P1:<span style='color: red;'>Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style=x'color: black;'>P2:<span style='color: red;'>This unit doesn't have a defrost probe. Please calibrate the parameters first (Check the P2 parameter to see if it's set to 'n')or replace the control board.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>Door open long time or door magnetic switches issue.",
           "It is recommended to verify all the parameters based on the parameter table in the document section",
           "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 1 of 7</a>)"
         ],
