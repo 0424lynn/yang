@@ -18,6 +18,13 @@ body {
     background-attachment: fixed;
 }
 
+.solution-header {
+    font-size: 24px; /* 增大字体 */
+    font-weight: bold; /* 加粗 */
+    color: #007BFF; /* 蓝色 */
+}
+
+
 .container {
     width: 90%;
     max-width: 1700px;
