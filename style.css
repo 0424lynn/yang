@@ -1,3 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;  /* 让元素在手机上竖直排列 */
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;  /* 让页面宽度在手机上自动调整 */
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* 让列表在小屏幕上自动换行 */
+#productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+#productList li {
+  list-style-type: none;
+  width: auto;
+  text-align: center;
+}
+
+/* 让输入框和按钮宽度适应 */
+#searchInput {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
 /* 通用样式 */
 body {
     font-family: Arial, sans-serif;
