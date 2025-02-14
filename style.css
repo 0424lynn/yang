@@ -112,21 +112,23 @@ h1 {
 .back-home-button:hover {
     background-color: #0056b3;
 }
-/* 适用于 PC 端的图片调整 */
 @media screen and (min-width: 769px) {
     .frame.diagram-box {
         display: flex;
         justify-content: center; /* 水平居中 */
         align-items: center; /* 垂直居中 */
-        height: 100%; /* 让容器填充满 */
+        height: 700px; /* 确保和其他框尺寸一致 */
+        overflow: hidden; /* 避免图片导致框变大 */
     }
 
     .frame.diagram-box img {
-        max-width: 80%; /* 限制图片最大宽度 */
+        max-width: 80%; /* 限制最大宽度 */
+        max-height: 100%; /* 限制最大高度，避免超出框 */
         height: auto; /* 保持比例 */
         display: block;
     }
 }
+
 
 
 /* —— 响应式调整（适用于屏幕宽度小于 768px 的手机端）—— */
