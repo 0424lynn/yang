@@ -38,9 +38,9 @@
           "Please confirm if the light turns on when the door is opened? <br><span style='color: red'>( If it doesn't turn on, it’s likely that the related parts are faulty, and a technician will need to be sent for inspection.The specific troubleshooting method is in the technical solution)"
         ],
         "technician": [
-          "Check if the power supply is working.<br><span style='color: red'>(The LED lighting on the unit is 24vdc. The lighting control board and the lighting power supply can all be accessed from the front of the unit.Here is the Diagnostic manual<a href='/Led wiring.png' target='_blank'> Led wiring )",
-          "Check if the Led Controller is working.<br><span style='color: red'>(This small board is the LED lighting controller,This small board is the LED lighting controller.Here is the Diagnostic manual<a href='/Led controller.png' target='_blank'> Led controller board)",
-        "Check if the Led  is working.<br><span style='color: red'>(If the LED Lighting connector is getting voltage and the light is still not coming on, then the LED light is faulty.Here is the Diagnostic manual<a href='/Led light.png' target='_blank'> Led )"
+          "Check if the power supply is working.<br><span style='color: red'>(The LED lighting on the unit is 24vdc. The lighting control board and the lighting power supply can all be accessed from the front of the unit. Here is the Diagnostic manual <a href='https://0424lynn.github.io/yang/Led_wiring.png' target='_blank'>Led wiring</a>)",
+          "Check if the Led Controller is working.<br><span style='color: red'>(This small board is the LED lighting controller. Here is the Diagnostic manual <a href='https://0424lynn.github.io/yang/Led_controller.png' target='_blank'>Led controller board</a>)",
+          "Check if the Led is working.<br><span style='color: red'>(If the LED Lighting connector is getting voltage and the light is still not coming on, then the LED light is faulty. Here is the Diagnostic manual <a href='https://0424lynn.github.io/yang/Led_light.png' target='_blank'>Led</a>)"
       ]
       },
       "physical Damage": {
