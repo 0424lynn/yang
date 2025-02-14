@@ -9,12 +9,12 @@ body {
 }
 
 .container {
-  width: 70%;  /* 让页面宽度在手机上自动调整 */
-  max-width: 800px;
+  width: 100%;  /* 让页面宽度在手机上自动调整 */
+  max-width: 1200px;
   margin: auto;
   padding: 20px;
   background-color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
 
