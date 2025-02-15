@@ -11,9 +11,9 @@ body {
     background-color: #f9f9f9;
 
 .logout-btn {
-    position: absolute; /* 相对 .container 定位 */
-    top: 15px; /* 让按钮靠近顶部 */
-    right: 20px; /* 让按钮靠近右侧 */
+    position: fixed; /* 固定在页面右上角 */
+    top: 15px;
+    right: 20px;
     background-color: #dc3545;
     color: white;
     border: none;
@@ -22,15 +22,11 @@ body {
     cursor: pointer;
     font-size: 16px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* 确保按钮始终在最上层 */
 }
 
 .logout-btn:hover {
     background-color: #c82333;
-}
-
-/* ✅ 确保 .container 是相对定位，否则按钮无法正确定位 */
-.container {
-    position: relative;
 }
     /* 背景图片 */
     background-image: url('https://th.bing.com/th/id/OIP.S3aOGPnQPp0oXj6EqgnSHQHaLI?rs=1&pid=ImgDetMain'); 
