@@ -10,23 +10,10 @@ body {
     font-size: 20px; /* PC 端默认字体 */
     background-color: #f9f9f9;
 
-/* ✅ 让 .container 变为相对定位，确保按钮固定在内部 */
-.container {
-    position: relative; 
-    width: 90%;
-    max-width: 1200px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-/* ✅ 让 Logout 按钮固定在 container 的右上角 */
 .logout-btn {
-    position: absolute;
-    top: 10px;
-    right: 20px;
+    position: absolute; /* 相对 .container 定位 */
+    top: 15px; /* 让按钮靠近顶部 */
+    right: 20px; /* 让按钮靠近右侧 */
     background-color: #dc3545;
     color: white;
     border: none;
@@ -39,6 +26,11 @@ body {
 
 .logout-btn:hover {
     background-color: #c82333;
+}
+
+/* ✅ 确保 .container 是相对定位，否则按钮无法正确定位 */
+.container {
+    position: relative;
 }
     /* 背景图片 */
     background-image: url('https://th.bing.com/th/id/OIP.S3aOGPnQPp0oXj6EqgnSHQHaLI?rs=1&pid=ImgDetMain'); 
