@@ -1,41 +1,72 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const isLoggedIn = localStorage.getItem("loggedIn");
+  const loginForm = document.getElementById("login-form");
 
-  if (!isLoggedIn) {
-    alert("Please log in first!");
-    window.location.href = "index.html"; // 未登录则跳转回登录页
+  if (loginForm) {
+    loginForm.addEventListener("submit", function (event) {
+      event.preventDefault(); // 阻止默认提交，防止 405 错误
+
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      // **📌 用户名和密码验证**
+      if (username === "admin" && password === "1234") {
+        // **📌 1️⃣ 记录登录状态（存入 `localStorage`）**
+        localStorage.setItem("loggedIn", "true");
+
+        // **📌 2️⃣ 记录登录时间（用于自动登出）**
+        localStorage.setItem("lastActivityTime", Date.now());
+
+        // **📌 3️⃣ 跳转到 `dashboard.html`**
+        window.location.href = "dashboard.html";
+      } else {
+        alert("Username or password is incorrect. Please try again!");
+      }
+    });
   }
 
-  // 📌 记录用户活动时间
-  function updateActivityTime() {
-    localStorage.setItem("lastActivityTime", Date.now());
-  }
+  // **📌 4️⃣ 让 `dashboard.html` 只能在登录后访问**
+  if (window.location.pathname.includes("dashboard.html")) {
+    const isLoggedIn = localStorage.getItem("loggedIn");
 
-  // 监听用户操作（鼠标、键盘）
-  document.addEventListener("mousemove", updateActivityTime);
-  document.addEventListener("keydown", updateActivityTime);
-
-  // 📌 定时检查是否超时（每 1 分钟检查一次）
-  setInterval(function () {
-    const lastActivityTime = localStorage.getItem("lastActivityTime");
-    const currentTime = Date.now();
-
-    if (lastActivityTime && currentTime - lastActivityTime > 3600000) {
-      // 超过 1 小时（3600000 毫秒）
-      alert("Session expired. Please log in again.");
-      localStorage.removeItem("loggedIn"); // 清除登录状态
-      localStorage.removeItem("lastActivityTime"); // 清除时间记录
-      window.location.href = "index.html"; // 重新跳转到登录页
+    if (!isLoggedIn) {
+      alert("Please log in first!");
+      window.location.href = "index.html"; // **未登录则跳转回 `login.html`**
     }
-  }, 60000); // 每 1 分钟检查一次
 
-  // 📌 退出登录功能
-  document.getElementById("logout").addEventListener("click", function () {
-    localStorage.removeItem("loggedIn"); // 清除登录状态
-    localStorage.removeItem("lastActivityTime"); // 清除时间记录
-    alert("You have logged out.");
-    window.location.href = "index.html"; // 跳转回登录页
-  });
+    // **📌 记录用户活动时间**
+    function updateActivityTime() {
+      localStorage.setItem("lastActivityTime", Date.now());
+    }
+
+    // 监听用户操作（鼠标、键盘）
+    document.addEventListener("mousemove", updateActivityTime);
+    document.addEventListener("keydown", updateActivityTime);
+
+    // **📌 5️⃣ 定时检查是否超时（每 1 分钟检查一次）**
+    setInterval(function () {
+      const lastActivityTime = localStorage.getItem("lastActivityTime");
+      const currentTime = Date.now();
+
+      if (lastActivityTime && currentTime - lastActivityTime > 3600000) {
+        // 超过 1 小时（3600000 毫秒）
+        alert("Session expired. Please log in again.");
+        localStorage.removeItem("loggedIn"); // 清除登录状态
+        localStorage.removeItem("lastActivityTime"); // 清除时间记录
+        window.location.href = "index.html"; // 重新跳转到登录页
+      }
+    }, 60000); // 每 1 分钟检查一次
+
+    // **📌 6️⃣ 退出登录功能**
+    const logoutButton = document.getElementById("logout");
+    if (logoutButton) {
+      logoutButton.addEventListener("click", function () {
+        localStorage.removeItem("loggedIn"); // 清除登录状态
+        localStorage.removeItem("lastActivityTime"); // 清除时间记录
+        alert("You have logged out.");
+        window.location.href = "index.html"; // 跳转回登录页
+      });
+    }
+  }
 });
 
  // 产品列表
