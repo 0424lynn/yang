@@ -21,12 +21,10 @@
       },
       "leakingWater outside": {
         "customer": [
-          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)",
-          "Water is leaking from The backpack drain pan?<br>1.<span style='color: red'>(Due to the overheating of the High-pressure pipe and its direct contact with the backpack drain pan, the bottom of the backpack drain pan has been heat-damaged and cracked, causing a water leak. We recommend sending a new backpack drain pan. If the customer does not wish to repair it themselves, we can dispatch a technician)",
-          "Is there ice on the outer surfaces of the freezer on both sides? <br><span style='color: red'>(Please confirm whether the distance between the two unites is too close,It is recommended to maintain a distance of 10-15 cm between each refrigerator.)"
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)"
         ],
         "technician": [
-          "Is there water leakage at the bottom of the backpack drain-pan? <br><span style='color: red'>(There is water leakage at the air pressure balance valve, and the sealant needs to be reapplied.<br>Here is the repair manual<a href='https://sc.atosausa.com/file/2024/09/03/C-001_Tech_Guidance_d72efe6b-2449-492d-9804-38d934e01491.pdf' target='_blank'> Air Relief Valve  </a>)"
+          "Is there water leakage at the bottom of the unit? <br><span style='color: red'>()"
         ]
       
       },
@@ -43,8 +41,7 @@
           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)"
         ],
         "technician": [
-          "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)",
-          "If there is an issue with the door, pay attention to the following when replacing it:<br><span style='color: red'>(When you install the new door, try opening and closing it to see if it closes by itself. If not, then it is not turned correctly or the resistance is not strong enough <a href='/replace door.png' target='_blank'>Door Installation Method)"
+          "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)"
         ]
       },
       "cooling Issue": {
