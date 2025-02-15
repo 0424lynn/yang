@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // **📌 2️⃣ 跳转到 `dashboard.html`**
         window.location.href = "dashboard.html";
       } else {
-        alert("用户名或密码错误，请重试！");
+        alert("Username or password is incorrect. Please try again!");
       }
     });
   }
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const isLoggedIn = localStorage.getItem("loggedIn");
 
     if (!isLoggedIn) {
-      alert("请先登录！");
+      alert("Please log in first！");
       window.location.href = "index.html"; // **未登录则跳转回 `login.html`**
     }
   }
