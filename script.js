@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // 假设用户名是 "admin"，密码是 "1234"
       if (username === "admin" && password === "1234") {
-        alert("登录成功！");
         
         // **📌 1️⃣ 记录登录状态（存入 `localStorage`）**
         localStorage.setItem("loggedIn", "true");
