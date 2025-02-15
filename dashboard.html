@@ -104,22 +104,25 @@
   </style>
 </head>
 <body>
-  <!-- ✅ 添加 Logout 按钮 -->
+  <div class="container">
+  <!-- ✅ Logout 按钮放在框的右上角 -->
   <button id="logout" class="logout-btn">Logout</button>
 
-  <div class="container">
-    <!-- 公告栏 -->
-    <div class="announcement-bar" id="announcementBar">
-      <button class="close-btn" onclick="closeAnnouncement()">×</button>
-      <h2>Announcement</h2>
-      <p class="announcement-content">
-        1. The MCF, MBF, MSF series products have been updated. Next, We will continue updating the ice maker series issue. <br>
-        2. If you have any new requirements, please organize your questions in a timely manner and send them to Lynn; operator53@smartkitchenservice.com
-      </p>
-    </div>
+  <div class="announcement-bar" id="announcementBar">
+    <button class="close-btn" onclick="closeAnnouncement()">×</button>
+    <h2>Announcement</h2>
+    <p class="announcement-content">
+      1. The MCF, MBF, MSF series products have been updated. Next, We will continue updating the ice maker series issue. <br>
+      2. If you have any new requirements, please organize your questions in a timely manner and send them to Lynn; operator53@smartkitchenservice.com
+    </p>
+  </div>
 
-    <h1>ATOSA——Technical Documentation Center</h1>
-
+  <h1>ATOSA——Technical Documentation Center</h1>
+  <input type="text" id="searchInput" placeholder="Search for a product model..." onkeyup="searchProduct()">
+  <div class="directory">
+    <ul id="productList"></ul>
+  </div>
+</div>
     <!-- 搜索框 -->
     <input type="text" id="searchInput" placeholder="Search for a product model..." onkeyup="searchProduct()">
 
