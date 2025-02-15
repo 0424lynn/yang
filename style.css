@@ -10,21 +10,23 @@ body {
     font-size: 20px; /* PC 端默认字体 */
     background-color: #f9f9f9;
 
-    .logout-btn {
-  position: absolute;
-  top: 10px;
-  right: 50px; /* 让它在 "×" 按钮的左侧 */
-  background-color: #dc3545;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 14px;
+  .logout-btn {
+    position: fixed; /* 固定在页面右上角 */
+    top: 15px;
+    right: 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* 确保按钮始终在最上层 */
 }
 
 .logout-btn:hover {
-  background-color: #c82333;
+    background-color: #c82333;
 }
     /* 背景图片 */
     background-image: url('https://th.bing.com/th/id/OIP.S3aOGPnQPp0oXj6EqgnSHQHaLI?rs=1&pid=ImgDetMain'); 
