@@ -35,7 +35,8 @@
         ],
         "technician": [
           "If the leg is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the leg along with the nuts when shipping the accessories!)"
-      },
+        ]
+          },
       "Ice issue-cooling fine": {
         "customer": [
           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)"
