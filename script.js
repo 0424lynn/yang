@@ -181,12 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
 "ATMG-36",
 "ATMG-48",
 "ATSP-18-1",
-"ATSP-18-2 ",
-"YR140-AP-161",
-"YR280-AP-161",
-"YR450-AP-161",
-"YR450S-AP-161",
-"YR800-AP-261"
+"ATSP-18-2 "
     ];
 // **📌 渲染产品列表**
 function renderProductList() {
