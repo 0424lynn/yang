@@ -28,6 +28,14 @@ document.addEventListener("DOMContentLoaded", function () {
       window.location.href = "index.html"; // 重新跳转到登录页
     }
   }, 60000); // 每 1 分钟检查一次
+
+  // 📌 退出登录功能
+  document.getElementById("logout").addEventListener("click", function () {
+    localStorage.removeItem("loggedIn"); // 清除登录状态
+    localStorage.removeItem("lastActivityTime"); // 清除时间记录
+    alert("You have logged out.");
+    window.location.href = "index.html"; // 跳转回登录页
+  });
 });
 
  // 产品列表
