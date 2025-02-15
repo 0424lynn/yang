@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <title>ATOSA Technical Documentation Center</title>
   <style>
-    <button id="logout" class="logout-btn">Logout</button>
+    
     body {
       font-family: Arial, sans-serif;
       display: flex;
@@ -104,14 +104,19 @@
   </style>
 </head>
 <body>
-  <div class="announcement-bar" id="announcementBar">
-  <button class="close-btn" onclick="closeAnnouncement()">×</button>
-  <h2>Announcement</h2>
-  <p class="announcement-content">
-    1. The MCF, MBF, MSF series products have been updated. Next, We will continue updating the ice maker series issue. <br>
-    2. If you have any new requirements, please organize your questions in a timely manner and send them to Lynn; operator53@smartkitchenservice.com
-  </p>
-</div>
+  <!-- ✅ 添加 Logout 按钮 -->
+  <button id="logout" class="logout-btn">Logout</button>
+
+  <div class="container">
+    <!-- 公告栏 -->
+    <div class="announcement-bar" id="announcementBar">
+      <button class="close-btn" onclick="closeAnnouncement()">×</button>
+      <h2>Announcement</h2>
+      <p class="announcement-content">
+        1. The MCF, MBF, MSF series products have been updated. Next, We will continue updating the ice maker series issue. <br>
+        2. If you have any new requirements, please organize your questions in a timely manner and send them to Lynn; operator53@smartkitchenservice.com
+      </p>
+    </div>
 
     <h1>ATOSA——Technical Documentation Center</h1>
 
@@ -125,6 +130,5 @@
 
   <!-- ✅ 添加 script.js 引用 -->
   <script src="script.js"></script>
-
 </body>
 </html>
