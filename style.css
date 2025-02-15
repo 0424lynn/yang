@@ -10,8 +10,20 @@ body {
     font-size: 20px; /* PC 端默认字体 */
     background-color: #f9f9f9;
 
-  .logout-btn {
-    position: fixed; /* 固定在页面右上角 */
+/* ✅ 让 .container 变为相对定位，方便 Logout 按钮绝对定位 */
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ 让 Logout 按钮浮动在右上角，不影响内容 */
+.logout-btn {
+    position: absolute;
     top: 15px;
     right: 20px;
     background-color: #dc3545;
@@ -22,7 +34,6 @@ body {
     cursor: pointer;
     font-size: 16px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: 1000; /* 确保按钮始终在最上层 */
 }
 
 .logout-btn:hover {
