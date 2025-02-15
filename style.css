@@ -10,21 +10,22 @@ body {
     font-size: 20px; /* PC 端默认字体 */
     background-color: #f9f9f9;
 
-/* ✅ 让 .container 变为相对定位，方便 Logout 按钮绝对定位 */
+/* ✅ 让 .container 变为相对定位，确保按钮固定在内部 */
 .container {
-    position: relative;
+    position: relative; 
     width: 90%;
     max-width: 1200px;
     background-color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-/* ✅ 让 Logout 按钮浮动在右上角，不影响内容 */
+/* ✅ 让 Logout 按钮固定在 container 的右上角 */
 .logout-btn {
     position: absolute;
-    top: 15px;
+    top: 10px;
     right: 20px;
     background-color: #dc3545;
     color: white;
