@@ -334,6 +334,13 @@
               "Power Issue",
               "error Code"
             ],
+            "Power Issue": {
+        "customer": [
+          "Check if the voltage installation is normal and take a photo to confirm.<br><span style='color: red'>(The compressor operates at 220V and requires a professional electrician for installation.)"
+        ],
+        "technician": [
+          "Power Cord Installation Guide <a href='https://sc.atosausa.com/file/2024/09/03/C-016_Tech_Guidance_5d06d2ce-2988-4737-836d-90ecc9037c81.pdf' target='_blank'>Power Cord Installation Recommendations"
+        ]
             "documents": [
               {
                 "title": "SPCIFICATION SHEET",
