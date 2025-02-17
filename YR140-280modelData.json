@@ -31,7 +31,7 @@
       "physical Damage": {
         "customer": [
           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)",
-        "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)"
+        "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)",
         "If it's a door issue, the customer can replace it themselves.<a href=\"/test probe.png\" target=\"_blank\">Maintenance manual required</a>)"
         ],
         "technician": [
