@@ -32,7 +32,7 @@
         "customer": [
           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)",
         "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)",
-        "If it's a door issue, the customer can replace it themselves.<a href=\"/test probe.png\" target=\"_blank\">Maintenance manual required</a>)"
+        "If it's a door issue, the customer can replace it themselves.<br><a href=\"/test probe.png\" target=\"_blank\">Maintenance manual required</a>)"
         ],
         "technician": [
           "If the leg is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the leg along with the nuts when shipping the accessories!)"
@@ -40,10 +40,14 @@
           },
       "Ice issue-cooling fine": {
         "customer": [
-          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)"
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)",
+          "Confirm whether the customer has installed a water filter.",
+        "Confirm if the bottom filter has been cleaned. We recommend cleaning it once a month.<br><a href=\"/test probe.png\" target=\"_blank\">Maintenance manual required</a>",
+        "Confirm that the ambient temperature around the unit is not too high.",
+          "If the customer is willing to cooperate, guide them on how to adjust the probe.<br><a href=\"/test probe.png\" target=\"_blank\">Maintenance manual required</a>"
         ],
         "technician": [
-          "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)"
+          "Deep clean the probe assembly and guide the customer on how to clean it. <br><span style='color: red'>(If it is confirmed to be a cleaning issue, explain to the customer that this is not covered under the warranty.)"
         ]
       },
       "cooling Issue": {
