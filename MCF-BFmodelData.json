@@ -334,7 +334,7 @@
               "Power Issue",
               "error Code"
             ],
-            "Power Issue": {
+             "Power Issue": {
         "customer": [
           "Check if the voltage installation is normal and take a photo to confirm.<br><span style='color: red'>(The compressor operates at 220V and requires a professional electrician for installation.)"
         ],
