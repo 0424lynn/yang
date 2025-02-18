@@ -323,17 +323,7 @@
   "title": "MCF8728GR — Bottom Mount (3) Glass Door Freezer-Black Cabinet",
   "image": "MCF8728GRP.png",
   "diagram": "MCF8728GRD.png",
-  "issues": [
-    "noise",
-    "leakingWater inside",
-    "leakingWater outside",
-    "Led issue",
-    "Glass Door issue",
-    "physical Damage",
-    "cooling Issue",
-    "Power Issue",
-    "error Code"
-  ],
+  "issues": ["noise","leakingWater inside","leakingWater outside","Led issue","Glass Door issue","physical Damage","cooling Issue","Power Issue","error Code"],
     "Power Issue": {
       "customer": [
         "Check if the voltage installation is normal and take a photo to confirm.<br><span style='color: red'>(The compressor operates at 220V and requires a professional electrician for installation.)</span>"
@@ -349,9 +339,6 @@
       "url": "https://atosausa.com/wp-content/uploads/2023/10/MCF8720GR_GRL_32GR_21ES_28GRspec122024.pdf"
     }
      ]
-      
-    
-
 }
 }
 }
