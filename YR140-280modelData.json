@@ -141,7 +141,7 @@
       "title": "YR280-AP-161 — Undercounter Ice Maker (283 LB / 24 HR)",
       "image": "YR140P.png",
       "diagram": "YR140D.jpeg",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","cooling Issue","Power Issue"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Power Issue"],
       
       
       "documents": [
