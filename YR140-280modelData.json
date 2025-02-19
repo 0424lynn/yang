@@ -45,10 +45,10 @@
           "If the customer is willing to cooperate, guide them on how to adjust the probe.<br><a href=\"/test probe.png\" target=\"_blank\">Maintenance manual required</a>"
         ],
         "technician": [
-          "Deep clean the probe assembly and guide the customer on how to clean it. <br><span style='color: red'>(If it is confirmed to be a cleaning issue, explain to the customer that this is not covered under the warranty.)"
+          "Deep clean the probe assembly and guide the customer on how to clean it. <br><span style='color: red'>(If it is confirmed to be a cleaning issue, explain to the customer that this is not covered under the warranty)<a href='https://sc.atosausa.com/file/2024/09/10/I-003_Ice_Machine_Probe_Repositioning_c5147662-aad2-407f-84b0-fad644b71ccf.pdf' target='_blank'> Ice Machine Probe Repositioning for Grounding Issues</a>"
         ]
       },
-      "cooling Issue": {
+      "Not make ice Issue": {
         "customer": [
            "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)",
          "Confirm that the switch is in ice-making mode and not in cleaning mode?",
@@ -59,14 +59,22 @@
         
         ],
         "technician": [ 
-          "Confirm whether the water inlet valve is functioning properly？<br><span style='color: red'>",
-          "Confirm whether the ice maker is functioning properly？<br><span style='color: red'>In normal ice-making mode, the water pump, compressor, and fan will run continuously. Check each component to ensure it is functioning properly!",
-          "Check if the water pump is working？<br><span style='color: red'>",
-          "Check if the compressor is working properly? <br>1.<span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video </a>)<br><span style='color: black'>2.<span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3n'1 start kit<a href='/3n1.png' target='_blank'> 3n'1 Operating Instructions)",
-          "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1.<span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 44-46 PSI,please refer to this parameter <a href=\"/psi.png\" target=\"_blank\">Pressure temperature Chart</a>)<br></span>\n<span style=\"color: black\">2.<span style=\"color: red\">Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor.<a href=\"/Solder joint diagram.png\" target=\"_blank\">Refrigerant Circuit Diagram</a></span></span><br><span style='color: black'>3.<span style='color: red'>If the tech needs us to provide capillary tube fittings,Please let the tech know we recommend cut 2-3 inches of the end cap tube and blow the whole system by nitrogen and then replace a new universal filter drier, vacuum and recharge the unit"
+          "Confirm whether the ice maker is functioning properly？<br>1.<span style='color: red'>Ensure that the water curtain plate is in a normally closed state and that no ice blocks are obstructing it.Confirm that the water curtain switch indicator light is displaying yellow. If the switch is in the closed position but the yellow light is not on, the water curtain switch may be faulty and needs to be replaced<a href=\"/D10.png\" target=\"_blank\">D10-Water curtain LED</a>.<br><span style='color: black'>2.<span style='color: red'>In normal ice-making mode, the water pump, compressor, and fan will run continuously. Check each component to ensure it is functioning properly!<a href=\"/D2D5D6.png\" target=\"_blank\">D2-Water,D5-Condenser Fan motor,D6-compresser</a>",
+          "Check if the water pump is working？(ensure that there is enough water in the trough)<br>1.<span style='color: red'> Check if the water pump indicator light on the control board is on and if there is voltage output. <a href=\"/water pump.png\" target=\"_blank\">D2-water pump</a><br><span style='color: black'> 2. <span style='color: red'>If there is voltage output from the control board, measure whether the water pump has voltage input. If there is voltage but the pump is not working, replace the water pump.<br><span style='color: black'> 3. <span style='color: red'>If the water pump indicator light on the control board is off, check if the small fuse is blown<a href=\"/small fuse.png\" target=\"_blank\">Check if the fuse is in good condition</a>.",
+          "Confirm whether the condenser fan is operating?<br><span style='color: red'>Check if the control board indicator light is on and if there is a voltage output<a href=\"/Fan motor.png\" target=\"_blank\">D5-Fan motor</a>.",
+          "Check if the compressor is working properly? <br>1.<span style='color: red'>Check if the control board indicator light is on and if there is a voltage output<a href=\"/compress.png\" target=\"_blank\">D6-compresser</a><br><span style='color: black'>2.<span style='color: red'>Check if the big fuse is good.<a href=\"/big fuse.png\" target=\"_blank\">F1-compresser Fuse</a><br><span style='color: black'>3.<span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video </a>)<br><span style='color: black'>4.<span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3n'1 start kit<a href='/3n1.png' target='_blank'> 3n'1 Operating Instructions)",
+          "All parts are functioning properly. Please check if there is a refrigerant leak."
        ]
       },
+"Water inlet valve-Test": {
+        "customer": [
 
+           "Confirm with the customer Is the water supply open?"
+        ],
+        "technician": [
+          "Confirm whether the water inlet valve is functioning properly？<br><br>1.<span style='color: red'> Confirm if the water trougn is full of water? If it is, the inlet valve is functioning properly.<br><br><span style='color: black'> 2.<span style='color: red'>  Ensure that the water level probe is functioning properly. If the probe is damaged, it may also cause the inlet valve to stop working. Under normal conditions, when the probe does not come into contact with water, the water level indicator light remains off, and the inlet valve operates until the water reaches the probe. Once the probe detects water, it signals that the tank is full, and the inlet valve stops working<a href=\"/water probe.png\" target=\"_blank\">D8-water probe</a>.<br><br><span style='color: black'> 3.<span style='color: red'>If there is no water in the trough, it indicates that the inlet valve is not working. Check if the inlet valve indicator light on the control board is on, and measure whether there is voltage input to the inlet valve. If there is voltage but the valve is not operating, replace the inlet valve<a href=\"/WIV.png\" target=\"_blank\">D1-Water Inlet Vavle</a>."
+        ]
+      },
       "Power Issue": {
         "customer": [
           "The unit is completely non-functional?<br><span style='color: red'>(Check if the display and condenser fan are completely non-functional,Please replace the power outlet and try again to ensure there is power in the outlet.)",
@@ -110,7 +118,7 @@
       "title": "YR140-AP-161 —Undercounter Ice Maker (142 LB / 24 HR)",
       "image": "YR140P.png",
       "diagram": "YR140D.jpeg",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","cooling Issue","Power Issue"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Power Issue"],
       
       
       "documents": [
