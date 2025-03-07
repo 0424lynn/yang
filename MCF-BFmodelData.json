@@ -70,8 +70,9 @@
   "cooling Issue": {
     "customer": [
       "Confirm with the customer which icons are displayed on the screen. <br><span style='color: red'>(The icons indicate that the corresponding components are functioning. <a href='https://0424lynn.github.io/yang/icon.png' target='_blank'>Basic Unit Functions</a>.)</span>",
-      "1. Is the condenser fan working?<br><span style='color: red'>① If not, check if the fan blade is obstructed by any foreign objects. <br>② If it’s not obstructed but still not working, the fan needs to be replaced.</span>",
-      "2. Check if the internal evaporator fan is working?<br><span style='color: red'>If only one fan is not working, replace the faulty fan.</span>"
+      "Is the condenser fan working?<br><span style='color: red'>① If not, check if the fan blade is obstructed by any foreign objects. <br>② If it’s not obstructed but still not working, the fan needs to be replaced.</span>",
+      "Check if the internal evaporator fan is working?<br><span style='color: red'>If only one fan is not working, replace the faulty fan.</span>",
+    "Check if the condenser is dirty or clogged?<br><span style='color: red'>If the customer is unsure, ask them to take a photo and send it for confirmation"
     ],
     "technician": [
       "Check if the evaporator is frozen?<br>1. <span style='color: red'>Test if both probes are working properly (Different temperatures show different OHM values; please refer to this parameter: <a href='https://0424lynn.github.io/yang/test probe.png' target='_blank'>Test Probe</a>.)</span><br>2. <span style='color: red'>Check if the drain pan & drain hose heaters are working properly (Check the OHM values of these two accessories. This is the inspection manual: <a href='https://0424lynn.github.io/yang/heater test.png' target='_blank'>Heater Test Manual</a>.)</span><br>3. <span style='color: red'>Check if the evaporator fan is working? (Confirm if there is a 115V voltage output: <a href='https://0424lynn.github.io/yang/evp fan.png' target='_blank'>Evaporator Fan Maintenance Manual</a>.)</span>",

@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   const loginForm = document.getElementById("login-form");
 
+ 
+
+
   if (loginForm) {
     loginForm.addEventListener("submit", function (event) {
       event.preventDefault(); // 阻止默认提交，防止 405 错误
@@ -275,6 +278,172 @@ function searchProduct() {
     console.warn(`⚠️ 没有找到匹配的产品型号: "${filter}"`);
   }
 }
+
+//序列号检查
+function checkSerialNumber() {
+  console.log("🔍 Running checkSerialNumber() from script.js...");
+
+  let inputSerial = document.getElementById("serialInput").value.trim();
+  console.log(`🔍 Step 1: Raw inputSerial: '${inputSerial}'`);
+  const feedback = document.getElementById("serialFeedback");
+
+  if (!inputSerial) {
+    feedback.innerHTML = `<span style='color: red;'>❌ Please enter a serial number.</span>`;
+    console.warn("⚠️ No serial number entered.");
+    return;
+  }
+
+  let formattedResult = "";
+  let isCorrect = true;
+  let exceededPart = "";
+  let extraChars = "";
+
+  // ✅ **总长度检查**
+  const expectedLength = 18;
+  if (inputSerial.length !== expectedLength) {
+    let extraLength = inputSerial.length - expectedLength;
+    let extraContent = extraLength > 0 ? inputSerial.substring(expectedLength) : "_".repeat(-extraLength);
+    feedback.innerHTML = `<span style='color: red;'>❌ Serial number length is incorrect. Expected ${expectedLength} characters, found ${inputSerial.length}.</span><br>
+                          <span style='color: red; background: yellow;'>${extraContent}</span> <small style="color:red;">(Invalid extra/missing characters)</small>`;
+    return;
+  }
+
+  // ✅ **解析 `Product Model` (7 位)**
+  let productModel = inputSerial.substring(0, 7);
+  let rest = inputSerial.substring(7);
+
+  let aIndex = rest.indexOf("A");
+  if (aIndex === -1) {
+    feedback.innerHTML = `<span style='color: red;'>❌ Invalid Serial Number: Missing 'A' for Customer Code.</span>`;
+    return;
+  }
+
+  let beforeA = rest.substring(0, aIndex);
+  if (beforeA.length > 0) {
+    exceededPart = "Product Model";
+    extraChars = beforeA;
+  }
+  rest = rest.substring(aIndex);
+
+  // ✅ **解析 `Customer Code`**
+  let match = rest.match(/^A([A-Z]{0,2})([A-Z]*)/);
+  let customerCode = match ? "A" + match[1] : "";
+  let extraCustomer = match ? match[2] : "";
+  rest = rest.substring(customerCode.length + extraCustomer.length);
+
+  // ✅ **解析 `Configuration`**
+  match = rest.match(/^([0-9]*)([^CTNOP]*)/);
+  let configuration = match ? match[1] : "";
+  let extraConfiguration = match ? match[2] : "";
+
+  if (configuration.length > 1) {
+    extraConfiguration = configuration.substring(1) + extraConfiguration;
+    configuration = configuration.substring(0, 1);
+  }
+
+  rest = rest.substring(configuration.length + extraConfiguration.length);
+
+  // ✅ **解析 `Production Location`**
+  let productionDateMatch = rest.match(/[NOP]/g);
+  let productionDateIndex = productionDateMatch ? rest.search(/[NOP]/) : -1;
+  let productionLocation = "";
+  let extraLocation = "";
+
+  if (productionDateMatch && productionDateMatch.length > 1) {
+    exceededPart = "Production Location";
+    extraLocation = productionDateMatch.slice(1).join("");
+    productionLocation = productionDateMatch[0];
+    productionDateIndex = rest.indexOf(productionLocation);
+  }
+
+  if (productionDateIndex !== -1) {
+    let locationPart = rest.substring(0, productionDateIndex);
+    if (!/^[CT]$/.test(locationPart)) {
+      exceededPart = "Production Location";
+      extraLocation += locationPart.length > 1 ? locationPart.substring(1) : locationPart;
+      productionLocation = locationPart.substring(0, 1);
+    } else {
+      productionLocation = locationPart;
+    }
+    rest = rest.substring(productionDateIndex);
+  } else {
+    productionLocation = rest.substring(0, 1);
+    rest = rest.substring(1);
+  }
+
+  // ✅ **解析 `Production Date`**
+  let productionDate = rest.substring(0, 3);
+  let extraDate = "";
+
+  if (productionDate.length > 3) {
+    extraDate = productionDate.substring(3);
+    productionDate = productionDate.substring(0, 3);
+    exceededPart = "Production Date";
+  }
+  rest = rest.substring(3);
+
+  // ✅ **解析 `Daily Production Count`**
+  let dailyProductionCount = rest.substring(0, 3);
+  let extraCount = "";
+
+  if (dailyProductionCount.length > 3) {
+    extraCount = dailyProductionCount.substring(3);
+    dailyProductionCount = dailyProductionCount.substring(0, 3);
+    exceededPart = "Daily Production Count";
+  }
+
+  if (/[^0-9]/.test(dailyProductionCount)) {
+    exceededPart = "Daily Production Count";
+    extraCount += dailyProductionCount.replace(/[0-9]/g, "");
+  }
+
+  let parts = [
+    { name: "Product Model", value: productModel, extra: extraChars },
+    { name: "Customer Code", value: customerCode, extra: extraCustomer },
+    { name: "Configuration", value: configuration, extra: extraConfiguration },
+    { name: "Production Location", value: productionLocation, extra: extraLocation },
+    { name: "Production Date", value: productionDate, extra: extraDate },
+    { name: "Daily Production Count", value: dailyProductionCount, extra: extraCount }
+  ];
+
+  parts.forEach((part) => {
+    let displayPart = "";
+    let errorMessage = "";
+    let correctPart = part.value;
+    let extraPart = part.extra || "";
+
+    if (extraPart.length > 0) {
+      displayPart = `<span style='color: green;'>${correctPart}</span>
+                     <span style='color: red; background: yellow;'>${extraPart}</span>`;
+      errorMessage = `<small style="color:red;">(${part.name} - Too Long) ❌ Must be exactly ${correctPart.length} characters.</small>`;
+      isCorrect = false;
+    } else if (!correctPart || correctPart.includes("_")) {
+      displayPart = `<span style='color: red; font-weight: bold;'>${correctPart.padEnd(correctPart.length, "_")}</span>`;
+      errorMessage = `<small style="color:red;">(${part.name} - Too Short) ❌ Must be exactly ${correctPart.length} characters.</small>`;
+      isCorrect = false;
+    } else {
+      displayPart = `<span style='color: green; font-weight: bold;'>${correctPart}</span>`;
+      errorMessage = `<small style="color:green;">(${part.name}) ✅</small>`;
+    }
+
+    formattedResult += displayPart + " " + errorMessage + "<br>";
+  });
+
+  feedback.innerHTML = `Checked Serial Number:<br>${formattedResult}`;
+  feedback.innerHTML += isCorrect
+    ? "<br><span style='color: green; font-size: 18px;'>✅ Serial number is correct.</span>"
+    : "<br><span style='color: red; font-size: 18px;'>❌ Serial number contains errors.</span>";
+
+  console.log("✅ Serial number check completed.");
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("✅ script.js loaded and waiting for button click...");
+  document.getElementById("checkSerialBtn").addEventListener("click", checkSerialNumber);
+});
+
+
+
 
 // **📌 关闭公告栏**
 function closeAnnouncement() {

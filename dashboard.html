@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <title>ATOSA Technical Documentation Center</title>
   <style>
-    
     body {
       font-family: Arial, sans-serif;
       display: flex;
@@ -101,27 +100,78 @@
     #productList a:hover {
       text-decoration: underline;
     }
+
+    /* ✅ 新增样式：调整序列号查询框 */
+    .serial-check-container {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 2px solid #ddd;
+    }
+
+    #serialInput {
+      padding: 10px;
+      width: 60%;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    #checkSerialBtn {
+      padding: 10px 15px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    #checkSerialBtn:hover {
+      background-color: #0056b3;
+    }
+
+    #serialFeedback {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-  <!-- ✅ Logout 按钮放在框的右上角 -->
-  <button id="logout" class="logout-btn">Logout</button>
+    <!-- ✅ Logout 按钮 -->
+    <button id="logout" class="logout-btn">Logout</button>
 
-  <div class="announcement-bar" id="announcementBar">
-    <button class="close-btn" onclick="closeAnnouncement()">×</button>
-    <h2>Announcement</h2>
-    <p class="announcement-content">
-      1. The MCF, MBF, MSF series products have been updated. Next, We will continue updating the ice maker series issue. <br>
-      2. If you have any new requirements, please organize your questions in a timely manner and send them to Lynn; operator53@smartkitchenservice.com
-    </p>
-  </div>
+    <!-- ✅ 公告栏 -->
+    <div class="announcement-bar" id="announcementBar">
+      <button class="close-btn" onclick="closeAnnouncement()">×</button>
+      <h2>Announcement</h2>
+      <p class="announcement-content">
+        1. The MCF, MBF, MSF series products have been updated. Next, We will continue updating the ice maker series issue. <br>
+        2. If you have any new requirements, please organize your questions in a timely manner and send them to Lynn; operator53@smartkitchenservice.com
+      </p>
+    </div>
 
-  <h1>ATOSA——Technical Documentation Center</h1>
-  <input type="text" id="searchInput" placeholder="Search for a product model..." onkeyup="searchProduct()">
-  <div class="directory">
-    <ul id="productList"></ul>
-  </div>
+    <!-- ✅ 页面标题 -->
+    <h1>ATOSA——Technical Documentation Center</h1>
+
+    <!-- ✅ 产品搜索框 -->
+    <input type="text" id="searchInput" placeholder="Search for a product model..." onkeyup="searchProduct()">
+    
+    <div class="directory">
+      <ul id="productList"></ul>
+    </div>
+
+    <!-- ✅ 序列号查询部分（添加在产品搜索框下方） -->
+    <div class="serial-check-container">
+      <h2>Serial Number Check</h2>
+      <p>Expected Format: <strong style="font-size: 18px; color: blue;">XXXXXXX AAA 1 X DDD NNN</strong></p>
+
+      <input type="text" id="serialInput" placeholder="Enter serial number..." />
+      <button id="checkSerialBtn">Check</button>
+      <p id="serialFeedback"></p>
+    </div>
+
   </div>
 
   <!-- ✅ 添加 script.js 引用 -->
