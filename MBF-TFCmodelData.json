@@ -3,20 +3,20 @@
     "issues": {
       "noise": {
         "customer": [
-          "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)",
+          "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
           "Check if the condenser fan blade is hitting any foreign objects."
         ],
         "technician": [
-          "Check if noise outside: <br>1.<span style='color: red'>Check if the fan motor is defective.<br><span style='color: black'>2.<span style='color: red'>Check whether there is any noise caused by loose screws.<br><span style='color: black'>3.<span style='color: red'>Inspect the compressor for abnormal noise.<br><span style='color: red'>(There is a metal fastening strap on top of the compressor, which is used to protect the compressor during transportation. It is recommended to remove it and continue observing, as the noise may be caused by resonance)",
+          "Check if noise outside: <br>1.<span style='color: red'>Check if the fan motor is defective.<br><span style='color: black'>2.<span style='color: red'>Check whether there is any noise caused by loose screws.<br><span style='color: black'>3.<span style='color: red'>Inspect the compressor for abnormal noise.<br><span style='color: red'>(There is a metal fastening strap on top of the compressor, which is used to protect the compressor during transportation. It is recommended to remove it and continue observing, as the noise may be caused by resonance)</span><br><br>",
           "Check if noise inside: <br>1.<span style='color: red'>Check if the evaporator fan is hitting the banding strap"
         ]
         },
       "leakingWater inside": {
         "customer": [
-          "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)",
-          "Check the drain hose for loose drains inside? <br><span style='color: red'>(The customer may have accidentally detached the drain hose while storing items.)",
-          "Drain Hose Clogged? <br><span style='color: red'>(Scale build up is the most likely cause of leaking within the unit. If customer is comfrotable this sort of issue is fixable over the phone by explaining how to remove and clean the drain pipe)",
-         "Check if the door gasket is damaged?<br><span style='color: red'>(A damaged door gasket can allow external air to enter the cabinet, leading to excessive moisture buildup",
+          "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
+          "Check the drain hose for loose drains inside? <br><span style='color: red'>(The customer may have accidentally detached the drain hose while storing items.)</span><br><br>",
+          "Drain Hose Clogged? <br><span style='color: red'>(Scale build up is the most likely cause of leaking within the unit. If customer is comfrotable this sort of issue is fixable over the phone by explaining how to remove and clean the drain pipe)</span><br><br>",
+         "Check if the door gasket is damaged?<br><span style='color: red'>(A damaged door gasket can allow external air to enter the cabinet, leading to excessive moisture buildup</span><br><br>",
          "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）"
         ],
         "technician": [
@@ -25,12 +25,12 @@
       },
       "leakingWater outside": {
         "customer": [
-          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)",
-          "The backpack drain-pan is full and overflowing?<br>1.<span style='color: red'>we suggest that the customer buy drain hose and connect it to the drain outlet.<a href='/backpack%20drain%20hose.png' target='_blank'> drain hose </a><br><span style='color: black'>2.<span style='color: red'>Send the absorbent paper accessory to the customer for replacement.<br><span style='color: black'>3.<span style='color: red'>If this issue cannot be resolved, we will send a technician. The specific repair plan is in the technical solution",
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
+          "The backpack drain-pan is full and overflowing?<br>1.<span style='color: red'>we suggest that the customer buy drain hose and connect it to the drain outlet.<a href='/backpack%20drain%20hose.png' target='_blank'> drain hose </a><br><span style='color: black'>2.<span style='color: red'>Send the absorbent paper accessory to the customer for replacement.<br><span style='color: black'>3.<span style='color: red'>If this issue cannot be resolved, we will send a technician. The specific repair plan is in the technical solution</span><br><br>",
           "Is there condensation on the outer surfaces of the refrigerator on both sides? <br><span style='color: red'>(Please confirm whether the distance between the two unites is too close,It is recommended to maintain a distance of 10-15 cm between each refrigerator.)"
         ],
         "technician": [
-          "The backpack drain-pan is full and overflowing?<br><span style='color: red'>(Please send the parts to the technician first:①.Two 115V fans ②.Fan bracket. <br>Here is the repair manual<a href='https://sc.atosausa.com/file/2024/09/04/C-013_Tech_Guidance_421c1782-7757-4858-8275-95f447a7d10c.pdf' target='_blank'>Backpack Fan Installation Kit </a>)",
+          "The backpack drain-pan is full and overflowing?<br><span style='color: red'>(Please send the parts to the technician first:①.Two 115V fans ②.Fan bracket. <br>Here is the repair manual<a href='https://sc.atosausa.com/file/2024/09/04/C-013_Tech_Guidance_421c1782-7757-4858-8275-95f447a7d10c.pdf' target='_blank'>Backpack Fan Installation Kit </a>)</span><br><br>",
           "Is there water leakage at the bottom of the backpack drain-pan? <br><span style='color: red'>(There is water leakage at the air pressure balance valve, and the sealant needs to be reapplied.<br>Here is the repair manual<a href='https://sc.atosausa.com/file/2024/09/03/C-001_Tech_Guidance_d72efe6b-2449-492d-9804-38d934e01491.pdf' target='_blank'> Air Relief Valve  </a>)"
         ]
       },
@@ -39,39 +39,39 @@
           "Please confirm if the light turns on when the door is opened? <br><span style='color: red'>( If it doesn't turn on, it’s likely that the related parts are faulty, and a technician will need to be sent for inspection.The specific troubleshooting method is in the technical solution)"
         ],
         "technician": [
-          "Check if the power supply is working.<br><span style='color: red'>(The LED lighting on the unit is 24vdc. The lighting control board and the lighting power supply can all be accessed from the front of the unit.Here is the Diagnostic manual<a href='/Led wiring.png' target='_blank'> Led wiring )",
-          "Check if the Led Controller is working.<br><span style='color: red'>(This small board is the LED lighting controller,This small board is the LED lighting controller.Here is the Diagnostic manual<a href='/Led controller.png' target='_blank'> Led controller board)",
+          "Check if the power supply is working.<br><span style='color: red'>(The LED lighting on the unit is 24vdc. The lighting control board and the lighting power supply can all be accessed from the front of the unit.Here is the Diagnostic manual<a href='/Led wiring.png' target='_blank'> Led wiring )</span><br><br>",
+          "Check if the Led Controller is working.<br><span style='color: red'>(This small board is the LED lighting controller,This small board is the LED lighting controller.Here is the Diagnostic manual<a href='/Led controller.png' target='_blank'> Led controller board)</span><br><br>",
         "Check if the Led  is working.<br><span style='color: red'>(If the LED Lighting connector is getting voltage and the light is still not coming on, then the LED light is faulty.Here is the Diagnostic manual<a href='/Led light.png' target='_blank'> Led )"
       ]
       },
       "physical Damage": {
         "customer": [
-          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)",
-          "If the door gasket is damaged, suggest the customer replace it themselves <br><span style='color: red'>(as door gaskets are considered consumable parts Send the replacement tutorial video to the customer<a href='https://youtu.be/8fOAAQySY6w' target='_blank'> Door Gasket Replacement Video </a>)",
-          "How to replace the Pilasters and Clips?<br><span style='color: red'>(Send the parts to the customer for self-replacement<a href='/Clips.png' target='_blank'> Pilasters and Clips)",
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+          "If the door gasket is damaged, suggest the customer replace it themselves <br><span style='color: red'>(as door gaskets are considered consumable parts Send the replacement tutorial video to the customer<a href='https://youtu.be/8fOAAQySY6w' target='_blank'> Door Gasket Replacement Video </a>)</span><br><br>",
+          "How to replace the Pilasters and Clips?<br><span style='color: red'>(Send the parts to the customer for self-replacement<a href='/Clips.png' target='_blank'> Pilasters and Clips)</span><br><br>",
         "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)"
         ],
         "technician": [
-          "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)",
+          "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)</span><br><br>",
           "If there is an issue with the door, pay attention to the following when replacing it:<br><span style='color: red'>(When you install the new door, try opening and closing it to see if it closes by itself. If not, then it is not turned correctly or the resistance is not strong enough <a href='/replace door.png' target='_blank'>Door Installation Method)"
         ]
       },
       "cooling Issue": {
         "customer": [
-          "Confirm with the customer which icons are displayed on the screen. <br><span style='color: red'>(The icons indicate that the corresponding components are functioning<a href='/icon.png' target='_blank'> Basic Unit Functions)",
-          "Is the condenser fan working?<br><span style='color: red'>①.If not, check if the fan blade is obstructed by any foreign objects. <br><span style='color: red'>②.If it’s not obstructed but still not working, the fan needs to be replaced",
-          "Check if the internal evaporator fan is working?<br><span style='color: red'>If only one fan is not working, replace the faulty fan.",
+          "Confirm with the customer which icons are displayed on the screen. <br><span style='color: red'>(The icons indicate that the corresponding components are functioning<a href='/icon.png' target='_blank'> Basic Unit Functions)</span><br><br>",
+          "Is the condenser fan working?<br><span style='color: red'>①.If not, check if the fan blade is obstructed by any foreign objects. <br><span style='color: red'>②.If it’s not obstructed but still not working, the fan needs to be replaced</span><br><br>",
+          "Check if the internal evaporator fan is working?<br><span style='color: red'>If only one fan is not working, replace the faulty fan.</span><br><br>",
         "Check if the condenser is dirty or clogged?<br><span style='color: red'>If the customer is unsure, ask them to take a photo and send it for confirmation"
         ],
         "technician": [ 
-          "Check if the evaporator is frozen?<br>\n1.<span style=\"color: red\">Test if both probes are working properly (Different temperatures show different OHM values; please refer to this parameter <a href=\"/test probe.png\" target=\"_blank\">Test probe</a>).</span><br>\n<span style=\"color: black\">2.<span style=\"color: red\">Check if the drain pan & drain hose heaters are working properly (Check the ohm values of these two accessories. This is the inspection manual <a href=\"/heater test.png\" target=\"_blank\">heater Test manual</a>).</span></span><br>\n<span style=\"color: black\">3.<span style=\"color: red\">Check if the evaporator fan is working? (Confirm if there is a 115V voltage output. <a href=\"/evp fan.png\" target=\"_blank\">Evaporator fan maintenance manual</a>)</span></span>",
-          "Check if the compressor is working properly? <br>1.<span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video </a>)<br><span style='color: black'>2.<span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3n'1 start kit<a href='/3n1.png' target='_blank'> 3n'1 Operating Instructions)",
+          "Check if the evaporator is frozen?<br>\n1.<span style=\"color: red\">Test if both probes are working properly (Different temperatures show different OHM values; please refer to this parameter <a href=\"/test probe.png\" target=\"_blank\">Test probe</a>).</span><br>\n<span style=\"color: black\">2.<span style=\"color: red\">Check if the drain pan & drain hose heaters are working properly (Check the ohm values of these two accessories. This is the inspection manual <a href=\"/heater test.png\" target=\"_blank\">heater Test manual</a>).</span></span><br>\n<span style=\"color: black\">3.<span style=\"color: red\">Check if the evaporator fan is working? (Confirm if there is a 115V voltage output. <a href=\"/evp fan.png\" target=\"_blank\">Evaporator fan maintenance manual</a>)</span></span></span><br><br>",
+          "Check if the compressor is working properly? <br>1.<span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video </a>)<br><span style='color: black'>2.<span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3n'1 start kit<a href='/3n1.png' target='_blank'> 3n'1 Operating Instructions)</span><br><br>",
           "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1.<span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 44-46 PSI,please refer to this parameter <a href=\"/psi.png\" target=\"_blank\">Pressure temperature Chart</a>)<br></span>\n<span style=\"color: black\">2.<span style=\"color: red\">Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor.<a href=\"/Solder joint diagram.png\" target=\"_blank\">Refrigerant Circuit Diagram</a></span></span><br><span style='color: black'>3.<span style='color: red'>If the tech needs us to provide capillary tube fittings,Please let the tech know we recommend cut 2-3 inches of the end cap tube and blow the whole system by nitrogen and then replace a new universal filter drier, vacuum and recharge the unit"
        ]
       },
       "Power Issue": {
         "customer": [
-          "The unit is completely non-functional?<br><span style='color: red'>(Check if the display and condenser fan are completely non-functional,Please replace the power outlet and try again to ensure there is power in the outlet.)",
+          "The unit is completely non-functional?<br><span style='color: red'>(Check if the display and condenser fan are completely non-functional,Please replace the power outlet and try again to ensure there is power in the outlet.)</span><br><br>",
           "Please ask the customer to check if the power cord is damaged?<br><span style='color: red'>(If there is any damage, please take a photo and send it to us. We will send part and  dispatch tech to repair it.)"
         ],
         "technician": [
@@ -81,13 +81,13 @@
         },
       "error Code": {
         "customer": [
-          "Dixell Parameters: <br>P1:<span style='color: red'>Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style='color: black;'>P2:<span style='color: red;'>Evaportor Probe Failure(Blue Proe) or Loose Wiring on the controler.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>Door open long time or door magnetic switches issue.",
-          "It is recommended to verify all the parameters based on the parameter table in the document section",
+          "Dixell Parameters: <br>P1:<span style='color: red'>Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style='color: black;'>P2:<span style='color: red;'>Evaportor Probe Failure(Blue Proe) or Loose Wiring on the controler.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>Door open long time or door magnetic switches issue.</span><br><br>",
+          "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
           "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 1 of 7</a>)"
         ],
         "technician": [
-          "Carel Parameters: <a href=\"https://www.youtube.com/watch?v=qtIBfB-pK8I&t=47s\" target=\"_blank\">Atosa Carel Freezer parameters</a><br> <span style=\"color: black;\">EO:</span><span style=\"color: red;\"> Probe 1 (White Probe) Failed or Disconnected. Code shows when probe is disconnected.</span><br> <span style=\"color: black;\">El:</span><span style=\"color: red;\"> Probe 2 Failed or Disconnected. Code shows when probe is disconnected. If unit is a refrigerator change d0 parameter to 2</span><br> <span style=\"color: black;\">OF:</span><span style=\"color: red;\"> Hold down the power button for 3sec </span><a href=\"https://www.youtube.com/watch?v=rF8OkY-XBT8\" target=\"_blank\">Operation video</a><br> <span style=\"color: black;\">Do:</span><span style=\"color: red;\"> Door Open Alarm. Verify A4 parameter is set to 6 and check the magnet door switch wiring</span><a href=\"https://www.youtube.com/watch?v=ZelNDCVHa1g\" target=\"_blank\"> Do Code Solution</a><br> <span style=\"color: black;\">EE&amp;EF:</span><span style=\"color: red;\"> Unit Parameter Error. Replace Controller.</span><br> <span style=\"color: black;\">ED:</span><span style=\"color: red;\"> Defrost Ended by Timeout. Possible P2 Probe Failure or Defrost Solenoid Issue.</span><br> <span style=\"color: black;\">DF:</span><span style=\"color: red;\"> Unit is in Defros</span>",
-          "It is recommended to verify all the parameters based on the parameter table in the document section",
+          "Carel Parameters: <a href=\"https://www.youtube.com/watch?v=qtIBfB-pK8I&t=47s\" target=\"_blank\">Atosa Carel Freezer parameters</a><br> <span style=\"color: black;\">EO:</span><span style=\"color: red;\"> Probe 1 (White Probe) Failed or Disconnected. Code shows when probe is disconnected.</span><br> <span style=\"color: black;\">El:</span><span style=\"color: red;\"> Probe 2 Failed or Disconnected. Code shows when probe is disconnected. If unit is a refrigerator change d0 parameter to 2</span><br> <span style=\"color: black;\">OF:</span><span style=\"color: red;\"> Hold down the power button for 3sec </span><a href=\"https://www.youtube.com/watch?v=rF8OkY-XBT8\" target=\"_blank\">Operation video</a><br> <span style=\"color: black;\">Do:</span><span style=\"color: red;\"> Door Open Alarm. Verify A4 parameter is set to 6 and check the magnet door switch wiring</span><a href=\"https://www.youtube.com/watch?v=ZelNDCVHa1g\" target=\"_blank\"> Do Code Solution</a><br> <span style=\"color: black;\">EE&amp;EF:</span><span style=\"color: red;\"> Unit Parameter Error. Replace Controller.</span><br> <span style=\"color: black;\">ED:</span><span style=\"color: red;\"> Defrost Ended by Timeout. Possible P2 Probe Failure or Defrost Solenoid Issue.</span><br> <span style=\"color: black;\">DF:</span><span style=\"color: red;\"> Unit is in Defros</span></span><br><br>",
+          "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
           "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 1 of 7</a>)"
         ]
       }
