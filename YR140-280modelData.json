@@ -3,7 +3,7 @@
     "issues": {
       "noise": {
         "customer": [
-          "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)",
+          "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
           "Check if the condenser fan blade is hitting any foreign objects."
         ],
         "technician": [
@@ -12,7 +12,7 @@
         },
       "leakingWater inside": {
         "customer": [
-          "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)",
+          "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
           "Is there any water accumulation inside the unit? <br>1.<span style='color: red'>  Ensure the drain hose is not bent.  <br><span style='color: black'> 2.<span style='color: red'> Make sure the drain hose is positioned lower than the outlet to prevent water from accumulating inside the unit."
         ],
         "technician": [
@@ -30,8 +30,8 @@
       },
       "physical Damage": {
         "customer": [
-          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)",
-        "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)",
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+        "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)</span><br><br>",
         "If it's a door issue, the customer can replace it themselves.<br> <a href='https://0424lynn.github.io/yang/te probe.png' target='_blank'>Maintenance manual required</a>"
         ],
         "technician": [
@@ -40,30 +40,30 @@
           },
       "Ice issue-cooling fine": {
         "customer": [
-          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)",
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
         
           "If the customer is willing to cooperate, guide them on how to adjust the probe.<br><a href='https://0424lynn.github.io/yang/te probe.png' target='_blank'>Maintenance manual required</a>"
         ],
         "technician": [
-          "Deep clean the probe assembly and guide the customer on how to clean it. <br><span style='color: red'>(If it is confirmed to be a cleaning issue, explain to the customer that this is not covered under the warranty)<a href='https://sc.atosausa.com/file/2024/09/10/I-003_Ice_Machine_Probe_Repositioning_c5147662-aad2-407f-84b0-fad644b71ccf.pdf' target='_blank'> Ice Machine Probe Repositioning for Grounding Issues</a>",
+          "Deep clean the probe assembly and guide the customer on how to clean it. <br><span style='color: red'>(If it is confirmed to be a cleaning issue, explain to the customer that this is not covered under the warranty)<a href='https://sc.atosausa.com/file/2024/09/10/I-003_Ice_Machine_Probe_Repositioning_c5147662-aad2-407f-84b0-fad644b71ccf.pdf' target='_blank'> Ice Machine Probe Repositioning for Grounding Issues</a></span><br><br>",
          "Is there a lot of ice debris in the Trough?<br><span style='color: red'>Check if the defrost probe position is too high, causing early activation or continuous defrost mode. Readjust the positions of both probes.The correct adjustment position <a href='https://0424lynn.github.io/yang/adjprobe.png' target='_blank'>The correct position </a>"
         ]
       },
       "Not make ice Issue": {
         "customer": [
-           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)",
-         "Confirm that the switch is in ice-making mode and not in cleaning mode?",
-          "Confirm whether the customer has installed a water filter?",
-            "Confirm with the customer Is the water supply open?. <br><span style='color: red'>(Confirm if there is water in the trough?)",
-        "Confirm if the bottom filter has been cleaned. We recommend cleaning it once a month.<a href='https://0424lynn.github.io/yang/te probe.png' target='_blank'>Maintenance manual required</a>",
+           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+         "Confirm that the switch is in ice-making mode and not in cleaning mode?</span><br><br>",
+          "Confirm whether the customer has installed a water filter?</span><br><br>",
+            "Confirm with the customer Is the water supply open?. <br><span style='color: red'>(Confirm if there is water in the trough?)</span><br><br>",
+        "Confirm if the bottom filter has been cleaned. We recommend cleaning it once a month.<a href='https://0424lynn.github.io/yang/te probe.png' target='_blank'>Maintenance manual required</a></span><br><br>",
         "Confirm that the ambient temperature around the unit is not too high?"
         
         ],
         "technician": [ 
-          "Confirm whether the ice maker is functioning properly？<br>1.<span style='color: red'>Ensure that the water curtain plate is in a normally closed state and that no ice blocks are obstructing it.Confirm that the water curtain switch indicator light is displaying yellow. If the switch is in the closed position but the yellow light is not on, the water curtain switch may be faulty and needs to be replaced<a href='https://0424lynn.github.io/yang/D10.png' target='_blank'>D10-Water curtain LED</a>.<br><span style='color: black'>2.<span style='color: red'>In normal ice-making mode, the water pump, compressor, and fan will run continuously. Check each component to ensure it is functioning properly!<a href='https://0424lynn.github.io/yang/D2D5D6.png' target='_blank'>D2-Water,D5-Condenser Fan motor,D6-compresser</a>",
-          "Check if the water pump is working？(ensure that there is enough water in the trough)<br>1.<span style='color: red'> Check if the water pump indicator light on the control board is on and if there is voltage output. <a href='https://0424lynn.github.io/yang/water pump.png' target='_blank'>D2-water pump</a><br><span style='color: black'> 2. <span style='color: red'>If there is voltage output from the control board, measure whether the water pump has voltage input. If there is voltage but the pump is not working, replace the water pump.<br><span style='color: black'> 3. <span style='color: red'>If the water pump indicator light on the control board is off, check if the small fuse is blown<a href='https://0424lynn.github.io/yang/small fuse.png' target='_blank'>Check if the fuse is in good condition</a>",
-          "Confirm whether the condenser fan is operating?<br><span style='color: red'>Check if the control board indicator light is on and if there is a voltage output<a href='https://0424lynn.github.io/yang/Fan motor.png' target='_blank'>D5-Fan motor</a>",
-          "Check if the compressor is working properly? <br>1.<span style='color: red'>Check if the control board indicator light is on and if there is a voltage output<a href='https://0424lynn.github.io/yang/compress.png' target='_blank'>D6-compresser</a><br><span style='color: black'>2.<span style='color: red'>Check if the big fuse is good.<a href='https://0424lynn.github.io/yang/big fuse.png' target='_blank'>F1-compresser Fuse</a><br><span style='color: black'>3.<span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video </a>)<br><span style='color: black'>4.<span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3n'1 start kit<a href='https://0424lynn.github.io/yang/3n1.png' target='_blank'>3n'1 Operating Instructions</a>",
+          "Confirm whether the ice maker is functioning properly？<br>1.<span style='color: red'>Ensure that the water curtain plate is in a normally closed state and that no ice blocks are obstructing it.Confirm that the water curtain switch indicator light is displaying yellow. If the switch is in the closed position but the yellow light is not on, the water curtain switch may be faulty and needs to be replaced<a href='https://0424lynn.github.io/yang/D10.png' target='_blank'>D10-Water curtain LED</a>.<br><span style='color: black'>2.<span style='color: red'>In normal ice-making mode, the water pump, compressor, and fan will run continuously. Check each component to ensure it is functioning properly!<a href='https://0424lynn.github.io/yang/D2D5D6.png' target='_blank'>D2-Water,D5-Condenser Fan motor,D6-compresser</a></span><br><br>",
+          "Check if the water pump is working？(ensure that there is enough water in the trough)<br>1.<span style='color: red'> Check if the water pump indicator light on the control board is on and if there is voltage output. <a href='https://0424lynn.github.io/yang/water pump.png' target='_blank'>D2-water pump</a><br><span style='color: black'> 2. <span style='color: red'>If there is voltage output from the control board, measure whether the water pump has voltage input. If there is voltage but the pump is not working, replace the water pump.<br><span style='color: black'> 3. <span style='color: red'>If the water pump indicator light on the control board is off, check if the small fuse is blown<a href='https://0424lynn.github.io/yang/small fuse.png' target='_blank'>Check if the fuse is in good condition</a></span><br><br>",
+          "Confirm whether the condenser fan is operating?<br><span style='color: red'>Check if the control board indicator light is on and if there is a voltage output<a href='https://0424lynn.github.io/yang/Fan motor.png' target='_blank'>D5-Fan motor</a></span><br><br>",
+          "Check if the compressor is working properly? <br>1.<span style='color: red'>Check if the control board indicator light is on and if there is a voltage output<a href='https://0424lynn.github.io/yang/compress.png' target='_blank'>D6-compresser</a><br><span style='color: black'>2.<span style='color: red'>Check if the big fuse is good.<a href='https://0424lynn.github.io/yang/big fuse.png' target='_blank'>F1-compresser Fuse</a><br><span style='color: black'>3.<span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video </a>)<br><span style='color: black'>4.<span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3n'1 start kit<a href='https://0424lynn.github.io/yang/3n1.png' target='_blank'>3n'1 Operating Instructions</a></span><br><br>",
           "All parts are functioning properly. Please check if there is a refrigerant leak."
        ]
       },
@@ -87,7 +87,7 @@
       },
       "Power Issue": {
         "customer": [
-          "The unit is completely non-functional?<br><span style='color: red'>(Check if the display and condenser fan are completely non-functional,Please replace the power outlet and try again to ensure there is power in the outlet.)",
+          "The unit is completely non-functional?<br><span style='color: red'>(Check if the display and condenser fan are completely non-functional,Please replace the power outlet and try again to ensure there is power in the outlet.)</span><br><br>",
           "Please ask the customer to check if the power cord is damaged?<br><span style='color: red'>(If there is any damage, please take a photo and send it to us. We will send part and  dispatch tech to repair it.)"
         ],
         "technician": [
