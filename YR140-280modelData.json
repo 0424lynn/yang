@@ -12,8 +12,8 @@
         },
       "leakingWater inside": {
         "customer": [
-          "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)"
-          
+          "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)",
+          "Is there any water accumulation inside the unit? <br>1.<span style='color: red'>  Ensure the drain hose is not bent.  <br><span style='color: black'> 2.<span style='color: red'> Make sure the drain hose is positioned lower than the outlet to prevent water from accumulating inside the unit."
         ],
         "technician": [
           "Please confirm whether the water Trough is cracked and leaking?<br><span style='color: red'>record a video or picture and send it to us for analysis."
@@ -45,7 +45,8 @@
           "If the customer is willing to cooperate, guide them on how to adjust the probe.<br><a href='https://0424lynn.github.io/yang/te probe.png' target='_blank'>Maintenance manual required</a>"
         ],
         "technician": [
-          "Deep clean the probe assembly and guide the customer on how to clean it. <br><span style='color: red'>(If it is confirmed to be a cleaning issue, explain to the customer that this is not covered under the warranty)<a href='https://sc.atosausa.com/file/2024/09/10/I-003_Ice_Machine_Probe_Repositioning_c5147662-aad2-407f-84b0-fad644b71ccf.pdf' target='_blank'> Ice Machine Probe Repositioning for Grounding Issues</a>"
+          "Deep clean the probe assembly and guide the customer on how to clean it. <br><span style='color: red'>(If it is confirmed to be a cleaning issue, explain to the customer that this is not covered under the warranty)<a href='https://sc.atosausa.com/file/2024/09/10/I-003_Ice_Machine_Probe_Repositioning_c5147662-aad2-407f-84b0-fad644b71ccf.pdf' target='_blank'> Ice Machine Probe Repositioning for Grounding Issues</a>",
+         "Is there a lot of ice debris in the Trough?<br><span style='color: red'>Check if the defrost probe position is too high, causing early activation or continuous defrost mode. Readjust the positions of both probes.The correct adjustment position <a href='https://0424lynn.github.io/yang/adjprobe.png' target='_blank'>The correct position </a>"
         ]
       },
       "Not make ice Issue": {
@@ -72,7 +73,16 @@
            "Confirm with the customer Is the water supply open?"
         ],
         "technician": [
-          "Confirm whether the water inlet valve is functioning properly？<br><br>1.<span style='color: red'> Confirm if the water trougn is full of water? If it is, the inlet valve is functioning properly.<br><br><span style='color: black'> 2.<span style='color: red'>  Ensure that the water level probe is functioning properly. If the probe is damaged, it may also cause the inlet valve to stop working. Under normal conditions, when the probe does not come into contact with water, the water level indicator light remains off, and the inlet valve operates until the water reaches the probe. Once the probe detects water, it signals that the tank is full, and the inlet valve stops working<a href=\"/water probe.png\" target=\"_blank\">D8-water probe</a>.<br><br><span style='color: black'> 3.<span style='color: red'>If there is no water in the trough, it indicates that the inlet valve is not working. Check if the inlet valve indicator light on the control board is on, and measure whether there is voltage input to the inlet valve. If there is voltage but the valve is not operating, replace the inlet valve<a href=\"/WIV.png\" target=\"_blank\">D1-Water Inlet Vavle</a>."
+          "Confirm whether the water inlet valve is functioning properly？<br><br>1.<span style='color: red'> Confirm if the water trougn is full of water? If it is, the inlet valve is functioning properly.<br><br><span style='color: black'> 2.<span style='color: red'>  Ensure that the water level probe is functioning properly. If the probe is damaged, it may also cause the inlet valve to stop working. Under normal conditions, When the probe comes into contact with water, it indicates that the water is full, the water level indicator light turns on, and the inlet valve stops working.<a href=\"/water probe.png\" target=\"_blank\">D8-water probe</a>.<br><br><span style='color: black'> 3.<span style='color: red'>If there is no water in the trough, it indicates that the inlet valve is not working. Check if the inlet valve indicator light on the control board is on, and measure whether there is voltage input to the inlet valve. If there is voltage but the valve is not operating, replace the inlet valve<a href=\"/WIV.png\" target=\"_blank\">D1-Water Inlet Vavle</a>."
+        ]
+      },
+      "Water outlet valve-Test": {
+        "customer": [
+
+          
+        ],
+        "technician": [
+          "Confirm whether the water outlet valve is functioning properly？<br><br>1.<span style='color: red'>To check if the drain valve is functioning properly, put the machine into cleaning mode and observe whether the water in the internal tank is being drained. If the water is drained, the drain valve is working properly.<br><br><span style='color: black'> 2.<span style='color: red'> Check if the indicator light on the control board is on and if there is a voltage output<a href=\"/water probe.png\" target=\"_blank\">D8-water probe</a>.<br><br><span style='color: black'> 3.<span style='color: red'>Measure whether the drain valve has a voltage input. If there is voltage but the valve does not work, replace the drain valve.<a href=\"/WIV.png\" target=\"_blank\">D1-Water Inlet Vavle</a>."
         ]
       },
       "Power Issue": {
@@ -86,6 +96,7 @@
         ]
       }
     },
+    
     "documents": [
       {
         "title": "ICE MACHINE CONTROL TEST MODE ICE MACHINE",
@@ -118,7 +129,7 @@
       "title": "YR140-AP-161 —Undercounter Ice Maker (142 LB / 24 HR)",
       "image": "YR140P.png",
       "diagram": "YR140D.jpeg",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Power Issue"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","Power Issue"],
       
       
       "documents": [
@@ -141,7 +152,7 @@
       "title": "YR280-AP-161 — Undercounter Ice Maker (283 LB / 24 HR)",
       "image": "YR140P.png",
       "diagram": "YR140D.jpeg",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Power Issue"],
+     "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","Power Issue"],
       
       
       "documents": [
@@ -155,79 +166,6 @@
         }
       ]
     },
-    "MBF8002GR": {
-      "title": "MBF8002GR — Top Mount Two Door Reach-in Freezer",
-      "image": "MBF8002GRP.png",
-      "diagram": "MBF8002GRD.png",
-    "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
-    "documents": [
-      {
-        "title": "SPCIFICATION SHEET",
-        "url": "https://atosausa.com/wp-content/uploads/2024/03/MBF15FSGR_MBF15FSGRL_8001GR_8002GR_8003GR_specsheet_08282024.pdf"
-      },
-      {
-        "title": "PARTS BREAKDOWN",
-        "url": "https://atosausa.com/wp-content/uploads/2023/10/MBF8002GR-V2.pdf"
-      },
-      {
-        "title": "COMPRESSOR WIRING DIAGRAM-SCE18CNLX ",
-        "url": "./3n1.png"
-        
-}
-]
-},
-"MBF8003GR": {
-  "title": "MBF8003GR — Top Mount Three Door Reach-in Freezer",
-  "image": "MBF8003GRP.png",
-  "diagram": "MBF8003GRD.png",
-"issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
-"Power Issue": {
-        "customer": [
-          "Check if the voltage installation is normal and take a photo to confirm.<br><span style='color: red'>(The compressor operates at 220V and requires a professional electrician for installation.)"
-        ],
-        "technician": [
-          "Is the power cord installed incorrectly? <a href='https://sc.atosausa.com/file/2024/09/03/C-016_Tech_Guidance_5d06d2ce-2988-4737-836d-90ecc9037c81.pdf' target='_blank'>Power Cord Installation Recommendations"
-        ]
-    
-    },
-"documents": [
-  {
-    "title": "SPCIFICATION SHEET",
-    "url": "https://atosausa.com/wp-content/uploads/2024/03/MBF15FSGR_MBF15FSGRL_8001GR_8002GR_8003GR_specsheet_08282024.pdf"
-  },
-  {
-    "title": "PARTS BREAKDOWN",
-    "url": "https://atosausa.com/wp-content/uploads/2023/10/MBF8003GR-V2.pdf"
-  }
-]
-},
-  "MBF8007GR": {
-  "title": "MBF8007GR — Top Mount Three Door Reach-in Freezer",
-  "image": "MBF8007GRP.png",
-  "diagram": "MBF8007GRD.png",
-"issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
-
-"documents": [
-  {
-    "title": "SPCIFICATION SHEET",
-    "url": "https://atosausa.com/wp-content/uploads/2024/08/MBF8007GR_8007GRL_8008GR_Specsheet_11212024.pdf"
-  },
-  {
-    "title": "PARTS BREAKDOWN",
-    "url": "https://atosausa.com/wp-content/uploads/2023/10/MBF8007GR-V2.pdf"
-  },
-  {
-    "title": "COMPRESSOR WIRING DIAGRAM-NUT90 ",
-    "url": "./NUT90.png"
-    
-  },
-  {
-    "title": "COMPRESSOR WIRING DIAGRAM-CA90 ",
-    "url": "./ca90.png"
-    
-}
-]
-},
 "MBF8008GR": {
   "title": "MBF8008GR — Top Mount Two-Section (4) Divided Door Freezer",
   "image": "MBF8008GRP.png",
