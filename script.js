@@ -294,15 +294,10 @@ function checkSerialNumber() {
   const expectedLength = 18;
   if (inputSerial.length > expectedLength) {
     feedback.innerHTML = `<span style='color: red;'>❌ Serial number is too long. Expected ${expectedLength} characters, but found ${inputSerial.length}.</span><br>`;
-  }
-
-  // 检查序列号的长度
-  if (inputSerial.length > expectedLength) {
-    feedback.innerHTML = `<span style='color: red;'>❌ Serial number is too long. Expected ${expectedLength} characters, but found ${inputSerial.length}.</span><br>`;
   } else if (inputSerial.length < expectedLength) {
     feedback.innerHTML += `<span style='color: red;'>❌ Serial number is too short. Expected ${expectedLength} characters, but found ${inputSerial.length}.</span><br>`;
   }
-  
+
   if (!inputSerial) {
     feedback.innerHTML += `<span style='color: red;'>❌ Please enter a serial number.</span>`;
     console.warn("⚠️ No serial number entered.");
@@ -320,7 +315,7 @@ function checkSerialNumber() {
 
   let aIndex = rest.indexOf("A");
   if (aIndex === -1) {
-    feedback.innerHTML += `<span style='color: red;'>❌ Invalid Serial Number: Model Number- Too Short) ❌Or missing "A".</span>`;
+    feedback.innerHTML += `<span style='color: red;'>❌ Invalid Serial Number: Model Number- Too Short) ❌ Or missing "A".</span>`;
     return;
   }
 
@@ -361,39 +356,23 @@ function checkSerialNumber() {
   rest = rest.substring(configuration.length + extraConfiguration.length);
 
   // ✅ **解析 Production Location**
-  let productionDateMatch = rest.match(/[NOP]/g);
-  let productionDateIndex = productionDateMatch ? rest.search(/[NOP]/) : -1;
   let productionLocation = "";
   let extraLocation = "";
 
-  if (productionDateMatch && productionDateMatch.length > 1) {
-    exceededPart = "Production Location";
-    extraLocation = productionDateMatch.slice(1).join("");
-    productionLocation = productionDateMatch[0];
-    productionDateIndex = rest.indexOf(productionLocation);
-  }
-
-  if (productionDateIndex !== -1) {
-    let locationPart = rest.substring(0, productionDateIndex);
-    if (!/^[CT]$/.test(locationPart)) {
-      exceededPart = "Production Location";
-      extraLocation += locationPart.length > 1 ? locationPart.substring(1) : locationPart;
-      productionLocation = locationPart.substring(0, 1);
-    } else {
-      productionLocation = locationPart;
-    }
-    rest = rest.substring(productionDateIndex);
+  // 只取第一个字母作为生产地字符（T 或 C）
+  if (/^[TC]$/.test(rest[0])) {
+    productionLocation = rest[0]; // 取第一个字符作为生产地
+    rest = rest.substring(1); // 移除生产地字符
   } else {
-    productionLocation = rest.substring(0, 1);
-    rest = rest.substring(1);
+    productionLocation = ""; // 如果没有 T 或 C，生产地为空
   }
 
   // ✅ **解析 Production Date**
-  let productionDate = rest.substring(0, 3);
+  let productionDate = rest.substring(0, 3); // 生产日期的前三个字符
   let extraDate = "";
 
   if (productionDate.length > 3) {
-    extraDate = productionDate.substring(3);
+    extraDate = productionDate.substring(3); // 处理超出的部分
     productionDate = productionDate.substring(0, 3);
     exceededPart = "Production Date";
   }
@@ -404,7 +383,7 @@ function checkSerialNumber() {
   let extraCount = "";
 
   if (dailyProductionCount.length > 3) {
-    extraCount = dailyProductionCount.substring(3); // **超过 3 位数的部分**
+    extraCount = dailyProductionCount.substring(3); // 处理超出的部分
     dailyProductionCount = dailyProductionCount.substring(0, 3);
     exceededPart = "Daily Production Count";
   }
@@ -431,7 +410,7 @@ function checkSerialNumber() {
 
     if (extraPart.length > 0) {
       displayPart = `<span style='color: green;'>${correctPart}</span>
-                     <span style='color: red; background: yellow;'>${extraPart}</span>`;
+                   <span style='color: red; background: yellow;'>${extraPart}</span>`;
       errorMessage = `<small style="color:red;">(${part.name} - Too Long) ❌ Must be exactly ${correctPart.length} characters.</small>`;
       isCorrect = false;
     } else if (!correctPart || correctPart.includes("_")) {
