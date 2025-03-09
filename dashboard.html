@@ -11,25 +11,55 @@
       align-items: flex-start;
       height: 100vh;
       margin: 0;
-      background-color: #f4f4f4;
-      background-image: url('https://img-baofun.zhhainiao.com/fs/3fc54f2b553dc552c23fd2df0ee0159e.jpg');
+      position: relative; /* 确保伪元素定位正确 */
+    }
+
+    /* 使用 ::before 伪元素为背景添加透明度 */
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://img.tukuppt.com/ad_preview/00/09/24/5c9913d81f356.jpg!/fw/980');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      opacity: 0.5; /* 设置背景透明度 */
+      z-index: -1; /* 确保背景图层不会遮挡其他内容 */
+      image-rendering: auto; /* 确保图像清晰且不会失真 */
     }
 
     .container {
       text-align: center;
       padding: 20px;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       width: 90%;
       max-width: 1200px;
+      position: relative;
+      z-index: 1; /* 确保内容显示在背景上方 */
+    }
+
+    /* Position Logout Button at the top-right */
+    #logout {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    #logout:hover {
+      background-color: #0056b3;
     }
 
     .announcement-bar {
-      background-color: #fff3cd;
+      background-color: rgba(255, 243, 205, 0.8);
       border: 1px solid #ffeeba;
       color: #856404;
       padding: 20px;
@@ -101,7 +131,7 @@
       text-decoration: underline;
     }
 
-    /* ✅ 新增样式：调整序列号查询框 */
+    /* Serial Number Check */
     .serial-check-container {
       margin-top: 30px;
       padding-top: 20px;
@@ -110,7 +140,7 @@
 
     #serialInput {
       padding: 10px;
-      width: 60%;
+      width: 30%;
       margin-bottom: 10px;
       border-radius: 5px;
       border: 1px solid #ccc;
@@ -139,10 +169,10 @@
 </head>
 <body>
   <div class="container">
-    <!-- ✅ Logout 按钮 -->
+    <!-- ✅ Logout Button -->
     <button id="logout" class="logout-btn">Logout</button>
 
-    <!-- ✅ 公告栏 -->
+    <!-- ✅ Announcement Bar -->
     <div class="announcement-bar" id="announcementBar">
       <button class="close-btn" onclick="closeAnnouncement()">×</button>
       <h2>Announcement</h2>
@@ -152,17 +182,17 @@
       </p>
     </div>
 
-    <!-- ✅ 页面标题 -->
+    <!-- ✅ Page Title -->
     <h1>ATOSA——Technical Documentation Center</h1>
 
-    <!-- ✅ 产品搜索框 -->
+    <!-- ✅ Product Search -->
     <input type="text" id="searchInput" placeholder="Search for a product model..." onkeyup="searchProduct()">
     
     <div class="directory">
       <ul id="productList"></ul>
     </div>
 
-    <!-- ✅ 序列号查询部分（添加在产品搜索框下方） -->
+    <!-- ✅ Serial Number Check -->
     <div class="serial-check-container">
       <h2>Serial Number Check</h2>
       <p>Expected Format: <strong style="font-size: 18px; color: blue;">MCF8725 AUS 1 C N4U 021</strong></p>
@@ -174,7 +204,7 @@
 
   </div>
 
-  <!-- ✅ 添加 script.js 引用 -->
+  <!-- ✅ Add script.js reference -->
   <script src="script.js"></script>
 </body>
 </html>

@@ -124,160 +124,54 @@
   },
 
   "models": {
-    "MSF8301GR": {
-      "title": "MSF8301GR — 27\" Sandwich Prep Table",
-      "image": "MSF8301GRP.png",
-      "diagram": "MSF8301GRD.png",
+    "MGF24RGR": {
+      "title": "MGF24RGR — 24 Undercounter Refrigerator",
+      "image": "MGF24RGRP.png",
+      "diagram": "MGF24RGRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
       "documents": [
         {
           "title": "SPCIFICATION SHEET</span><br><br>",
-          "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8301GR_3610_8302_8303_8304_Specsheet_09272024.pdf"
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/MGF24RGR_8401GR_8401GRL_36RGR_8402_8403_8404_Specsheet_09272024.pdf"
         },
         {
           "title": "PARTS BREAKDOWN</span><br><br>",
-          "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8301GR-V2.pdf"
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/MGF24RGR-V2.pdf"
         }
+      
       ]
     },
-    "MSF8302GR": {
-      "title": "MSF8302GR — 48\" Sandwich Prep Table",
-      "image": "MSF8302GRP.png",
-      "diagram": "MSF8302GRD.png",
+    "MGF36RGR": {
+      "title": "MGF36RGR — 36 Undercounter Refrigerator",
+      "image": "MGF36RGRP.png",
+      "diagram": "MGF36RGRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
       "documents": [
         {
           "title": "SPCIFICATION SHEET</span><br><br>",
-          "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8301GR_3610_8302_8303_8304_Specsheet_09272024.pdf"
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/MGF24RGR_8401GR_8401GRL_36RGR_8402_8403_8404_Specsheet_09272024.pdf"
+        }
+      
+      ]
+    },
+    "MGF44GR": {
+      "title": "MGF44GR — 44 Worktop Refrigerator with Backsplash, Side Mount Compressor",
+      "image": "MGF44GRP.png",
+      "diagram": "MGF44GRD.png",
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2024/05/MGF44GR_67_Specsheet_09272024.pdf"
         },
         {
           "title": "PARTS BREAKDOWN</span><br><br>",
-          "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8302GR-V2.pdf"
+          "url": "https://atosausa.com/wp-content/uploads/2024/05/MGF44GR-V2.pdf"
         }
+      
       ]
     },
-    "MSF8303GR": {
-      "title": "MSF8303GR — 60\" Sandwich Prep Table",
-      "image": "MSF8303GRP.png",
-      "diagram": "MSF8303GRD.png",
-    "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
-    "documents": [
-      {
-        "title": "SPCIFICATION SHEET</span><br><br>",
-        "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8301GR_3610_8302_8303_8304_Specsheet_09272024.pdf"
-      },
-      {
-        "title": "PARTS BREAKDOWN</span><br><br>",
-        "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8303GR-V2.pdf"
-      }
-    ]
-  },
-      "MSF8304GR": {
-      "title": "MSF8304GR — 72\" Sandwich Prep Table",
-      "image": "MSF8304GRP.png",
-      "diagram": "MSF8304GRD.png",
-    "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
-    "documents": [
-      {
-        "title": "SPCIFICATION SHEET</span><br><br>",
-        "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8301GR_3610_8302_8303_8304_Specsheet_09272024.pdf"
-
-      },
-      {
-        "title": "PARTS BREAKDOWN</span><br><br>",
-        "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8304GR-V2.pdf"
-      }
-    ]
-  },
-  "MSF8305GR": {
-    "title": "MSF8305GR — 27\" Mega Top Sandwich Prep Table",
-    "image": "MSF8305GRP.png",
-    "diagram": "MSF8305GRD.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
-  "documents": [
-    {
-      "title": "SPCIFICATION SHEET</span><br><br>",
-      "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8301GR_3610_8302_8303_8304_Specsheet_09272024.pdf"
-    },
-    {
-      "title": "PARTS BREAKDOWN</span><br><br>",
-      "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8303GR-V2.pdf"
-}
-]
-},
-"MSF8306GR": {
-    "title": "MSF8306GR — 48\" Sandwich Prep Table",
-    "image": "MSF8306GRP.png",
-    "diagram": "MSF8306GRD.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
-  "documents": [
-    {
-      "title": "SPCIFICATION SHEET</span><br><br>",
-      "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8305GR_3615_8306_8307_8308_Specsheet_09272024.pdf"
-    },
-    {
-      "title": "PARTS BREAKDOWN</span><br><br>",
-      "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8306GR-V2.pdf"
-}
-]
-},
-"MSF8307GR": {
-    "title": "MSF8307GR — 60\" Mega Top Sandwich Prep Table",
-    "image": "MSF8307GRP.png",
-    "diagram": "MSF8307GRD.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
-  "documents": [
-    {
-      "title": "SPCIFICATION SHEET</span><br><br>",
-      "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8305GR_3615_8306_8307_8308_Specsheet_09272024.pdf"
-    },
-    {
-      "title": "PARTS BREAKDOWN</span><br><br>",
-      "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8307GR-V2.pdf"
-}
-]
-},
-"MSF8308GR": {
-    "title": "MSF8308GR — Refrigerated Sandwich Prep Table",
-    "image": "MSF8308GRP.png",
-    "diagram": "MSF8308GRD.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
-  "documents": [
-    {
-      "title": "SPCIFICATION SHEET</span><br><br>",
-      "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8305GR_3615_8306_8307_8308_Specsheet_09272024.pdf"
-    },
-    {
-      "title": "PARTS BREAKDOWN</span><br><br>",
-      "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8308GR-V2.pdf"
-}
-]
-},
-"MSF17GR-NTCV": {
-    "title": "MSF17GR-NTCV— 17\" Sandwich Prep Table with Night Cover",
-    "image": "MSF17GRP-NTCV.png",
-    "diagram": "MSF17GRD-NTCV.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
-  "documents": [
-    {
-      "title": "SPCIFICATION SHEET</span><br><br>",
-      "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF17GR-NTCV_Specsheet_09272024.pdf"
-    }
-]
-},
-"MSF3610GR": {
-    "title": "MSF3610GR — 36\" Sandwich Prep Table",
-    "image": "MSF3610GRP.png",
-    "diagram": "MSF3610GRD.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
-  "documents": [
-    {
-      "title": "SPCIFICATION SHEET</span><br><br>",
-      "url": "https://atosausa.com/wp-content/uploads/2023/10/MSF8301GR_3610_8302_8303_8304_Specsheet_09272024.pdf"
-    }
-]
-},
-"MSF3615GR": {
+"MGF3615GR": {
     "title": "MSF3615GR — 36\" Sandwich Prep Table",
     "image": "MSF3615GRP.png",
     "diagram": "MSF3615GRD.png",
