@@ -7,28 +7,22 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f0f2f5;
+      background-image: url('https://i.loli.net/2018/06/07/5b18e530d3035.jpg'); /* 替换为你自己的背景图URL */
+      background-size: cover; /* 确保背景图铺满整个屏幕 */
+      background-position: center; /* 居中显示背景图 */
+      background-repeat: no-repeat; /* 防止背景图重复 */
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
       margin: 0;
-    }
-
-    .login-container {
-      background: white;
-      padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      width: 100%;
-      max-width: 400px;
+      color: rgb(53, 28, 124); /* 设置字体颜色为白色，以便与背景形成对比 */
       text-align: center;
     }
 
-    .login-container h1 {
+    h1 {
       margin-bottom: 1.5rem;
-      font-size: 1.5rem;
-      color: #333;
+      font-size: rem;
     }
 
     .form-group {
@@ -38,27 +32,29 @@
 
     .form-group label {
       display: block;
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
       font-weight: bold;
-      color: #555;
+      color: #0f0e0e;
     }
 
     .form-group input {
-      width: 100%;
-      padding: 0.75rem;
+      width: 300px; /* 输入框宽度 */
+      height: 40px; /* 设置输入框的高度 */
+      padding: 0.5rem;
       border: 1px solid #ccc;
       border-radius: 5px;
-      font-size: 1rem;
+      font-size: 1rem; /* 独立设置字体大小 */
       box-sizing: border-box;
     }
 
+
     .login-btn {
-      width: 100%;
+      width: 50%;
       padding: 0.75rem;
       background-color: #007bff;
       color: white;
       border: none;
-      border-radius: 5px;
+      border-radius: px;
       font-size: 1rem;
       cursor: pointer;
       transition: background-color 0.3s ease;
@@ -68,16 +64,37 @@
       background-color: #0056b3;
     }
 
-    .login-container p {
+    p {
       margin-top: 1rem;
       font-size: 0.9rem;
-      color: #777;
+      color: #ddd;
     }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+/* 通过rgba设置背景的透明度 */
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7); /* 通过rgba调节背景的透明度 */
+  z-index: -1; /* 确保覆盖在背景图层下面 */
+}
   </style>
 </head>
 <body>
-  <div class="login-container">
-    <h1>Login</h1>
+  <div>
+    <h1>ATOSA—TDC</h1>
     <form id="login-form">
       <div class="form-group">
         <label for="username">Username</label>
