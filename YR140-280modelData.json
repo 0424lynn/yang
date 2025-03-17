@@ -42,7 +42,8 @@
         "customer": [
           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
         
-          "If the customer is willing to cooperate, guide them on how to adjust the probe.<br><a href='https://0424lynn.github.io/yang/te probe.png' target='_blank'>Maintenance manual required</a>"
+          "If the customer is willing to cooperate, guide them on how to adjust the probe.<br><a href='https://0424lynn.github.io/yang/te probe.png' target='_blank'>Maintenance manual required</a></span><br><br>",
+        "The customer complains that the ice Bin is not full?<br><span style='color: red'>The ice production output varies at different temperatures,This table assumes the base temperature of the water coming out of the tap at the installation location is 70°F.;The values in the table are in Pounds per 24-hour period;The numbers listed are an approximation to provide a starting point on determining the amount of ice the unit will produce under the circumstances at the location.  <a href='./ICE PRO.png' target='_blank'>Ice Production Specifications</a>"
         ],
         "technician": [
           "Deep clean the probe assembly and guide the customer on how to clean it. <br><span style='color: red'>(If it is confirmed to be a cleaning issue, explain to the customer that this is not covered under the warranty)<a href='https://sc.atosausa.com/file/2024/09/10/I-003_Ice_Machine_Probe_Repositioning_c5147662-aad2-407f-84b0-fad644b71ccf.pdf' target='_blank'> Ice Machine Probe Repositioning for Grounding Issues</a></span><br><br>",
@@ -96,6 +97,7 @@
         ]
       }
     },
+   
     
     "documents": [
       {
@@ -141,7 +143,10 @@
           "url": "https://atosausa.com/wp-content/uploads/2023/10/YR140-AP-161_Specsheet_05152024.pdf"
         },
 
-
+        {
+          "title": "TECH SPECIFICATIONS</span><br><br>",
+          "url": "./YR SPECI.png"
+        },
         {
           "title": "PARTS BREAKDOWN</span><br><br>",
           "url": "https://atosausa.com/wp-content/uploads/2023/10/YR140-AP-161-V2.pdf"
@@ -164,6 +169,10 @@
         {
           "title": "SPCIFICATION SHEET</span><br><br>",
           "url": "https://atosausa.com/wp-content/uploads/2023/10/YR280-AP-161_Specsheet_05152024.pdf"
+        },
+        {
+          "title": "TECH SPECIFICATIONS</span><br><br>",
+          "url": "./YR SPECI.png"
         },
         {
           "title": "PARTS BREAKDOWN</span><br><br>",
