@@ -34,7 +34,8 @@
       },
      "Led issue": {
         "customer": [
-         "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)"
+         "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
+         "customer complains that the new top light panel is too bright?<br><span style='color: red'>The new cover plate has a built-in light, which makes it brighter than the old light strip. If the customer wants it dimmer, we suggest they replace it with our light strip. Please note that if the new board is replaced with the old light strip, the following components must also be replaced:<br>1.Bottom Frame 2.Top Frame 3.Right Frame 4.Left Frame 5.ATOSA logo 6.Left and Right Metal Support Parts 7.LED light"
         ],
         "technician": [
           "Check if the power supply is working.<br><span style='color: red'>()</span><br><br>",
