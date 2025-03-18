@@ -53,19 +53,21 @@
       "Not make ice Issue": {
         "customer": [
            "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
-         "Confirm that the switch is in ice-making mode and not in cleaning mode?</span><br><br>",
-          "Confirm whether the customer has installed a water filter?</span><br><br>",
-            "Confirm with the customer Is the water supply open?. <br><span style='color: red'>(Confirm if there is water in the trough?)</span><br><br>",
+        "Confirm whether the equipment is dirty or clogged?<br>1.<span style='color: red'>Ice machine cleaner is used to remove lime scale and mineral deposits. Ice machine sanitizer disinfects and removes algae and slime. For the cleaner and sanitizer, we recommend Atosa Ice Machine Cleaner and Sanitizer, but any Nickel Safe Ice Machine Cleaner should work​<a href='./MACHINE.png' target='_blank'>Cleaning and Sanitizing the Ice Machine</a><br><span style='color: black'>2.<span style='color: red'>Ice Maker Cleaning Procedure​<a href='./CLEANING.png' target='_blank'>Cleaning Procedure</a></span><br><br>",
+          "Confirm that the switch is in ice-making mode and not in cleaning mode?</span><br><br>",
+          "Confirm whether the customer has installed a water filter?<br>1.<span style='color: red'>Inline water filtration is required for all models of our ice machines.<br><span style='color: black'>2.<span style='color: red'>If the pressure is to exceed 80psi then a regulator will need to be installed.<br><span style='color: black'>3.<span style='color: red'>If the pressure is lower than 20 psi then a water pressurization system will need to be installed.<br><span style='color: black'>4.<span style='color: red'>The inlet water temperature should be between 35°-90°F<a href='./WATER FILTER.png' target='_blank'>Water Filter </a></span><br><br>",
+          "Confirm with the customer Is the water supply open?. <br><span style='color: red'>(Confirm if there is water in the trough?)</span><br><br>",
         "Confirm if the bottom filter has been cleaned. We recommend cleaning it once a month.<a href='https://0424lynn.github.io/yang/te probe.png' target='_blank'>Maintenance manual required</a></span><br><br>",
-        "Confirm that the ambient temperature around the unit is not too high?"
+        "Confirm that the ambient temperature around the unit is not too high?<br>1.<span style='color: red'>The ice machine should NEVER be installed outdoors,The ice machine should be installed in an air-conditioned space.<br><span style='color: black'>2.<span style='color: red'>The ambient air temperature should be between 50°-110°F.<br><span style='color: black'>3.<span style='color: red'>The ice machine should have at least 6 inches of clearance on all sides.<br><span style='color: black'>4.<span style='color: red'>Nothing should be placed on the top of, or up against the side of the ice machine.​"
         
         ],
         "technician": [ 
-          "Confirm whether the ice maker is functioning properly？<br>1.<span style='color: red'>Ensure that the water curtain plate is in a normally closed state and that no ice blocks are obstructing it.Confirm that the water curtain switch indicator light is displaying yellow. If the switch is in the closed position but the yellow light is not on, the water curtain switch may be faulty and needs to be replaced<a href='https://0424lynn.github.io/yang/D10.png' target='_blank'>D10-Water curtain LED</a>.<br><span style='color: black'>2.<span style='color: red'>In normal ice-making mode, the water pump, compressor, and fan will run continuously. Check each component to ensure it is functioning properly!<a href='https://0424lynn.github.io/yang/D2D5D6.png' target='_blank'>D2-Water,D5-Condenser Fan motor,D6-compresser</a></span><br><br>",
+          "Confirm whether the ice maker is functioning properly？<br>1.Power Plug Connection：<span style='color: red'> The control board led is on.​<a href='./MIAN POWER.png' target='_blank'>Main power Led </a><br><span style='color: black'>2.Startup:<span style='color: red'>Toggle the switch to the on position, the green led will flash; the hot gas valve opens for 10s, the compressor is energized​<a href='./STARTUP.png' target='_blank'>Startup</a><br><span style='color: black'>3.Ice Melt:<span style='color: red'>The hot gas valve stays open for 20s, then the water pump runs to flush the evaporator for 20s, the hot gas valve and water pump stop, the drain valve opens for 15s then closes​<a href='./ICE MELT.png' target='_blank'>Ice Melt</a><br><span style='color: black'>4.Prechill(40s):<span style='color: red'>The compressor is on, and the condenser fan and water inlet valve are energized, hot gas valve and water pump are closed, thus to prechill the evaporator​<a href='./PRECHILL.png' target='_blank'>Prechil</a><br><span style='color: black'>5.Freeze:<span style='color: red'>Water pump,Compressor,Fan motor are energized to make ice <a href='./FREEZE.png' target='_blank'>Freeze</a><br></span><br><br>",
+         "Does the equipment have power but not operate?<br><span style='color: red'>Ensure that the water curtain plate is in a normally closed state and that no ice blocks are obstructing it.Confirm that the water curtain switch indicator light is displaying yellow. If the switch is in the closed position but the yellow light is not on, the water curtain switch may be faulty and needs to be replaced<a href='https://0424lynn.github.io/yang/D10.png' target='_blank'>D10-Water curtain LED</a></span><br><br>",
           "Check if the water pump is working？(ensure that there is enough water in the trough)<br>1.<span style='color: red'> Check if the water pump indicator light on the control board is on and if there is voltage output. <a href='https://0424lynn.github.io/yang/water pump.png' target='_blank'>D2-water pump</a><br><span style='color: black'> 2. <span style='color: red'>If there is voltage output from the control board, measure whether the water pump has voltage input. If there is voltage but the pump is not working, replace the water pump.<br><span style='color: black'> 3. <span style='color: red'>If the water pump indicator light on the control board is off, check if the small fuse is blown<a href='https://0424lynn.github.io/yang/small fuse.png' target='_blank'>Check if the fuse is in good condition</a></span><br><br>",
           "Confirm whether the condenser fan is operating?<br><span style='color: red'>Check if the control board indicator light is on and if there is a voltage output<a href='https://0424lynn.github.io/yang/Fan motor.png' target='_blank'>D5-Fan motor</a></span><br><br>",
           "Check if the compressor is working properly? <br>1.<span style='color: red'>Check if the control board indicator light is on and if there is a voltage output<a href='https://0424lynn.github.io/yang/compress.png' target='_blank'>D6-compresser</a><br><span style='color: black'>2.<span style='color: red'>Check if the big fuse is good.<a href='https://0424lynn.github.io/yang/big fuse.png' target='_blank'>F1-compresser Fuse</a><br><span style='color: black'>3.<span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video </a>)<br><span style='color: black'>4.<span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3n'1 start kit<a href='https://0424lynn.github.io/yang/3n1.png' target='_blank'>3n'1 Operating Instructions</a></span><br><br>",
-          "All parts are functioning properly. Please check if there is a refrigerant leak."
+          "All parts are functioning properly,Please check if there is a refrigerant leak?<br><span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 30-40PSI,This creates a freeze plate temp of around 5°F-15°F."
        ]
       },
 "Water inlet valve-Test": {
@@ -83,7 +85,16 @@
           
         ],
         "technician": [
-          "Confirm whether the water outlet valve is functioning properly？<br><br>1.<span style='color: red'>To check if the drain valve is functioning properly, put the machine into cleaning mode and observe whether the water in the internal tank is being drained. If the water is drained, the drain valve is working properly.<br><br><span style='color: black'> 2.<span style='color: red'> Check if the indicator light on the control board is on and if there is a voltage output<a href=\"/water probe.png\" target=\"_blank\">D8-water probe</a>.<br><br><span style='color: black'> 3.<span style='color: red'>Measure whether the drain valve has a voltage input. If there is voltage but the valve does not work, replace the drain valve.<a href=\"/WIV.png\" target=\"_blank\">D1-Water Inlet Vavle</a>."
+          "Confirm whether the water outlet valve is functioning properly？<br><br>1.<span style='color: red'>To check if the drain valve is functioning properly, put the machine into cleaning mode and observe whether the water in the internal tank is being drained. If the water is drained, the drain valve is working properly.<br><br><span style='color: black'>2.<span style='color: red'>Measure whether the drain valve has a voltage input. If there is voltage but the valve does not work, replace the drain valve.<a href=\"/WIV.png\" target=\"_blank\">D1-Water Inlet Vavle</a><br><br><span style='color: black'>3.<span style='color: red'>During the ice harvest cycle, the dirty water must be completely drained from the unit. If it is not fully drained, adjustments need to be made.<a href='./ADJUST.png' target='_blank'>Adjust Drain V</a>"
+        ]
+      },
+      "NTC Probe-Test": {
+        "customer": [
+
+          
+        ],
+        "technician": [
+          "The function of the NTC Probe？<br><br><span style='color: red'>The NTC Probe is a 10k ohm thermistor and is only used by the unit to see if there is enough stored heat in the refrigerant to efficiently perform a harvest cycle.If the probe tells the control board that there’s not enough heat to harvest, then the control board will turn the condenser fan off for a few mins before performing harvest<a href='./NTC.png' target='_blank'>NTC Probe</a>.<br><br><span style='color: orange'>(The only reason to test the NTC probe is if the unit is having issues harvesting the ice off the evaporator within the harvest cycle time limit)"
         ]
       },
       "Power Issue": {
@@ -93,7 +104,6 @@
         ],
         "technician": [
          "If the unit has no power:<br>1.<span style='color: red'>Check if the controller wiring harness is properly connected and ensure there are no loose connections.<br><span style='color: black'>2.<span style='color: red'>Check if the Power Switch is faulty"
-        
         ]
       }
     },
@@ -134,7 +144,7 @@
       "title": "YR140-AP-161 —Undercounter Ice Maker (142 LB / 24 HR)",
       "image": "YR140P.png",
       "diagram": "YR140D.jpeg",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","Power Issue"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
       
       
       "documents": [
@@ -162,7 +172,7 @@
       "title": "YR280-AP-161 — Undercounter Ice Maker (283 LB / 24 HR)",
       "image": "YR140P.png",
       "diagram": "YR140D.jpeg",
-     "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","Power Issue"],
+     "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
       
       
       "documents": [
