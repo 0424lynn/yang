@@ -78,11 +78,11 @@
 
     <script>
         // 加载 JSON 数据并更新页面内容
-        fetch('YR140-280modelData.json')
+        fetch('YR450-800modelData.json')
             .then(response => response.json())
             .then(data => {
                 // 获取当前型号（比如 MSF8302GR）
-                let model = "YR280-AP-161";  // 可以根据需求动态设置
+                let model = "YR800-AP-261";  // 可以根据需求动态设置
 
 
 
@@ -120,10 +120,10 @@
 
         // 显示解决方案
         function showSolution(category) {
-            fetch('YR140-280modelData.json')
+            fetch('YR450-800modelData.json')
                 .then(response => response.json())
                 .then(data => {
-                    let model = "YR280-AP-161"; // 获取当前型号
+                    let model = "YR800-AP-261"; // 获取当前型号
                     let customerSolution = document.getElementById('customerSolution');
                     let technicianSolution = document.getElementById('technicianSolution');
 
