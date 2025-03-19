@@ -24,7 +24,7 @@
           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)"
         ],
         "technician": [
-          "Is there water leakage at the bottom of the unit? <br>1.<span style='color: red'> Check if the bottom drainage connecting pipe is not properly connected.<br><span style='color: black'>2. <span style='color: red'>Remove the back panel and check if each connection pipe is properly connected."
+         
         ]
       
       },
@@ -99,11 +99,11 @@
       },
       "Power Issue": {
         "customer": [
-          "The unit is completely non-functional?<br><span style='color: red'>(Check if the compressor and condenser fan are completely non-functional,Please replace the power outlet and try again to ensure there is power in the outlet.)</span><br><br>",
-          "Please ask the customer to check if the power cord is damaged?<br><span style='color: red'>(If there is any damage, please take a photo and send it to us. We will send part and  dispatch tech to repair it.)"
+          
+          "Please ask the customer to check if the power cord is damaged?<br><span style='color: red'>(If there is any damage, please take a photo and send it to us. We will send part and  dispatch tech to repair it.)</span><br><br>"
         ],
         "technician": [
-         "If the unit has no power:<br>1.<span style='color: red'>Check if the controller wiring harness is properly connected and ensure there are no loose connections.<br><span style='color: black'>2.<span style='color: red'>Check if the Power Switch is faulty"
+         "If the unit has no power:<br>1.<span style='color: red'>Check if the controller wiring harness is properly connected and ensure there are no loose connections.<br><span style='color: black'>2.<span style='color: red'>Check if the Power Switch is faulty</span><br><br>"
         ]
       }
     },
@@ -201,9 +201,16 @@
     "YR450-AP-161": {
       "title": "YR450-AP-161 — Modular Ice Maker (460 LB / 24 HR)",
       "image": "YR450P.png",
-      "diagram": "YR450D.jpeg",
+      "diagram": "YR140D.jpeg",
      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
-      
+      "leakingWater outside": {
+        "customer": [
+          ""
+        ],
+        "technician": [
+          "Is there water leakage at the bottom of the unit? <br><br>1.<span style='color: red'> Check if the bottom drainage connecting pipe is not properly connected.<br><br><span style='color: black'>2. <span style='color: red'>Confirm whether the drainpipe is damaged and needs to be replaced，If the Bin model is CYR400, please send the following parts；<span style='color: Orange'><br>Drain Pipe-CYR400P：W0409906 <br>Drain Washer M24：W040990601 <a href='https://sc.atosausa.com/file/2024/09/10/I-004_Ice_Machine_Bin_Drain_Fix_6696a44e-97c0-4601-8376-07768bb0b27f.pdf' target='_blank'> Ice Machine Drain Fix</a><br><br><span style='color: black'>3. <span style='color: red'> For the YR450 and 800 units installation is paramount. A misalignment will lead to water leaks and rusting. The unit should be flush on both sides and the back of the unit. A difference of ½ inch is enough to make the unit leak and will end up damaging the integrity of the unit.<a href='https://sc.atosausa.com/file/2024/09/10/I-001_Ice_Machine_Installation_f474f783-677c-40c2-85a7-9fa685dab4da.pdf' target='_blank'> Ice Machine Head Installation and Bracket</a>"
+        ]
+      },
       
       "documents": [
         {
@@ -220,20 +227,66 @@
         }
       ]
     },
-"MBF8008GR": {
-  "title": "MBF8008GR — Top Mount Two-Section (4) Divided Door Freezer",
-  "image": "MBF8008GRP.png",
-  "diagram": "MBF8008GRD.png",
-"issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
-"documents": [
-  {
-    "title": "SPCIFICATION SHEET",
-    "url": "https://atosausa.com/wp-content/uploads/2024/08/MBF8007GR_8007GRL_8008GR_Specsheet_11212024.pdf"
-  },
-  {
-    "title": "PARTS BREAKDOWN",
-    "url": "https://atosausa.com/wp-content/uploads/2023/10/MBF8008GR-V2.pdf"
-  }
+    "YR450S-AP-161": {
+      "title": "YR450S-AP-161 — Modular Ice Maker (460 LB / 24 HR)",
+      "image": "YR450SP.png",
+      "diagram": "YR140D.jpeg",
+     "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
+      "leakingWater outside": {
+        "customer": [
+          ""
+        ],
+        "technician": [
+          "Is there water leakage at the bottom of the unit? <br><br>1.<span style='color: red'> Check if the bottom drainage connecting pipe is not properly connected.<br><br><span style='color: black'>2. <span style='color: red'>Confirm whether the drainpipe is damaged and needs to be replaced，If the Bin model is CYR400, please send the following parts；<span style='color: Orange'><br>Drain Pipe-CYR400P：W0409906 <br>Drain Washer M24：W040990601 <a href='https://sc.atosausa.com/file/2024/09/10/I-004_Ice_Machine_Bin_Drain_Fix_6696a44e-97c0-4601-8376-07768bb0b27f.pdf' target='_blank'> Ice Machine Drain Fix</a>"
+        ]
+      },
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR450-AP-161_Specsheet_05152024.pdf"
+        },
+        {
+          "title": "TECH SPECIFICATIONS</span><br><br>",
+          "url": "./YR SPECI.png"
+        }
+        
+      ]
+    },
+"YR800-AP-261": {
+      "title": "YR800-AP-261 — Modular Ice Maker (800 LB / 24 HR)",
+      "image": "YR800P.png",
+      "diagram": "YR140D.jpeg",
+     "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
+      "leakingWater outside": {
+        "customer": [
+          ""
+        ],
+        "technician": [
+          "Is there water leakage at the bottom of the unit? <br><br>1.<span style='color: red'> Check if the bottom drainage connecting pipe is not properly connected.<br><br><span style='color: black'>2. <span style='color: red'>Confirm whether the drainpipe is damaged and needs to be replaced，If the Bin model is CYR400, please send the following parts；<span style='color: Orange'><br>Drain Pipe-CYR400P：W0409906 <br>Drain Washer M24：W040990601 <a href='https://sc.atosausa.com/file/2024/09/10/I-004_Ice_Machine_Bin_Drain_Fix_6696a44e-97c0-4601-8376-07768bb0b27f.pdf' target='_blank'> Ice Machine Drain Fix</a><br><br><span style='color: black'>3. <span style='color: red'> For the YR450 and 800 units installation is paramount. A misalignment will lead to water leaks and rusting. The unit should be flush on both sides and the back of the unit. A difference of ½ inch is enough to make the unit leak and will end up damaging the integrity of the unit.<a href='https://sc.atosausa.com/file/2024/09/10/I-001_Ice_Machine_Installation_f474f783-677c-40c2-85a7-9fa685dab4da.pdf' target='_blank'> Ice Machine Head Installation and Bracket</a>"
+        ]
+      },"Power Issue": {
+        "customer": [
+          "Is the plug installed correctly?<br><span style='color: red'> The YR800 240v ice machine ships with a NEMA L14-20P and requires a NEMA L14-20R Receptacle.<br>​The Ice Machines SHOULD NEVER be plugged into an extension cord of any kind.<a href='https://sc.atosausa.com/file/2025/03/18/I-006_NEMA_L14-20_Receptacle_Voltage_f8d99398-a03c-40a1-b0e1-fbec8e00d850.pdf' target='_blank'>Electrical Wiring Notes</a>"
+        ],
+        "technician": [
+          
+        ]
+      },
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR800-AP-261_Specsheet_05152024.pdf"
+        },
+        {
+          "title": "TECH SPECIFICATIONS</span><br><br>",
+          "url": "./YR SPECI.png"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR800-AP-261-V2-1.pdf"
+        }
     
 ]
 }
