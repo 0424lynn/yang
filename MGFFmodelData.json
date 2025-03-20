@@ -25,24 +25,13 @@
       },
       "leakingWater outside": {
         "customer": [
-          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
-          "Is there condensation on the outer surfaces of the refrigerator on both sides? <br><span style='color: red'>(Please confirm whether the distance between the two unites is too close,It is recommended to maintain a distance of 10-15 cm between each refrigerator.)"
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>"
         ],
         "technician": [
-          "lower suction tube leaking water?<br><span style='color: red'>(This issue appears as a small trickle or puddle in the back of the unit and is visible when a tech checks the lowside insulation)<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</span><br><br>",
-        "Is there water leakage at the bottom of the air pressure relief valve? <br><span style='color: red'>(There is water leakage at the air pressure balance valve, and the sealant needs to be reapplied.<br>Here is the repair manual<a href='https://sc.atosausa.com/file/2024/09/03/C-001_Tech_Guidance_d72efe6b-2449-492d-9804-38d934e01491.pdf' target='_blank'> Air Relief Valve  </a>)"
+          "lower suction tube leaking water?<br><span style='color: red'>(This issue appears as a small trickle or puddle in the back of the unit and is visible when a tech checks the lowside insulation)<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</span><br><br>"
         ]
       },
-     "Led issue": {
-        "customer": [
-          "Please confirm if the light turns on when the door is opened? <br><span style='color: red'>( If it doesn't turn on, it’s likely that the related parts are faulty, and a technician will need to be sent for inspection.The specific troubleshooting method is in the technical solution)"
-        ],
-        "technician": [
-          "Check if the power supply is working.<br><span style='color: red'>(The LED lighting on the unit is 24vdc. The lighting control board and the lighting power supply can all be accessed from the front of the unit. Here is the Diagnostic manual <a href='https://0424lynn.github.io/yang/Led_wiring.png' target='_blank'>Led wiring</a>)</span><br><br>",
-          "Check if the Led Controller is working.<br><span style='color: red'>(This small board is the LED lighting controller. Here is the Diagnostic manual <a href='https://0424lynn.github.io/yang/Led_controller.png' target='_blank'>Led controller board</a>)</span><br><br>",
-          "Check if the Led is working.<br><span style='color: red'>(If the LED Lighting connector is getting voltage and the light is still not coming on, then the LED light is faulty. Here is the Diagnostic manual <a href='https://0424lynn.github.io/yang/Led_light.png' target='_blank'>Led</a>)"
-      ]
-      },
+    
        "physical Damage": {
         "customer": [
           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
@@ -85,15 +74,15 @@
         },
       "error Code": {
         "customer": [
-          "Dixell Parameters: <br>P1:<span style='color: red'>Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style='color: black;'>P2:<span style='color: red;'> Evaportor Probe Failure(Blue Proe) or Loose Wiring on the controler.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>Door open long time or door magnetic switches issue.</span><br><br>",
+          "Dixell Parameters: <br>P1:<span style='color: red'>Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style='color: black;'>P2:<span style='color: red;'> Evaportor Probe Failure(Blue Proe) or Loose Wiring on the controler.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>The MGF series doesn't have door magnetic switches.</span><br><br>",
           "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
-         "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 1 of 7</a>)"
+         "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 7 of 7</a>)"
         
         ],
         "technician": [
-          "Carel Parameters: <a href=\"https://www.youtube.com/watch?v=qtIBfB-pK8I&t=47s\" target=\"_blank\">Atosa Carel Freezer parameters</a><br> <span style=\"color: black;\">EO:</span><span style=\"color: red;\"> Probe 1 (White Probe) Failed or Disconnected. Code shows when probe is disconnected.</span><br> <span style=\"color: black;\">El:</span><span style=\"color: red;\"> Probe 2 Failed or Disconnected. Code shows when probe is disconnected. If unit is a refrigerator change d0 parameter to 2</span><br> <span style=\"color: black;\">OF:</span><span style=\"color: red;\"> Hold down the power button for 3sec </span><a href=\"https://www.youtube.com/watch?v=rF8OkY-XBT8\" target=\"_blank\">Operation video</a><br> <span style=\"color: black;\">Do:</span><span style=\"color: red;\"> Door Open Alarm. Verify A4 parameter is set to 6 and check the magnet door switch wiring</span><a href=\"https://www.youtube.com/watch?v=ZelNDCVHa1g\" target=\"_blank\"> Do Code Solution</a><br> <span style=\"color: black;\">EE&amp;EF:</span><span style=\"color: red;\"> Unit Parameter Error. Replace Controller.</span><br> <span style=\"color: black;\">ED:</span><span style=\"color: red;\"> Defrost Ended by Timeout. Possible P2 Probe Failure or Defrost Solenoid Issue.</span><br> <span style=\"color: black;\">DF:</span><span style=\"color: red;\"> Unit is in Defros</span></span><br><br>",
+          "Carel Parameters: <a href=\"https://www.youtube.com/watch?v=qtIBfB-pK8I&t=47s\" target=\"_blank\">Atosa Carel Freezer parameters</a><br> <span style=\"color: black;\">EO:</span><span style=\"color: red;\"> Probe 1 (White Probe) Failed or Disconnected. Code shows when probe is disconnected.</span><br> <span style=\"color: black;\">El:</span><span style=\"color: red;\"> Probe 2 Failed or Disconnected. Code shows when probe is disconnected. If unit is a refrigerator change d0 parameter to 2</span><br> <span style=\"color: black;\">OF:</span><span style=\"color: red;\"> Hold down the power button for 3sec </span><a href=\"https://www.youtube.com/watch?v=rF8OkY-XBT8\" target=\"_blank\">Operation video</a><br> <span style=\"color: black;\"></span><span style=\"color: BLACK;\"> Do:<span style='color: red;''>The MGF series doesn't have door magnetic switches. <br> <span style=\"color: black;\">EE&amp;EF:</span><span style=\"color: red;\"> Unit Parameter Error. Replace Controller.</span><br> <span style=\"color: black;\">ED:</span><span style=\"color: red;\"> Defrost Ended by Timeout. Possible P2 Probe Failure or Defrost Solenoid Issue.</span><br> <span style=\"color: black;\">DF:</span><span style=\"color: red;\"> Unit is in Defros</span></span><br><br>",
           "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
-          "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 1 of 7</a>)"
+          "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 6 of 7</a>)"
         ]
       }
     },
@@ -125,7 +114,7 @@
       "title": "MGF8405GR — 27 Undercounter Freezer",
       "image": "MGF8405GRP.png",
       "diagram": "MGF8405GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
       
       
       "documents": [
@@ -149,7 +138,7 @@
       "title": "MGF8406GR — 48 Undercounter Freezer",
       "image": "MGF8406GRP.png",
       "diagram": "MGF8406GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
       
       
       "documents": [
@@ -173,7 +162,7 @@
       "title": "MGF8407GR — 60 Undercounter Freezer",
       "image": "MGF8407GRP.png",
       "diagram": "MGF8407GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
       
       
       "documents": [
@@ -197,33 +186,72 @@
       "title": "MGF8412GR — 27 Worktop Freezer with Backsplash",
       "image": "MGF8412GRP.png",
       "diagram": "MGF8412GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
       
       
       "documents": [
         {
           "title": "SPCIFICATION SHEET</span><br><br>",
           "url": "https://atosausa.com/wp-content/uploads/2023/10/MGF8412GR_8413_8414_Specsheet_12022024.pdf"
-        },
-        
-       
+        }
+      ]
+    
+    },
+    "MGF8413GR": {
+      "title": "MGF8413GR — 48 Worktop Freezer with Backsplash",
+      "image": "MGF8413GRP.png",
+      "diagram": "MGF8413GRD.png",
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
+      
+      
+      "documents": [
         {
-          "title": "COMPRESSOR WIRING DIAGRAM-NUT35/NUT45/NUT70 </span><br><br>",
-              "url": "./NUT35%20NUT45%20NUT70.png"
-  }
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/MGF8412GR_8413_8414_Specsheet_12022024.pdf"
+        }
+      ]
+    
+    },
+    "MGF8414GR": {
+      "title": "MGF8414GR — 60 Worktop Freezer with Backsplash",
+      "image": "MGF8414GRP.png",
+      "diagram": "MGF8414GRD.png",
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/MGF8412GR_8413_8414_Specsheet_12022024.pdf"
+        }
+      ]
+    
+    },
+    "MGF8428GR": {
+      "title": "MGF8428GR — 27 Worktop Freezer with Drawers & Backsplash",
+      "image": "MGF8428GRP.png",
+      "diagram": "MGF8428GRD.png",
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2024/10/MGF8428GR_Specsheet_10212024.pdf"
+        }
       ]
     
     },
     
-  "MBF8531GR": {
-    "title": "MBF8531GR — Bottom Mount One-Door Freezer",
-    "image": "MBF8531GRP.png",
-    "diagram": "MBF8531GRD.png",
-    "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+  "MGF8420GR": {
+    "title": "MGF8420GR — 27 Undercounter Freezer with Drawers",
+    "image": "MGF8420GRP.png",
+    "diagram": "MGF8420GRD.png",
+    "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
     "documents": [
     {
         "title": "SPCIFICATION SHEET</span><br><br>",
-        "url": "https://atosausa.com/wp-content/uploads/2023/10/MBF8520GR_8531GR_8501GR_8501GRL_8502GR_8503GR_8504GR_Specsheet_01152025.pdf"
+        "url": "https://atosausa.com/wp-content/uploads/2024/10/MGF8420GR_Specsheet_10212024.pdf"
       }
     
 ]
