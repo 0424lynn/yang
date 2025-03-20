@@ -48,11 +48,11 @@
         "customer": [
           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
           "If the door gasket is damaged, suggest the customer replace it themselves <br><span style='color: red'>(as door gaskets are considered consumable parts Send the replacement tutorial video to the customer<a href='https://youtu.be/8fOAAQySY6w' target='_blank'> Door Gasket Replacement Video </a>)</span><br><br>",
-          "The Air Divider weld point is cracked.<br><span style='color: red'>(Send a new part to the customer, allowing them to install it themselves or arrange for a technician to perform the repair<a href='https://sks.atosausa.com/media/notices/C-023_Tech_Guidance.pdf' target='_blank'>MSF INNER PAN BROKEN CORNER WELDS REPAIR</a>"
+          "How to replace the Pilasters and Clips?<br><span style='color: red'>(Send the parts to the customer for self-replacement <a href='https://0424lynn.github.io/yang/Clips.png' target='_blank'>Pilasters and Clips</a>)</span><br><br>",
+       "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)"
         ],
         "technician": [
-          "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)</span><br><br>",
-          "If the handle is broken, Do not send the new Lid! technician needs to be dispatched for replacement<br><span style='color: red'> (cut the silicone seal on both sides of the lid, then separate the cover plate to access the internal screws. Reminder: After reassembling, remember to reseal with silicone<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</a>)"
+          "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)</span><br><br>"
         ]
       },
       "cooling Issue": {
@@ -65,8 +65,9 @@
           "Check if Evap fans working inside——Please confirm whether the fan voltage is 115V or 24V. <br><span style='color: red'>(The old unit, which has an transformer, uses a 24V fan, while the updated unit uses a 115V fan)</span><br><br>",
           "115V Fan Troubleshooting:<br>1.<span style='color: red'>If all fans are not working, please check if there is output 115V  for the fans on the controller board</span> <a href='https://0424lynn.github.io/yang/Dixell.png' target='_blank'>Dixell Fan Voltage Test</a>, <<a href='https://0424lynn.github.io/yang/Carel.png' target='_blank'>Carel Fan Voltage Test</a> <span style='color: red'>(If there is no voltage,replace the controller board)<br><span style='color: black'>2.</span> <span style='color: red'>If only one fan is not working, replace the fan directly.</span></span><br><br>",
           "24V Fan Troubleshooting:<br>1.<span style='color: red'>If all fans are not working, Check if the transformer has 115V input or 24V output:<br>①.If the transformer has a 115V input, but no 24V output, replace the transformer.<br>②.If the transformer has no 115V input,please check if there is a 115V output on the control board<a href='https://0424lynn.github.io/yang/Dixell.png' target='_blank'>Dixell Fan Voltage Test</a> <span style='color: red'>(If there is no voltage,replace the controller board)</span><br><br>",
-          "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1.<span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 36-38 PSI<br><span style='color: black'>2.<span style='color: red'>If the tech needs us to provide capillary tube fittings,Please let the tech know we recommend cut 2-3 inches of the end cap tube and blow the whole system by nitrogen and then replace a new universal filter drier, vacuum and recharge the unit</span><br><br>",
-          "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）"
+          "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）</span><br><br>",
+          "Check if the compressor is working properly? <br>1.<span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video </a>)<br><span style='color: black'>2.<span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3n'1 start kit<a href='/3n1.png' target='_blank'> 3n'1 Operating Instructions)</span><br><br>",
+          "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1.<span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 44-46 PSI,please refer to this parameter <a href=\"/psi.png\" target=\"_blank\">Pressure temperature Chart</a>)<br></span>\n<span style=\"color: black\">2.<span style=\"color: red\">Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor.<a href=\"/Solder joint diagram.png\" target=\"_blank\">Refrigerant Circuit Diagram</a></span></span><br><span style='color: black'>3.<span style='color: red'>If the tech needs us to provide capillary tube fittings,Please let the tech know we recommend cut 2-3 inches of the end cap tube and blow the whole system by nitrogen and then replace a new universal filter drier, vacuum and recharge the unit"
         ]
       }, "Power Issue": {
         "customer": [
@@ -74,17 +75,17 @@
           "Please ask the customer to check if the power cord is damaged?<br><span style='color: red'>(If there is any damage, please take a photo and send it to us. We will send part and  dispatch tech to repair it.)"
         ],
         "technician": [
-         "If the equipment is short-circuiting:<br><span style='color: red'>①.Check if the control board has been damaged by water <br><span style='color: red'>(Usually, water can enter the control board during kitchen cleaning) <br> <span style='color: red'>②.Check if the fan wiring is in contact with the sheet metal <br><span style='color: red'>(If the wiring is positioned incorrectly, prolonged vibration can cause the wiring to be cut, Repair Suggestions<a href='https://sks.atosausa.com/media/notices/C-014_Tech_Guidance.pdf' target='_blank'>MSF FAN RATTLE - TRIPPING</a>"
+         "If the equipment is short-circuiting:<br><span style='color: red'>①.Check if the control board has been damaged by water <br><span style='color: red'>(Usually, water can enter the control board during kitchen cleaning) <br> <span style='color: red'>②.Check if the fan wiring is in contact with the sheet metal <br><span style='color: red'>(If the wiring is positioned incorrectly, prolonged vibration can cause the wiring to be cut, Repair Suggestions<a href='https://sks.atosausa.com/media/notices/C-014_Tech_Guidance.pdf' target='_blank'>FAN RATTLE - TRIPPING</a>"
         ]
         },
       "error Code": {
         "customer": [
-          "Dixell Parameters——(All US under-counter refrigerators use the Dixell controller) <br>P1:<span style='color: red'>Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style='color: black;'>P2:<span style='color: red;'>This unit doesn't have a defrost probe. Please calibrate the parameters first (Check the P2 parameter to see if it's set to 'n')or replace the control board.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>The MSF series doesn't have door magnetic switches.</span><br><br>",
+          "Dixell Parameters——(All US under-counter refrigerators use the Dixell controller) <br>P1:<span style='color: red'>Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style='color: black;'>P2:<span style='color: red;'>This unit doesn't have a defrost probe. Please calibrate the parameters first (Check the P2 parameter to see if it's set to 'n')or replace the control board.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>The MGF series doesn't have door magnetic switches.</span><br><br>",
           "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
           "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 5 of 7</a>)"
         ],
         "technician": [
-          "Carel Parameters——(All Canadian under-counter refrigerators use the Carel controller)<br> <span style='color: black;''>EO:<span style='color: red'>Probe 1 Failure(White Probe) <br> <span style='color: black;''>El:<span style='color: red'>Probe 2 Failure(Blue Probe);(dO =0/1] [if refrigertor has El, check parameter do to 2<br><span style='color: black;'>E3:<span style='color: red;'>Bad controller<br><span style='color: black;''>Do:<span style='color: red;''>The MSF series doesn't have door magnetic switches. <br> <span style='color: black;''>ER:<span style='color: red;''>MSF product, please replace it with the Dixell three-piece set:Front display,green clip,controller board</span><br><br>",
+          "Carel Parameters——(All Canadian under-counter refrigerators use the Carel controller)<br> <span style='color: black;''>EO:<span style='color: red'>Probe 1 Failure(White Probe) <br> <span style='color: black;''>El:<span style='color: red'>Probe 2 Failure(Blue Probe);(dO =0/1] [if refrigertor has El, check parameter do to 2<br><span style='color: black;'>E3:<span style='color: red;'>Bad controller<br><span style='color: black;''>Do:<span style='color: red;''>The MGF series doesn't have door magnetic switches. <br> <span style='color: black;''>ER:<span style='color: red;''>MGF product, please replace it with the Dixell three-piece set:Front display,green clip,controller board</span><br><br>",
           "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
           "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 4 of 7</a>)"
         ]
@@ -316,6 +317,36 @@
           "title": "COMPRESSOR WIRING DIAGRAM-NUT35/NUT45/NUT70 </span><br><br>",
               "url": "./NUT35%20NUT45%20NUT70.png"
   }
+      ]
+    
+    },
+    "MGF8415GR": {
+      "title": "MGF8415GR —27 Two-Drawer Undercounter Refrigerator",
+      "image": "MGF8415GRP.png",
+      "diagram": "MGF8415GRD.png",
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/MGF8415GR_Specsheet_10212024.pdf"
+        }
+      ]
+    
+    },
+    "MGF8423GR": {
+      "title": "MGF8423GR —27 Worktop Refrigerator with Drawers & Backsplash",
+      "image": "MGF8423GRP.png",
+      "diagram": "MGF8423GRD.png",
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2024/10/MGF8423GR_Specsheet_10212024.pdf"
+        }
       ]
     
     },
