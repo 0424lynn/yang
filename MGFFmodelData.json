@@ -31,6 +31,15 @@
           "lower suction tube leaking water?<br><span style='color: red'>(This issue appears as a small trickle or puddle in the back of the unit and is visible when a tech checks the lowside insulation)<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</span><br><br>"
         ]
       },
+      "No display but cooling is functioning normall": {
+        "customer": [
+          "Ask the customer to take a photo to confirm if anything is installed on the right side of the unite. <br><span style='color: red'>(Screws might damage the internal wiring, causing the display to be irreparable. This is not covered under warranty,but we can provide a repair solution.<a href='https://sc.atosausa.com/file/2025/02/03/MSF%20Display%20Wire%20Fix_a5a124d1-da05-415c-a70d-68af2e286220.pdf' target='_blank'>Display Wire Repair</a>)"
+        ],
+        "technician": [
+          "Check if the display port has a 24V output?<br><span style='color: black'>1.<span style='color: red;'>(Voltage Present but No Display: Reverse the terminal connector and try again. If it still doesn't display, replace the display) <br><span style='color: black;'>2.<span style='color: red;'>(No Voltage: Measure the control board’s display terminal to check if there is a 24V output. if there is no voltage, the control board needs to be replaced)<br><span style='color: black;'>3.<span style='color: red;'>(Terminal Connection: Inspect if the terminal inside the cabinet is not properly connected)</span><br><br>",
+        "If the new display is still not showing and the voltage is normal.<br><span style='color: red'>(Try reversing the direction of the green clip terminal block and test again. It is possible that the positive and negative connections are reversed.)"
+        ]
+      },
     
        "physical Damage": {
         "customer": [
@@ -114,7 +123,7 @@
       "title": "MGF8405GR — 27 Undercounter Freezer",
       "image": "MGF8405GRP.png",
       "diagram": "MGF8405GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside", "No display but cooling is functioning normall","physical Damage","cooling Issue","Power Issue","error Code"],
       
       
       "documents": [
@@ -138,7 +147,7 @@
       "title": "MGF8406GR — 48 Undercounter Freezer",
       "image": "MGF8406GRP.png",
       "diagram": "MGF8406GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside", "No display but cooling is functioning normall","physical Damage","cooling Issue","Power Issue","error Code"],
       
       
       "documents": [
@@ -162,7 +171,7 @@
       "title": "MGF8407GR — 60 Undercounter Freezer",
       "image": "MGF8407GRP.png",
       "diagram": "MGF8407GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside", "No display but cooling is functioning normall","physical Damage","cooling Issue","Power Issue","error Code"],
       
       
       "documents": [
@@ -186,7 +195,7 @@
       "title": "MGF8412GR — 27 Worktop Freezer with Backsplash",
       "image": "MGF8412GRP.png",
       "diagram": "MGF8412GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside", "No display but cooling is functioning normall","physical Damage","cooling Issue","Power Issue","error Code"],
       
       
       "documents": [
@@ -201,7 +210,7 @@
       "title": "MGF8413GR — 48 Worktop Freezer with Backsplash",
       "image": "MGF8413GRP.png",
       "diagram": "MGF8413GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside", "No display but cooling is functioning normall","physical Damage","cooling Issue","Power Issue","error Code"],
       
       
       "documents": [
@@ -216,7 +225,7 @@
       "title": "MGF8414GR — 60 Worktop Freezer with Backsplash",
       "image": "MGF8414GRP.png",
       "diagram": "MGF8414GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside", "No display but cooling is functioning normall","physical Damage","cooling Issue","Power Issue","error Code"],
       
       
       "documents": [
@@ -231,7 +240,7 @@
       "title": "MGF8428GR — 27 Worktop Freezer with Drawers & Backsplash",
       "image": "MGF8428GRP.png",
       "diagram": "MGF8428GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside", "No display but cooling is functioning normall","physical Damage","cooling Issue","Power Issue","error Code"],
       
       
       "documents": [
@@ -242,12 +251,50 @@
       ]
     
     },
+    "MGF24FGR": {
+      "title": "MGF24FGR — 24 Undercounter Freezer",
+      "image": "MGF24FGRP.png",
+      "diagram": "MGF24FGRD.png",
+      "issues": ["noise", "leakingWater inside", "leakingWater outside", "No display but cooling is functioning normall","physical Damage","cooling Issue","Power Issue","error Code"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/MGF24FGR_8405GR_8405GRL_36FGR_8406GR_8407GR_Specsheet_08022024.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/MGF24FGR-V2.pdf"
+        }
+      ]
+    
+    },
+    "MGF36FGR": {
+      "title": "MGF36FGR — 36 Undercounter Freezer",
+      "image": "MGF36FGRP.png",
+      "diagram": "MGF36FGRD.png",
+      "issues": ["noise", "leakingWater inside", "leakingWater outside", "No display but cooling is functioning normall","physical Damage","cooling Issue","Power Issue","error Code"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/MGF24FGR_8405GR_8405GRL_36FGR_8406GR_8407GR_Specsheet_08022024.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/MGF36FGR-V2.pdf"
+        }
+      ]
+    
+    },
     
   "MGF8420GR": {
     "title": "MGF8420GR — 27 Undercounter Freezer with Drawers",
     "image": "MGF8420GRP.png",
     "diagram": "MGF8420GRD.png",
-    "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","cooling Issue","Power Issue","error Code"],
+    "issues": ["noise", "leakingWater inside", "leakingWater outside", "No display but cooling is functioning normall","physical Damage","cooling Issue","Power Issue","error Code"],
     "documents": [
     {
         "title": "SPCIFICATION SHEET</span><br><br>",

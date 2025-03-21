@@ -52,7 +52,8 @@
        "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)"
         ],
         "technician": [
-          "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)</span><br><br>"
+          "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)</span><br><br>",
+       "If there is an issue with the door, pay attention to the following when replacing it:<br><span style='color: red'>(When you install the new door, try opening and closing it to see if it closes by itself. If not, then it is not turned correctly or the resistance is not strong enough <a href='https://0424lynn.github.io/yang/replace_door.png' target='_blank'>Door Installation Method</a>)"
         ]
       },
       "cooling Issue": {
@@ -261,7 +262,7 @@
       "title": "MGF8408GR — 27 Worktop Refrigerator with Backsplash",
       "image": "MGF8408GRP.png",
       "diagram": "MGF8408GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
       
       
       "documents": [
@@ -282,7 +283,7 @@
       "title": "MGF8409GR — 48 Worktop Refrigerator with Backsplash",
       "image": "MGF8409GRP.png",
       "diagram": "MGF8409GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
       
       
       "documents": [
@@ -303,7 +304,7 @@
       "title": "MGF8410GR —60 Worktop Refrigerator with Backsplash",
       "image": "MGF8409GRP.png",
       "diagram": "MGF8410GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
       
       
       "documents": [
@@ -324,7 +325,7 @@
       "title": "MGF8415GR —27 Two-Drawer Undercounter Refrigerator",
       "image": "MGF8415GRP.png",
       "diagram": "MGF8415GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
       
       
       "documents": [
@@ -339,7 +340,7 @@
       "title": "MGF8423GR —27 Worktop Refrigerator with Drawers & Backsplash",
       "image": "MGF8423GRP.png",
       "diagram": "MGF8423GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
       
       
       "documents": [
