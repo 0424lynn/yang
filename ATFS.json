@@ -1,0 +1,208 @@
+{
+  "common": {
+    "issues": {
+      
+      "leakingOil outside": {
+        "customer": [
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)"
+        ],
+        "technician": [
+          "Is there Oil leakage at the bottom of the unit? <br><span style='color: red'> Please confirm whether the oil leak is due to poor welding at the tank body"
+        ]
+      
+      },
+      "physical Damage": {
+        "customer": [
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+        "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)</span><br><br>"
+      
+        ],
+        "technician": [
+          "If the leg is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the leg along with the nuts when shipping the accessories!)"
+        ]
+          },
+      
+      "Hot issue ": {
+        "customer": [
+           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+        "Confirm with the customer whether the installation was done correctly?<br>1.<span style='color: red'>Confirm whether the equipment and the gas used by the customer are compatible<br><span style='color: black'>①.<span style='color: red'>If it's NG (Natural Gas), the customer doesn't need to install any regulator. The pressure can be adjusted directly on the combination valve<a href='./PRESSURE.png' target='_blank'> pressure adjustment</a><br><span style='color: black'>②.<span style='color: red'>"
+          
+        ],
+        "technician": [ 
+          "Confirm whether the ice maker is functioning properly？<br>1.Power Plug Connection：<span style='color: red'> The control board led is on.​<a href='./MIAN POWER.png' target='_blank'>Main power Led </a><br><span style='color: black'>2.Startup:<span style='color: red'>Toggle the switch to the on position, the green led will flash; the hot gas valve opens for 10s, the compressor is energized​<a href='./STARTUP.png' target='_blank'>Startup</a><br><span style='color: black'>3.Ice Melt:<span style='color: red'>The hot gas valve stays open for 20s, then the water pump runs to flush the evaporator for 20s, the hot gas valve and water pump stop, the drain valve opens for 15s then closes​<a href='./ICE MELT.png' target='_blank'>Ice Melt</a><br><span style='color: black'>4.Prechill(40s):<span style='color: red'>The compressor is on, and the condenser fan and water inlet valve are energized, hot gas valve and water pump are closed, thus to prechill the evaporator​<a href='./PRECHILL.png' target='_blank'>Prechil</a><br><span style='color: black'>5.Freeze:<span style='color: red'>Water pump,Compressor,Fan motor are energized to make ice <a href='./FREEZE.png' target='_blank'>Freeze</a><br></span><br><br>",
+         "Does the equipment have power but not operate?<br><span style='color: red'>Ensure that the water curtain plate is in a normally closed state and that no ice blocks are obstructing it.Confirm that the water curtain switch indicator light is displaying yellow. If the switch is in the closed position but the yellow light is not on, the water curtain switch may be faulty and needs to be replaced<a href='https://0424lynn.github.io/yang/D10.png' target='_blank'>D10-Water curtain LED</a></span><br><br>",
+          "Check if the water pump is working？(ensure that there is enough water in the trough)<br>1.<span style='color: red'> Check if the water pump indicator light on the control board is on and if there is voltage output. <a href='https://0424lynn.github.io/yang/water pump.png' target='_blank'>D2-water pump</a><br><span style='color: black'> 2. <span style='color: red'>If there is voltage output from the control board, measure whether the water pump has voltage input. If there is voltage but the pump is not working, replace the water pump.<br><span style='color: black'> 3. <span style='color: red'>If the water pump indicator light on the control board is off, check if the small fuse is blown<a href='https://0424lynn.github.io/yang/small fuse.png' target='_blank'>Check if the fuse is in good condition</a></span><br><br>",
+          "Confirm whether the condenser fan is operating?<br><span style='color: red'>Check if the control board indicator light is on and if there is a voltage output<a href='https://0424lynn.github.io/yang/Fan motor.png' target='_blank'>D5-Fan motor</a></span><br><br>",
+          "Check if the compressor is working properly? <br>1.<span style='color: red'>Check if the control board indicator light is on and if there is a voltage output<a href='https://0424lynn.github.io/yang/compress.png' target='_blank'>D6-compresser</a><br><span style='color: black'>2.<span style='color: red'>Check if the big fuse is good.<a href='https://0424lynn.github.io/yang/big fuse.png' target='_blank'>F1-compresser Fuse</a><br><span style='color: black'>3.<span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video </a>)<br><span style='color: black'>4.<span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3n'1 start kit<a href='https://0424lynn.github.io/yang/3n1.png' target='_blank'>3n'1 Operating Instructions</a></span><br><br>",
+          "All parts are functioning properly,Please check if there is a refrigerant leak?<br><span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 30-40PSI,This creates a freeze plate temp of around 5°F-15°F."
+       ]
+      },
+"Water inlet valve-Test": {
+        "customer": [
+
+           "Confirm with the customer Is the water supply open?"
+        ],
+        "technician": [
+          "Confirm whether the water inlet valve is functioning properly？<br><br>1.<span style='color: red'> Confirm if the water trougn is full of water? If it is, the inlet valve is functioning properly.<br><br><span style='color: black'> 2.<span style='color: red'>  Ensure that the water level probe is functioning properly. If the probe is damaged, it may also cause the inlet valve to stop working. Under normal conditions, When the probe comes into contact with water, it indicates that the water is full, the water level indicator light turns on, and the inlet valve stops working.<a href=\"/water probe.png\" target=\"_blank\">D8-water probe</a>.<br><br><span style='color: black'> 3.<span style='color: red'>If there is no water in the trough, it indicates that the inlet valve is not working. Check if the inlet valve indicator light on the control board is on, and measure whether there is voltage input to the inlet valve. If there is voltage but the valve is not operating, replace the inlet valve<a href=\"/WIV.png\" target=\"_blank\">D1-Water Inlet Vavle</a>."
+        ]
+      },
+      "Water outlet valve-Test": {
+        "customer": [
+
+          
+        ],
+        "technician": [
+          "Confirm whether the water outlet valve is functioning properly？<br><br>1.<span style='color: red'>To check if the drain valve is functioning properly, put the machine into cleaning mode and observe whether the water in the internal tank is being drained. If the water is drained, the drain valve is working properly.<br><br><span style='color: black'>2.<span style='color: red'>Measure whether the drain valve has a voltage input. If there is voltage but the valve does not work, replace the drain valve.<a href=\"/WIV.png\" target=\"_blank\">D1-Water Inlet Vavle</a><br><br><span style='color: black'>3.<span style='color: red'>During the ice harvest cycle, the dirty water must be completely drained from the unit. If it is not fully drained, adjustments need to be made.<a href='./ADJUST.png' target='_blank'>Adjust Drain V</a>"
+        ]
+      },
+      "NTC Probe-Test": {
+        "customer": [
+
+          
+        ],
+        "technician": [
+          "The function of the NTC Probe？<br><br><span style='color: red'>The NTC Probe is a 10k ohm thermistor and is only used by the unit to see if there is enough stored heat in the refrigerant to efficiently perform a harvest cycle.If the probe tells the control board that there’s not enough heat to harvest, then the control board will turn the condenser fan off for a few mins before performing harvest<a href='./NTC.png' target='_blank'>NTC Probe</a>.<br><br><span style='color: orange'>(The only reason to test the NTC probe is if the unit is having issues harvesting the ice off the evaporator within the harvest cycle time limit)"
+        ]
+      },
+      "Power Issue": {
+        "customer": [
+          "The unit is completely non-functional?<br><span style='color: red'>(Check if the compressor and condenser fan are completely non-functional,Please replace the power outlet and try again to ensure there is power in the outlet.)</span><br><br>",
+          "Please ask the customer to check if the power cord is damaged?<br><span style='color: red'>(If there is any damage, please take a photo and send it to us. We will send part and  dispatch tech to repair it.)"
+        ],
+        "technician": [
+         "If the unit has no power:<br>1.<span style='color: red'>Check if the controller wiring harness is properly connected and ensure there are no loose connections.<br><span style='color: black'>2.<span style='color: red'>Check if the Power Switch is faulty"
+        ]
+      }
+    },
+   
+    
+    "documents": [
+      {
+        "title": "ICE MACHINE CONTROL TEST MODE ICE MACHINE</span><br><br>",
+        "url": "https://sc.atosausa.com/file/2024/09/10/I-002_Ice_Machine_Control_Test_Mode_QS7Nbv4_7437ec1f-05b9-4381-aad3-c9f347c4ea1a.pdf"
+       
+      },
+
+      {
+        "title": "ICE MACHINE PROBE REPOSITIONING FOR GROUNDING ISSUES</span><br><br>",
+        "url": "https://sc.atosausa.com/file/2024/09/10/I-003_Ice_Machine_Probe_Repositioning_c5147662-aad2-407f-84b0-fad644b71ccf.pdf"
+       
+      },
+
+      {
+        "title": "ICE MACHINE FIRMWARE UPDATE</span><br><br>",
+        "url": "https://sc.atosausa.com/file/2024/09/10/I-005_Ice_Machine_Firmware_Update_b2845839-57c6-454a-b6cf-e7b52c0f4580.pdf"
+       
+      },
+      
+      {
+        "title": "COMPRESSOR DATA</span><br><br>",
+        "url": "https://sc.atosausa.com/file/2024/09/04/Compressor_Data_dblx8sx_7abf71fa-eea8-4820-bd5f-c1a362c49313.pdf"
+      },
+
+      {
+        "title": "MODEL MATCH UP</span><br><br>",
+        "url": "https://sks.atosausa.com/media/notices/GEN-001_Model_Match_Up.pdf"
+      }
+    ]
+  },
+  "models": {
+    "YR140-AP-161": {
+      "title": "YR140-AP-161 —Undercounter Ice Maker (142 LB / 24 HR)",
+      "image": "YR140P.png",
+      "diagram": "YR140D.jpeg",
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR140-AP-161_Specsheet_05152024.pdf"
+        },
+
+        {
+          "title": "TECH SPECIFICATIONS</span><br><br>",
+          "url": "./YR SPECI.png"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR140-AP-161-V2.pdf"
+        }
+          
+      
+      ]
+    
+    },
+    
+   
+    "YR280-AP-161": {
+      "title": "YR280-AP-161 — Undercounter Ice Maker (283 LB / 24 HR)",
+      "image": "YR140P.png",
+      "diagram": "YR140D.jpeg",
+     "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
+      "noise": {
+        "customer": [
+          
+        ],
+        "technician": [
+          "Confirm whether the noise is coming from the fan itself？<br><span style='color: red'>If the fan itself is making a loud noise, please apply for our other fan model.<br>Part Number: YR280QuiteFan<br>Part Name: YR280 Quiet Condenser Fan"
+        ]
+      },
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR280-AP-161_Specsheet_05152024.pdf"
+        },
+        {
+          "title": "TECH SPECIFICATIONS</span><br><br>",
+          "url": "./YR SPECI.png"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR280-AP-161-V2.pdf"
+        }
+      ]
+    },
+    
+    "YR450-AP-161": {
+      "title": "YR450-AP-161 — Modular Ice Maker (460 LB / 24 HR)",
+      "image": "YR450P.png",
+      "diagram": "YR450D.jpeg",
+     "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR450-AP-161_Specsheet_05152024.pdf"
+        },
+        {
+          "title": "TECH SPECIFICATIONS</span><br><br>",
+          "url": "./YR SPECI.png"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR450-AP-161-V2.pdf"
+        }
+      ]
+    },
+"MBF8008GR": {
+  "title": "MBF8008GR — Top Mount Two-Section (4) Divided Door Freezer",
+  "image": "MBF8008GRP.png",
+  "diagram": "MBF8008GRD.png",
+"issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+"documents": [
+  {
+    "title": "SPCIFICATION SHEET",
+    "url": "https://atosausa.com/wp-content/uploads/2024/08/MBF8007GR_8007GRL_8008GR_Specsheet_11212024.pdf"
+  },
+  {
+    "title": "PARTS BREAKDOWN",
+    "url": "https://atosausa.com/wp-content/uploads/2023/10/MBF8008GR-V2.pdf"
+  }
+    
+]
+}
+}
+}
