@@ -79,41 +79,66 @@
     <script>
         // 加载 JSON 数据并更新页面内容
         fetch('MBF-TFmodelData.json')
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('JSON文件未找到或无法访问');
+                }
+                return response.json();
+            })
             .then(data => {
                 // 获取当前型号（比如 MSF8302GR）
                 let model = "MBF15FSGR";  // 可以根据需求动态设置
 
+                // 检查模型是否存在
+                if (!data.models || !data.models[model]) {
+                    throw new Error(`模型 ${model} 在数据中不存在`);
+                }
+
                 // 更新标题、图片和图示
-                document.getElementById('product-title').innerText = data.models[model].title;
-                document.getElementById('product-image').src = data.models[model].image;
-                document.getElementById('product-diagram').src = data.models[model].diagram;
+                document.getElementById('product-title').innerText = data.models[model].title || model;
+                
+                if (data.models[model].image) {
+                    document.getElementById('product-image').src = data.models[model].image;
+                }
+                
+                if (data.models[model].diagram) {
+                    document.getElementById('product-diagram').src = data.models[model].diagram;
+                }
 
                 // 更新问题分类
                 const problemCategoryList = document.getElementById('problemCategoryList');
-                data.models[model].issues.forEach(issueKey => {
-                    let li = document.createElement('li');
-                    li.innerHTML = `<a href="#" onclick="showSolution('${issueKey}')">${issueKey.charAt(0).toUpperCase() + issueKey.slice(1)}</a>`;
-                    problemCategoryList.appendChild(li);
-                });
+                if (data.models[model].issues && Array.isArray(data.models[model].issues)) {
+                    data.models[model].issues.forEach(issueKey => {
+                        let li = document.createElement('li');
+                        li.innerHTML = `<a href="#" onclick="showSolution('${issueKey}')">${issueKey.charAt(0).toUpperCase() + issueKey.slice(1)}</a>`;
+                        problemCategoryList.appendChild(li);
+                    });
+                }
 
                 // 更新型号特定文件链接
                 const modelDocumentsList = document.getElementById('modelDocumentsList');
-                data.models[model].documents.forEach(doc => {
-                    let li = document.createElement('li');
-                    li.innerHTML = `<a href="${doc.url}" target="_blank">${doc.title}</a>`;
-                    modelDocumentsList.appendChild(li);
-                });
+                if (data.models[model].documents && Array.isArray(data.models[model].documents)) {
+                    data.models[model].documents.forEach(doc => {
+                        let li = document.createElement('li');
+                        li.innerHTML = `<a href="${doc.url}" target="_blank">${doc.title}</a>`;
+                        modelDocumentsList.appendChild(li);
+                    });
+                }
 
                 // 更新共用文件链接
                 const commonDocumentsList = document.getElementById('commonDocumentsList');
-                data.common.documents.forEach(doc => {
-                    let li = document.createElement('li');
-                    li.innerHTML = `<a href="${doc.url}" target="_blank">${doc.title}</a>`;
-                    commonDocumentsList.appendChild(li);
-                });
+                if (data.common && data.common.documents && Array.isArray(data.common.documents)) {
+                    data.common.documents.forEach(doc => {
+                        let li = document.createElement('li');
+                        li.innerHTML = `<a href="${doc.url}" target="_blank">${doc.title}</a>`;
+                        commonDocumentsList.appendChild(li);
+                    });
+                }
             })
-            .catch(error => console.error('Error loading model data:', error));
+            .catch(error => {
+                console.error('Error loading model data:', error);
+                alert('加载数据时出错: ' + error.message);
+            });
 
         // 显示解决方案
         function showSolution(category) {
