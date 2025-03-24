@@ -165,6 +165,55 @@
       font-size: 14px;
       font-weight: bold;
     }
+    
+    /* 地图链接样式 */
+    .map-container {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .map-link {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    
+    .map-link:hover {
+      background-color: #218838;
+    }
+    
+    /* 添加地图按钮样式 */
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .map-button {
+      margin-right: 20px;
+      padding: 10px 15px;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    
+    .map-button:hover {
+      background-color: #218838;
+    }
+    
+    h1 {
+      margin: 0;
+    }
   </style>
 </head>
 <body>
@@ -182,8 +231,11 @@
       </p>
     </div>
 
-    <!-- ✅ Page Title -->
-    <h1>ATOSA——Technical Documentation Center</h1>
+    <!-- ✅ 修改后的标题区域，包含地图按钮 -->
+    <div class="header-container">
+      <a id="mapButton" href="https://salty-river-39081-77ca2b964755.herokuapp.com/" target="_blank" class="map-button" style="display: none;">Tech Map</a>
+      <h1>ATOSA——Technical Documentation Center</h1>
+    </div>
 
     <!-- ✅ Product Search -->
     <input type="text" id="searchInput" placeholder="Search for a product model..." onkeyup="searchProduct()">
@@ -201,6 +253,8 @@
       <button id="checkSerialBtn">Check</button>
       <p id="serialFeedback"></p>
     </div>
+    
+    <!-- 移除原来的地图区域 -->
 
   </div>
 
@@ -208,3 +262,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+

@@ -11,15 +11,18 @@ document.addEventListener("DOMContentLoaded", function () {
       var username = document.getElementById("username").value;
       var password = document.getElementById("password").value;
 
-      // **📌 用户名和密码验证**
+      // 修改用户名和密码验证，添加新的admin/4321账户
       if (username === "admin" && password === "1234") {
-        // **📌 1️⃣ 记录登录状态（存入 `localStorage`）**
+        // 普通管理员账户
         localStorage.setItem("loggedIn", "true");
-
-        // **📌 2️⃣ 记录登录时间（用于自动登出）**
+        localStorage.setItem("userRole", "normalAdmin");
         localStorage.setItem("lastActivityTime", Date.now());
-
-        // **📌 3️⃣ 跳转到 `dashboard.html`**
+        window.location.href = "dashboard.html";
+      } else if (username === "admin" && password === "4321") {
+        // 超级管理员账户（您的专用账户）
+        localStorage.setItem("loggedIn", "true");
+        localStorage.setItem("userRole", "superAdmin");
+        localStorage.setItem("lastActivityTime", Date.now());
         window.location.href = "dashboard.html";
       } else {
         alert("Username or password is incorrect. Please try again!");
@@ -266,7 +269,7 @@ function searchProduct() {
   let matchFound = false;
   listItems.forEach((item) => {
     const text = item.textContent || item.innerText;
-    if (text.includes(filter) && filter.length > 0) {
+    if (text.toUpperCase().includes(filter) && filter.length > 0) {
       item.style.display = "list-item";
       matchFound = true;
     } else {
@@ -435,11 +438,108 @@ function checkSerialNumber() {
 
 document.addEventListener("DOMContentLoaded", function () {
   console.log("✅ script.js loaded and waiting for button click...");
-  document.getElementById("checkSerialBtn").addEventListener("click", checkSerialNumber);
+  
+  // 初始化产品列表
+  renderProductList();
+  
+  // 添加序列号检查按钮事件监听
+  const checkSerialBtn = document.getElementById("checkSerialBtn");
+  if (checkSerialBtn) {
+    checkSerialBtn.addEventListener("click", checkSerialNumber);
+  }
+  
+  // 添加退出登录按钮事件监听
+  const logoutBtn = document.getElementById("logout");
+  if (logoutBtn) {
+    logoutBtn.addEventListener("click", function() {
+      // 清除登录状态
+      localStorage.removeItem("loggedIn");
+      localStorage.removeItem("userRole");
+      localStorage.removeItem("lastActivityTime");
+      // 跳转到登录页面
+      window.location.href = "index.html";
+    });
+  }
+  
+  // 检查用户权限并显示/隐藏地图按钮
+  const userRole = localStorage.getItem("userRole");
+  const mapButton = document.getElementById("mapButton");
+  
+  if (mapButton && userRole === "superAdmin") {
+    // 只有超级管理员(admin/4321)才能看到地图按钮
+    mapButton.style.display = "inline-block";
+  }
+  
+  // 检查用户权限并显示/隐藏地图链接
+  const mapSection = document.getElementById("mapSection");
+  
+  if (mapSection && userRole === "superAdmin") {
+    // 只有超级管理员(admin/4321)才能看到地图
+    mapSection.style.display = "block";
+  }
 });
 
+// **📌 搜索功能**
+function searchProduct() {
+  const input = document.getElementById("searchInput");
 
+  if (!input) {
+    console.error("❌ `searchInput` 未找到，检查 HTML 里是否有 `<input id='searchInput'>`");
+    return;
+  }
 
+  const filter = input.value.toUpperCase();
+  const listItems = document.querySelectorAll("#productList li");
+
+  let matchFound = false;
+  listItems.forEach((item) => {
+    const text = item.textContent || item.innerText;
+    if (text.toUpperCase().includes(filter) && filter.length > 0) {
+      item.style.display = "list-item";
+      matchFound = true;
+    } else {
+      item.style.display = "none"; // **输入为空时隐藏**
+    }
+  });
+
+  if (!matchFound && filter.length > 0) {
+    console.warn(`⚠️ 没有找到匹配的产品型号: "${filter}"`);
+  }
+}
+
+// 登录表单处理
+const loginForm = document.getElementById("login-form");
+if (loginForm) {
+  loginForm.addEventListener("submit", function (event) {
+    event.preventDefault(); // 阻止默认提交
+
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    // 用户名和密码验证
+    if (username === "admin" && password === "1234") {
+      // 普通管理员账户
+      localStorage.setItem("loggedIn", "true");
+      localStorage.setItem("userRole", "normalAdmin");
+      localStorage.setItem("lastActivityTime", Date.now());
+      window.location.href = "dashboard.html";
+    } else if (username === "admin" && password === "4321") {
+      // 超级管理员账户（您的专用账户）
+      localStorage.setItem("loggedIn", "true");
+      localStorage.setItem("userRole", "superAdmin");
+      localStorage.setItem("lastActivityTime", Date.now());
+      window.location.href = "dashboard.html";
+    } else if (username === "user" && password === "1234") {
+      // 普通用户账户
+      localStorage.setItem("loggedIn", "true");
+      localStorage.setItem("userRole", "user");
+      localStorage.setItem("lastActivityTime", Date.now());
+      window.location.href = "dashboard.html";
+    } else {
+      alert("用户名或密码错误，请重试！");
+    }
+  });
+}
 
 // **📌 关闭公告栏**
 function closeAnnouncement() {
