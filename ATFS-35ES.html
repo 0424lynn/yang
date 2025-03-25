@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <!-- 返回主页按钮和标题容器 -->
+        <div class="header-container">
+            <a href="dashboard.html" class="back-home-button">Back</a>
+            <h1 id="product-title"></h1> <!-- 设置标题的 id -->
+        </div>
+
+        <div class="grid-layout">
+            <!-- 第一行：三个框 -->
+            <div class="frame problem-box">
+                <div class="search-box">
+                    <label for="problemCategorySearch">Search Issue:</label>
+                    <input type="text" id="problemCategorySearch" placeholder="Search..." onkeyup="searchProblemCategory()">
+                </div>
+                <!-- 问题大类 -->
+                <ul id="problemCategoryList">
+                    <!-- 动态填充问题大类 -->
+                </ul>
+            </div>
+
+            <!-- 第一行：中间框：解决方案 -->
+            <div class="frame solution-box">
+                <div class="solution-container">
+                    <div class="solution-section" id="customerSolution">
+                        <div class="solution-header">Customer Solution</div>
+                        <ul>
+                            <li><span style="color: grey;"> Select an issue on the left to see the solution for the customer.</li>
+                        </ul>
+                    </div>
+
+                    <div class="solution-section" id="technicianSolution">
+                        <div class="solution-header">Technician Solution</div>
+                        <ul>
+                            <li><span style="color: grey;"> Select an issue on the left to see the solution for the technician.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 右侧框：产品图片 -->
+            <div class="frame diagram-box">
+                <img id="product-image" src="" alt="Product Image"> <!-- 留空src，动态加载产品图片 -->
+            </div>
+
+            <!-- 第二行：合并后的文件内容框 -->
+            <div class="frame file-box">
+                <h2>Documents</h2>
+                <div class="documents-section">
+                <ul id="modelDocumentsList">
+                        <!-- 动态填充型号特定文件链接 -->
+                    </ul>
+                </div>
+
+                <div class="documents-section">
+                  
+                    <ul id="commonDocumentsList">
+                        <!-- 动态填充共用文件链接 -->
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 第二行：产品图示 -->
+            <div class="frame diagram-box">
+                <img id="product-diagram" src="" alt="Product Diagram"> <!-- 留空src，动态加载产品图示 -->
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        // 加载 JSON 数据并更新页面内容
+        fetch('ATFSmodelData.json')
+            .then(response => response.json())
+            .then(data => {
+                // 获取当前型号（比如 MSF8302GR）
+                let model = "ATFS-35ES";  // 可以根据需求动态设置
+
+                // 更新标题、图片和图示
+                document.getElementById('product-title').innerText = data.models[model].title;
+                document.getElementById('product-image').src = data.models[model].image;
+                document.getElementById('product-diagram').src = data.models[model].diagram;
+
+                // 更新问题分类
+                const problemCategoryList = document.getElementById('problemCategoryList');
+                data.models[model].issues.forEach(issueKey => {
+                    let li = document.createElement('li');
+                    li.innerHTML = `<a href="#" onclick="showSolution('${issueKey}')">${issueKey.charAt(0).toUpperCase() + issueKey.slice(1)}</a>`;
+                    problemCategoryList.appendChild(li);
+                });
+
+                // 更新型号特定文件链接
+                const modelDocumentsList = document.getElementById('modelDocumentsList');
+                data.models[model].documents.forEach(doc => {
+                    let li = document.createElement('li');
+                    li.innerHTML = `<a href="${doc.url}" target="_blank">${doc.title}</a>`;
+                    modelDocumentsList.appendChild(li);
+                });
+
+                // 更新共用文件链接
+                const commonDocumentsList = document.getElementById('commonDocumentsList');
+                data.common.documents.forEach(doc => {
+                    let li = document.createElement('li');
+                    li.innerHTML = `<a href="${doc.url}" target="_blank">${doc.title}</a>`;
+                    commonDocumentsList.appendChild(li);
+                });
+            })
+            .catch(error => console.error('Error loading model data:', error));
+
+        // 显示解决方案
+        function showSolution(category) {
+            fetch('ATFSmodelData.json')
+                .then(response => response.json())
+                .then(data => {
+                    let model = "ATFS-35ES"; // 获取当前型号
+                    let customerSolution = document.getElementById('customerSolution');
+                    let technicianSolution = document.getElementById('technicianSolution');
+
+                    // 确保 category 存在于数据中
+                    if (data.common.issues[category]) {
+                        customerSolution.innerHTML = `<div class="solution-header">Customer Solution</div><ul>`;
+                        data.common.issues[category].customer.forEach(solution => {
+                            customerSolution.innerHTML += `<li>${solution}</li>`;
+                        });
+                        customerSolution.innerHTML += `</ul>`;
+
+                        technicianSolution.innerHTML = `<div class="solution-header">Technician Solution</div><ul>`;
+                        data.common.issues[category].technician.forEach(solution => {
+                            technicianSolution.innerHTML += `<li>${solution}</li>`;
+                        });
+                        technicianSolution.innerHTML += `</ul>`;
+                    } else {
+                        customerSolution.innerHTML = `<div class="solution-header">Customer Solution</div><ul><li>No solution found</li></ul>`;
+                        technicianSolution.innerHTML = `<div class="solution-header">Technician Solution</div><ul><li>No solution found</li></ul>`;
+                    }
+                })
+                .catch(error => console.error('Error loading issue data:', error));
+        }
+
+        // 搜索问题分类
+        function searchProblemCategory() {
+            const searchValue = document.getElementById('problemCategorySearch').value.toLowerCase();
+            const problemCategoryList = document.getElementById('problemCategoryList');
+            const problemItems = problemCategoryList.getElementsByTagName('li');
+
+            for (let i = 0; i < problemItems.length; i++) {
+                const item = problemItems[i];
+                const text = item.textContent || item.innerText;
+                if (text.toLowerCase().indexOf(searchValue) > -1) {
+                    item.style.display = "";
+                } else {
+                    item.style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
