@@ -43,7 +43,7 @@
           
         ],
         "technician": [
-          "Plumbing Diagram <img src='/ATFSD.png' style='max-width:100%; height:auto;'>"
+          "Plumbing Diagram <img src='./ATFSD.png' style='max-width:100%; height:auto;'>"
         ]
       },
       "Valve Information": {
@@ -52,7 +52,7 @@
           
         ],
         "technician": [
-          "Valve Information<img src='/ATFSV.png' style='max-width:100%; height:auto;'>"
+          "Valve Information<img src='./ATFSV.png' style='max-width:100%; height:auto;'>"
         ]
       },
       "Gas Pressure Information": {
@@ -61,7 +61,7 @@
           
         ],
         "technician": [
-          "Gas Pressure Information<img src='/ATFSG.png' style='max-width:100%; height:auto;'>"
+          "Gas Pressure Information<img src='./ATFSG.png' style='max-width:100%; height:auto;'>"
         ]
       },
       "Altitude/Elevation Information": {
@@ -69,7 +69,7 @@
         ],
         "technician": [
         "A gas burner works based on Bernoulli’s Principle.  Simply put, the jet of fast-moving gas coming out of the orifice, drags the surrounding air into the burner with it.  The venturi effect mixes the air with the gas to create the fuel to air mixture that burns when it comes out of the burner holes.</span><br><br>",
-        "As you increase in elevation the air begins to thin out, there is less oxygen in the air to burn so the flame on the unit is more gas than it is oxygen, this causes the flame to turn orange and produce soot.  To counteract this the holes in the orifices on the unit need to be smaller. This restricts the volume of gas coming out of the orifice without slowing the speed at which it comes out.  This allows for more air to mix in the burner venturi to keep the flame blue. ​<br><br><span style='color:red'>​All our units are shipped out with “Sea Level” Orifices in them.It is up to the end user's installer to size the orifices on the unit accordingly when the unit is to be installed at elevation.<br><br><img src='/ATFSO.png' style='max-width:100%; height:auto;'>"
+        "As you increase in elevation the air begins to thin out, there is less oxygen in the air to burn so the flame on the unit is more gas than it is oxygen, this causes the flame to turn orange and produce soot.  To counteract this the holes in the orifices on the unit need to be smaller. This restricts the volume of gas coming out of the orifice without slowing the speed at which it comes out.  This allows for more air to mix in the burner venturi to keep the flame blue. ​<br><br><span style='color:red'>​All our units are shipped out with “Sea Level” Orifices in them.It is up to the end user's installer to size the orifices on the unit accordingly when the unit is to be installed at elevation.<br><br><img src='./ATFSO.png' style='max-width:100%; height:auto;'>"
       ]
       }
     },
