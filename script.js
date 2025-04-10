@@ -220,7 +220,25 @@ document.addEventListener("DOMContentLoaded", function () {
 "ATMG-36",
 "ATMG-48",
 "ATSP-18-1",
-"ATSP-18-2 "
+"ATSP-18-2",
+"AGR-10B",
+"AGR-24G",
+"AGR-2B24GL",
+"AGR-2B24GR",
+"AGR-2B48GL",
+"AGR-2B48GR",
+"AGR-36G",
+"AGR-4B",
+"AGR-4B12GL",
+"AGR-4B12GR",
+"AGR-4B36GL",
+"AGR-4B36GR",
+"AGR-6B",
+"AGR-6B24GL",
+"AGR-6B24GR",
+"AGR-6B24RGB",
+"AGR-8B",
+
     ];
 // **📌 渲染产品列表**
 function renderProductList() {

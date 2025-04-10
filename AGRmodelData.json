@@ -1,0 +1,165 @@
+{
+  "common": {
+    "issues": {
+      
+      "leakingOil outside": {
+        "customer": [
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)"
+        ],
+        "technician": [
+          "Is there Oil leakage at the bottom of the unit? <br><span style='color: red'> Please confirm whether the oil leak is due to poor welding at the tank body"
+        ]
+      
+      },
+      "physical Damage": {
+        "customer": [
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+        "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)</span><br><br>"
+      
+        ],
+        "technician": [
+          "If the leg is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the leg along with the nuts when shipping the accessories!)"
+        ]
+          },
+      
+      "Hot issue": {
+        "customer": [
+           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+        "Confirm with the customer whether the installation was done correctly?<br>1.<span style='color: red'>All units​ The gas connection must be made with a ¾” gas connection<br><span style='color: black'>2.<span style='color: red'>If it's NG (Natural Gas), take 14” W.C. (1/2 PSI) and regulate it down to the 4” W.C. for NG.<br><span style='color:burlywood'> For most natural gas setups the regulator supplied with the unit is sufficient.  Verify that the regulator is receiving at least 4” W.C. from the main in the building.<br><br><span style='color: black'>3.<span style='color: red'>If it's LP,take 14” W.C. (1/2 PSI) and regulate it down to the 10” W.C. for LP.<br><span style='color:burlywood'>The regulator is Adjustable to either NG or LP depending on the position of the pin under the top cap.<img src='./AGRR.png' style='max-width:100%; height:auto;'>​</a></span><br><br>​"
+          
+        ],
+        "technician": [ 
+          "Thermopile working principle and fault diagnosis.<br>1.<span style='color: red'>The Millivolt fryer system runs on an 800mv thermopile.As flame is applied to the thermopile on the unit by the pilot, the thermopile generates 800mv of DC voltage.This voltage is what is used by the valve to hold the pilot open.It is also used by the valve when the thermostat on the unit calls for heat.The thermostat passes the voltage from the thermopile to the valve to open the main gas supply and turn on the burners.<br><span style='color: black'>2.<span style='color: red'>If the thermopile is bad or weak, then the unit will not work properly or will work intermittently.​</span><br><br>",
+         " Pilot will light but when the button is released the pilot goes out？<br>1.<span style='color:grey'>TEST THERMOPILE--<span style='color: red'>Disconnect the thermopile from the unit and test it in open flame.The thermopile should be producing between 750-800mv DC.<br><span style='color: black'>2.<span style='color: grey'>TEST HIGH LIMIT--<span style='color: red'>Disconnect the high limit from the unit and complete a continuity check on the high limit.  You should have continuity between common and normally closed.  You should not have continuity between common and normally open unless the oil in the fryer is hotter than 450 degrees.  If both above-mentioned parts test fine, then the gas valve will need to be replaced​</a></span><br><br>",
+          "Pilot will light and hold but the main burners will not come on？<br>1.<span style='color:grey'>TEST THERMOPILE--<span style='color: red'>Disconnect the thermopile from the unit and test it in open flame.The thermopile should be producing between 750-800mv DC.<br><span style='color: black'>2.<span style='color: grey'>TEST THERMOSTART--<span style='color: red'>Disconnect the thermostat from the fryer and perform a continuity check across the thermostat when it is off and on. ​​</a></span><br><br>",
+          "Pilot lights and main burners fire then shortly after everything shuts off.  Or unit heats up a little then everything shuts off？<br>1.<span style='color:grey'>TEST THERMOPILE--<span style='color: red'>Disconnect the thermopile from the unit and test it in open flame.  The thermopile should be producing between 750-800mv DC.<br><span style='color: black'>2.<span style='color: grey'>TEST HIGH-LIMIT--<span style='color: red'>Disconnect the high limit from the unit and complete a continuity check on the high limit.  You should have continuity between common and normally closed.  You should not have continuity between common and normally open unless the oil in the fryer is hotter than 450 degrees. ​​</a></span><br><br>",
+          "Unit heats up once then everything shuts off？<br>1.<span style='color:grey'>TEST HIGH-LIMIT--<span style='color: red'>Turn the unit on and set the thermostat to 350.Temp the oil as the unit heats.If the unit shuts off before reaching 350 this is a high limit issue<br><span style='color: black'>2.<span style='color: grey'>TEST THERMOSTAT--<span style='color: red'>If the unit goes up to 450 and then shuts off this is a thermostat issue. ​​</a></span><br><br>"
+         
+       ]
+      },
+"Plumbing Diagram": {
+        "customer": [
+
+          
+        ],
+        "technician": [
+          "Plumbing Diagram <img src='./AGRP.png' style='max-width:100%; height:auto;'>"
+        ]
+      },
+      "Valve Information": {
+        "customer": [
+
+          
+        ],
+        "technician": [
+          "Valve Information<img src='./ATFSV.png' style='max-width:100%; height:auto;'>"
+        ]
+      },
+      "Gas Pressure Information": {
+        "customer": [
+
+          
+        ],
+        "technician": [
+          "Gas Pressure Information<img src='./ATFSG.png' style='max-width:100%; height:auto;'>"
+        ]
+      },
+      "Altitude/Elevation Information": {
+        "customer": [
+        ],
+        "technician": [
+        "A gas burner works based on Bernoulli’s Principle.  Simply put, the jet of fast-moving gas coming out of the orifice, drags the surrounding air into the burner with it.  The venturi effect mixes the air with the gas to create the fuel to air mixture that burns when it comes out of the burner holes.</span><br><br>",
+        "As you increase in elevation the air begins to thin out, there is less oxygen in the air to burn so the flame on the unit is more gas than it is oxygen, this causes the flame to turn orange and produce soot.  To counteract this the holes in the orifices on the unit need to be smaller. This restricts the volume of gas coming out of the orifice without slowing the speed at which it comes out.  This allows for more air to mix in the burner venturi to keep the flame blue. ​<br><br><span style='color:red'>​All our units are shipped out with “Sea Level” Orifices in them.It is up to the end user's installer to size the orifices on the unit accordingly when the unit is to be installed at elevation.<br><br><img src='./ATFSO.png' style='max-width:100%; height:auto;'>"
+      ]
+      }
+    },
+   
+    
+    "documents": [
+      
+      {
+        "title": "MODEL MATCH UP</span><br><br>",
+        "url": "https://sks.atosausa.com/media/notices/GEN-001_Model_Match_Up.pdf"
+      }
+    ]
+  },
+  "models": {
+    "AGR-10B": {
+      "title": "AGR-10B — 60″ Gas Range with Ten (10) Open Burners",
+      "image": "AGR10BP.png",
+      "diagram": "AGR10BD.png",
+      "issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/AGR-4B_6B_8B_10B_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/AGR-10B.pdf"
+        }
+          
+      
+      ]
+    
+    },
+    "ATFS-35ES": {
+      "title": "ATFS-35ES — 35LB Deep Fryer",
+      "image": "ATFS40P.png",
+      "diagram": "ATFS40D.png",
+     "issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATFS-35ES_40_50_75_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATSF-35ES.pdf"
+        }
+      ]
+    },
+    "ATFS-50": {
+      "title": "ATFS-50 — 50LB Deep Fryer",
+      "image": "ATFS40P.png",
+      "diagram": "ATFS40D.png",
+     "issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATFS-35ES_40_50_75_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATFS-405075-Parts-Breakdowns.pdf"
+        }
+      ]
+    },
+    
+   
+   
+"ATFS-75": {
+  "title": "ATFS-75 — 75 LB Deep Fryer",
+  "image": "ATFS75P.png",
+  "diagram": "ATFS40D.png",
+"issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information"],
+"documents": [
+  {
+    "title": "SPCIFICATION SHEET</span><br><br>",
+    "url": "https://atosausa.com/wp-content/uploads/2023/10/ATFS-35ES_40_50_75_specsheet.pdf"
+  },
+  {
+    "title": "PARTS BREAKDOWN",
+    "url": "https://atosausa.com/wp-content/uploads/2023/10/ATFS-405075-Parts-Breakdowns.pdf"
+  }
+    
+]
+}
+}
+}

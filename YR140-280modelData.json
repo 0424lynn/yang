@@ -7,7 +7,7 @@
           "Check if the condenser fan blade is hitting any foreign objects."
         ],
         "technician": [
-          "Check if noise outside: <br>1.<span style='color: red'>Check if the fan motor is defective.<br><span style='color: black'>2.<span style='color: red'>Check whether there is any noise caused by loose screws.<br><span style='color: black'>3.<span style='color: red'>Inspect the compressor for abnormal noise.<br><span style='color: red'>(There is a metal fastening strap on top of the compressor, which is used to protect the compressor during transportation. It is recommended to remove it and continue observing, as the noise may be caused by resonance)</span><br><br>"
+          "Check if noise outside: <br>1.<span style='color: red'>Check if the fan motor is defective.<br><span style='color: black'>2.<span style='color: red'>Check whether there is any noise caused by loose screws.<br><span style='color: black'>3.<span style='color: red'>Inspect the compressor for abnormal noise.</span><br><br>"
         ]
         },
       "leakingWater inside": {
@@ -76,7 +76,7 @@
            "Confirm with the customer Is the water supply open?"
         ],
         "technician": [
-          "Confirm whether the water inlet valve is functioning properly？<br><br>1.<span style='color: red'> Confirm if the water trougn is full of water? If it is, the inlet valve is functioning properly.<br><br><span style='color: black'> 2.<span style='color: red'>  Ensure that the water level probe is functioning properly. If the probe is damaged, it may also cause the inlet valve to stop working. Under normal conditions, When the probe comes into contact with water, it indicates that the water is full, the water level indicator light turns on, and the inlet valve stops working.<a href=\"/water probe.png\" target=\"_blank\">D8-water probe</a>.<br><br><span style='color: black'> 3.<span style='color: red'>If there is no water in the trough, it indicates that the inlet valve is not working. Check if the inlet valve indicator light on the control board is on, and measure whether there is voltage input to the inlet valve. If there is voltage but the valve is not operating, replace the inlet valve<a href=\"/WIV.png\" target=\"_blank\">D1-Water Inlet Vavle</a>."
+          "Confirm whether the water inlet valve is functioning properly？<br><br>1.<span style='color: red'> Confirm if the water trougn is full of water? If it is, the inlet valve is functioning properly.<br><br><span style='color: black'> 2.<span style='color: red'>  Ensure that the water level probe is functioning properly. If the probe is damaged, it may also cause the inlet valve to stop working. Under normal conditions, When the probe comes into contact with water, it indicates that the water is full, the water level indicator light turns on, and the inlet valve stops working. <a href='./water probe.png' target='_blank'>D8-water probe</a>.<br><br><span style='color: black'> 3.<span style='color: red'>If there is no water in the trough, it indicates that the inlet valve is not working. Check if the inlet valve indicator light on the control board is on, and measure whether there is voltage input to the inlet valve. If there is voltage but the valve is not operating, replace the inlet valve<a href=./WIV.png' target='_blank'>D1-Water Inlet Vavle</a>."
         ]
       },
       "Water outlet valve-Test": {
@@ -85,7 +85,7 @@
           
         ],
         "technician": [
-          "Confirm whether the water outlet valve is functioning properly？<br><br>1.<span style='color: red'>To check if the drain valve is functioning properly, put the machine into cleaning mode and observe whether the water in the internal tank is being drained. If the water is drained, the drain valve is working properly.<br><br><span style='color: black'>2.<span style='color: red'>Measure whether the drain valve has a voltage input. If there is voltage but the valve does not work, replace the drain valve.<a href=\"/WIV.png\" target=\"_blank\">D1-Water Inlet Vavle</a><br><br><span style='color: black'>3.<span style='color: red'>During the ice harvest cycle, the dirty water must be completely drained from the unit. If it is not fully drained, adjustments need to be made.<a href='./ADJUST.png' target='_blank'>Adjust Drain V</a>"
+          "Confirm whether the water outlet valve is functioning properly？<br><br>1.<span style='color: red'>To check if the drain valve is functioning properly, put the machine into cleaning mode and observe whether the water in the internal tank is being drained. If the water is drained, the drain valve is working properly.<br><br><span style='color: black'>2.<span style='color: red'>Measure whether the drain valve has a voltage input. If there is voltage but the valve does not work, replace the drain valve.<a href=./WIV.png' target='_blank'>D1-Water Inlet Vavle</a><br><br><span style='color: black'>3.<span style='color: red'>During the ice harvest cycle, the dirty water must be completely drained from the unit. If it is not fully drained, adjustments need to be made.<a href='./ADJUST.png' target='_blank'>Adjust Drain V</a>"
         ]
       },
       "NTC Probe-Test": {
