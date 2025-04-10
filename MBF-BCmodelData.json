@@ -7,7 +7,7 @@
       "Check if the condenser fan blade is hitting any foreign objects."
         ],
         "technician": [
-          "Check if noise outside: <br>1.<span style='color: red'>Check if the fan motor is defective.<br><span style='color: black'>2.<span style='color: red'>Check whether there is any noise caused by loose screws.<br><span style='color: black'>3.<span style='color: red'>Inspect the compressor for abnormal noise.<br><span style='color: red'>(There is a metal fastening strap on top of the compressor, which is used to protect the compressor during transportation. It is recommended to remove it and continue observing, as the noise may be caused by resonance)</span><br><br>",
+          "Check if noise outside: <br>1.<span style='color: red'>Check if the fan motor is defective.<br><span style='color: black'>2.<span style='color: red'>Check whether there is any noise caused by loose screws.<br><span style='color: black'>3.<span style='color: red'>Inspect the compressor for abnormal noise</span><br><br>",
           "Check if noise inside: <br>1.<span style='color: red'>Check if the evaporator fan is hitting the banding strap"
         ]
         },
