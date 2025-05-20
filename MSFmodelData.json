@@ -30,9 +30,9 @@
           "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）"
         ],
         "technician": [
-          "Condenser drain pan overflow?<br>1.<span style='color: red'>Recommend replacing it with new absorbent paper<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Installation.pdf' target='_blank'>WICKING KIT INSTALL</a><br><span style='color: black'>2.<span style='color: red'>Let the condensing fan run continuously<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</a>.</span><br><br>",
           "Wire Harness not Sealed? <br><span style='color: red'>(This occurs when the back right wire harness in the unit is not sealed properly. This appears as a small puddle sourcing near the rear right wheel)<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</a></span><br><br>",
-          "lower suction tube leaking water? <br><span style='color: red'>(This issue appears as a small trickle or puddle in the back of the unit and is visible when a tech checks the lowside insulation)<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required."
+          "lower suction tube leaking water? <br><span style='color: red'>(This issue appears as a small trickle or puddle in the back of the unit and is visible when a tech checks the lowside insulation)<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</a></span><br><br>",
+          "Condenser drain pan overflow?<br>1.<span style='color: red'>Recommend replacing it with new absorbent paper<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Installation.pdf' target='_blank'>WICKING KIT INSTALL</a><br><span style='color: black'>2.<span style='color: red'>Let the condensing fan run continuously<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required."
         ]
       },
       "No display but cooling is functioning normall": {
@@ -148,6 +148,12 @@
       "image": "MSF8302GRP.png",
       "diagram": "MSF8302GRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+      "leakingWater outside": {
+      "technician": [
+  "3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
+]
+
+    },
       "documents": [
         {
           "title": "SPCIFICATION SHEET</span><br><br>",
@@ -164,6 +170,12 @@
       "image": "MSF8303GRP.png",
       "diagram": "MSF8303GRD.png",
     "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+    "leakingWater outside": {
+      "technician": [
+  "3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
+]
+
+    },
     "documents": [
       {
         "title": "SPCIFICATION SHEET</span><br><br>",
@@ -180,6 +192,12 @@
       "image": "MSF8304GRP.png",
       "diagram": "MSF8304GRD.png",
     "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+    "leakingWater outside": {
+      "technician": [
+  "3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
+]
+
+    },
     "documents": [
       {
         "title": "SPCIFICATION SHEET</span><br><br>",
@@ -213,6 +231,12 @@
     "image": "MSF8306GRP.png",
     "diagram": "MSF8306GRD.png",
   "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "leakingWater outside": {
+    "technician": [
+"3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
+]
+
+  },
   "documents": [
     {
       "title": "SPCIFICATION SHEET</span><br><br>",
@@ -229,6 +253,13 @@
     "image": "MSF8307GRP.png",
     "diagram": "MSF8307GRD.png",
   "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "leakingWater outside": {
+      "technician": [
+  "3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
+]
+
+    },
+  
   "documents": [
     {
       "title": "SPCIFICATION SHEET</span><br><br>",
@@ -245,6 +276,13 @@
     "image": "MSF8308GRP.png",
     "diagram": "MSF8308GRD.png",
   "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "leakingWater outside": {
+     
+    "technician": [
+"3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
+]
+
+ },
   "documents": [
     {
       "title": "SPCIFICATION SHEET</span><br><br>",

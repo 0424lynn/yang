@@ -78,11 +78,14 @@
 
     <script>
         // 加载 JSON 数据并更新页面内容
-        fetch('MSFmodelData.json')
+        fetch('HD350modelData.json')
             .then(response => response.json())
             .then(data => {
                 // 获取当前型号（比如 MSF8302GR）
-                let model = "MSF8304GR";  // 可以根据需求动态设置
+                let model = "HD350-AP-161";  // 可以根据需求动态设置
+
+
+
 
                 // 更新标题、图片和图示
                 document.getElementById('product-title').innerText = data.models[model].title;
@@ -93,7 +96,10 @@
                 const problemCategoryList = document.getElementById('problemCategoryList');
                 data.models[model].issues.forEach(issueKey => {
                     let li = document.createElement('li');
-                    li.innerHTML = `<a href="#" onclick="showSolution('${issueKey}')">${issueKey.charAt(0).toUpperCase() + issueKey.slice(1)}</a>`;
+                    const issueData = data.common.issues[issueKey];
+const label = issueData && issueData.label ? issueData.label : (issueKey.charAt(0).toUpperCase() + issueKey.slice(1));
+li.innerHTML = `<a href="#" onclick="showSolution('${issueKey}')">${label}</a>`;
+
                     problemCategoryList.appendChild(li);
                 });
 
@@ -115,17 +121,16 @@
             })
             .catch(error => console.error('Error loading model data:', error));
 
+        // 显示解决方案
+        function showSolution(category) {
+            fetch('HD350modelData.json')
+                .then(response => response.json())
+                .then(data => {
+                    let model = "HD350-AP-161"; // 获取当前型号
+                    let customerSolution = document.getElementById('customerSolution');
+                    let technicianSolution = document.getElementById('technicianSolution');
 
-       // 显示解决方案
-       function showSolution(category) {
-    fetch('MSFmodelData.json')
-        .then(response => response.json())
-        .then(data => {
-            let model = "MSF8304GR"; // 获取当前型号
-            let customerSolution = document.getElementById('customerSolution');
-            let technicianSolution = document.getElementById('technicianSolution');
-
-            // 获取通用 `cooling Issue`
+                    // 获取通用 `cooling Issue`
             let commonCustomerSolutions = data.common.issues[category]?.customer || [];
             let commonTechnicianSolutions = data.common.issues[category]?.technician || [];
 
@@ -136,24 +141,23 @@
             // 合并通用和型号特定的解决方案
             let allCustomerSolutions = [...commonCustomerSolutions, ...modelCustomerSolutions];
             let allTechnicianSolutions = [...commonTechnicianSolutions, ...modelTechnicianSolutions];
-// 渲染 HTML
-customerSolution.innerHTML = `<div class="solution-header">Customer Solution</div><ul>`;
-allCustomerSolutions.forEach(solution => {
-    customerSolution.innerHTML += `<li>${solution}</li>`;
-});
-customerSolution.innerHTML += `</ul>`;
 
-technicianSolution.innerHTML = `<div class="solution-header">Technician Solution</div><ul>`;
-allTechnicianSolutions.forEach(solution => {
-    technicianSolution.innerHTML += `<li>${solution}</li>`;
-});
-technicianSolution.innerHTML += `</ul>`;
+            // 渲染 HTML
+            customerSolution.innerHTML = `<div class="solution-header">Customer Solution</div><ul>`;
+            allCustomerSolutions.forEach(solution => {
+                customerSolution.innerHTML += `<li>${solution}</li>`;
+            });
+            customerSolution.innerHTML += `</ul>`;
 
+            technicianSolution.innerHTML = `<div class="solution-header">Technician Solution</div><ul>`;
+            allTechnicianSolutions.forEach(solution => {
+                technicianSolution.innerHTML += `<li>${solution}</li>`;
+            });
+            technicianSolution.innerHTML += `</ul>`;
         })
         .catch(error => console.error('Error loading issue data:', error));
 }
 
-      
 
         // 搜索问题分类
         function searchProblemCategory() {
