@@ -1,0 +1,94 @@
+{
+  "common": {
+    "issues": {
+      "Gas Pressure Information": {
+        "customer": [
+
+          
+        ],
+        "technician": [
+          " Gas Pressure Information <img src='./AGRPRE.png' style='max-width:100%; height:auto;'>​</a></span><br><br>"
+        ]
+      },
+      "Altitude/Elevation Information": {
+        "customer": [
+        ],
+        "technician": [
+        "A gas burner works based on Bernoulli’s Principle.  Simply put, the jet of fast-moving gas coming out of the orifice, drags the surrounding air into the burner with it.  The venturi effect mixes the air with the gas to create the fuel to air mixture that burns when it comes out of the burner holes.</span><br><br>",
+        "As you increase in elevation the air begins to thin out, there is less oxygen in the air to burn so the flame on the unit is more gas than it is oxygen, this causes the flame to turn orange and produce soot.  To counteract this the holes in the orifices on the unit need to be smaller. This restricts the volume of gas coming out of the orifice without slowing the speed at which it comes out.  This allows for more air to mix in the burner venturi to keep the flame blue. ​<br><br><span style='color:red'>​All our units are shipped out with “Sea Level” Orifices in them.It is up to the end user's installer to size the orifices on the unit accordingly when the unit is to be installed at elevation.<br><br><img src='./ATCMO.png' style='max-width:100%; height:auto;'>"
+      ]
+      
+    },
+   
+    
+   
+      "Valve Information & Usage Cleaning": {
+       "customer": [ 
+         "If the customer doesn't know how to clean it, please send them this Cleaning video <a href='https://www.youtube.com/watch?v=zRRdW_7VFkE' target='_blank'><span style='color: red'> Cleaning Video.</span><br><br>"
+],
+
+        "technician": [
+         "<img src='./ATCM.png' style='max-width:100%; height:auto;'>​</a></span><br><br>​"
+        ]
+      
+      },
+      "physical Damage": {
+        "customer": [
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+        "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)</span><br><br>",
+        "Spring-Loaded Adjustable Broiler Shelf<img src='./ATSB.png' style='max-width:100%; height:auto;'>​</a></span><br><br> ​"
+        ],
+        "technician": [
+          "cracked Top burner<img src='./TOP BURNER.png' style='max-width:100%; height:auto;'>​</a></span><br><br> "
+        ]
+          },
+      
+      "Hot issue": {
+        "customer": [
+           "If the unit is not working,asking the customer to record a picture and send it to us for analysis.<span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+        "Confirm with the customer whether the installation was done correctly?<br>1.<span style='color: red'>All units​ The gas connection must be made with a ¾” gas connection<br><span style='color: black'>2.<span style='color: red'>If it's NG (Natural Gas), take 14” W.C. (1/2 PSI) and regulate it down to the 4” W.C. for NG.<br><span style='color:burlywood'> For most natural gas setups the regulator supplied with the unit is sufficient.  Verify that the regulator is receiving at least 4” W.C. from the main in the building.<br><br><span style='color: black'>3.<span style='color: red'>If it's LP,take 14” W.C. (1/2 PSI) and regulate it down to the 10” W.C. for LP.<br><span style='color:burlywood'>The regulator is Adjustable to either NG or LP depending on the position of the pin under the top cap.<img src='./ATCMR.png' style='max-width:100%; height:auto;'>​</a></span><br><br>​"
+          
+        ],
+        "technician": [ 
+           "Pilot Randomly Goes Out <br>1.<span style='color: red'>Remove the Pilot Orifice and check for debris.<br> <span style='color: black'>2.<span style='color: red'>Adjust the low flame .​<span style='color: black'><br>3.<span style='color: red'>Replace the Thermocouple.</span><br><br>",
+          "Griddle Top Not Heating Evenly <br>1.<span style='color: red'>Adjust the low flame​.<br> <span style='color: black'>2.<span style='color: red'>Verify the gas pressure at the Unit Manifold.  Adjust Accordingly​.​<span style='color: black'><br>3.<span style='color: red'>Griddle top is Cast Iron.  Griddle top will need to be seasoned like a cast iron skillet before first use and if cleaned to bare metal.​<br><br>",
+          "Griddle Top Leaking.<br><span style='color: red'> The weld on the griddle top has broken loose and is not repairable.  Griddle will need to be replaced.<br><br>"
+        
+         
+       ]
+      }
+      },
+
+     
+      "documents": [
+      
+        {
+          "title": "MODEL MATCH UP</span><br><br>",
+          "url": "https://sks.atosausa.com/media/notices/GEN-001_Model_Match_Up.pdf"
+        }
+      ]
+    },
+  "models": {
+    "ATSB-36": {
+      "title": "ATSB-36 — 36″ Salamander Broiler",
+      "image": "ATSBP.png",
+      "diagram": "AGR10BD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATCM-36_Specsheet_08302024.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATCM-36-Parts-Breakdown.pdf"
+        
+  }
+    
+]
+}
+}
+  }
+

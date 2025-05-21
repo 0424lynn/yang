@@ -202,6 +202,8 @@ document.addEventListener("DOMContentLoaded", function () {
 "ATTG-24",
 "ATTG-36",
 "ATTG-48",
+"ATCM-36",
+"ATSB-36",
 "ATO-10B",
 "ATO-12G4B",
 "ATO-24G",
