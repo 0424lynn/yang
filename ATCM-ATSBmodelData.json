@@ -15,17 +15,20 @@
         ],
         "technician": [
         "A gas burner works based on Bernoulli’s Principle.  Simply put, the jet of fast-moving gas coming out of the orifice, drags the surrounding air into the burner with it.  The venturi effect mixes the air with the gas to create the fuel to air mixture that burns when it comes out of the burner holes.</span><br><br>",
-        "As you increase in elevation the air begins to thin out, there is less oxygen in the air to burn so the flame on the unit is more gas than it is oxygen, this causes the flame to turn orange and produce soot.  To counteract this the holes in the orifices on the unit need to be smaller. This restricts the volume of gas coming out of the orifice without slowing the speed at which it comes out.  This allows for more air to mix in the burner venturi to keep the flame blue. ​<br><br><span style='color:red'>​All our units are shipped out with “Sea Level” Orifices in them.It is up to the end user's installer to size the orifices on the unit accordingly when the unit is to be installed at elevation.<br><br><img src='./AGRORI.png' style='max-width:100%; height:auto;'>"
-      ] 
+        "As you increase in elevation the air begins to thin out, there is less oxygen in the air to burn so the flame on the unit is more gas than it is oxygen, this causes the flame to turn orange and produce soot.  To counteract this the holes in the orifices on the unit need to be smaller. This restricts the volume of gas coming out of the orifice without slowing the speed at which it comes out.  This allows for more air to mix in the burner venturi to keep the flame blue. ​<br><br><span style='color:red'>​All our units are shipped out with “Sea Level” Orifices in them.It is up to the end user's installer to size the orifices on the unit accordingly when the unit is to be installed at elevation.<br><br><img src='./ATCMO.png' style='max-width:100%; height:auto;'>"
+      ]
+      
     },
    
-      "Valve Information & Usage Instructions": {
+    
+   
+      "Valve Information & Usage Cleaning": {
        "customer": [ 
-         "If the customer doesn't know how to use it, please send them this instructional video <a href='https://www.youtube.com/watch?v=ZFNfkVlQYm8' target='_blank'><span style='color: red'> Instructional Video.</span><br><br>"
+         "If the customer doesn't know how to clean it, please send them this Cleaning video <a href='https://www.youtube.com/watch?v=zRRdW_7VFkE' target='_blank'><span style='color: red'> Cleaning Video.</span><br><br>"
 ],
 
         "technician": [
-         "Parts Introduction <img src='./AGR.png' style='max-width:100%; height:auto;'>​</a></span><br><br>​"
+         "<img src='./ATCM.png' style='max-width:100%; height:auto;'>​</a></span><br><br>​"
         ]
       
       },
@@ -36,61 +39,51 @@
       
         ],
         "technician": [
-          "If the leg is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the leg along with the nuts when shipping the accessories!)"
+          "cracked Top burner<img src='./TOP BURNER.png' style='max-width:100%; height:auto;'>​</a></span><br><br> "
         ]
           },
       
       "Hot issue": {
         "customer": [
            "If the unit is not working,asking the customer to record a picture and send it to us for analysis.<span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
-        "Confirm with the customer whether the installation was done correctly?<br>1.<span style='color: red'>All units​ The gas connection must be made with a ¾” gas connection<br><span style='color: black'>2.<span style='color: red'>If it's NG (Natural Gas), take 14” W.C. (1/2 PSI) and regulate it down to the 4” W.C. for NG.<br><span style='color:burlywood'> For most natural gas setups the regulator supplied with the unit is sufficient.  Verify that the regulator is receiving at least 4” W.C. from the main in the building.<br><br><span style='color: black'>3.<span style='color: red'>If it's LP,take 14” W.C. (1/2 PSI) and regulate it down to the 10” W.C. for LP.<br><span style='color:burlywood'>The regulator is Adjustable to either NG or LP depending on the position of the pin under the top cap.<img src='./AGRR.png' style='max-width:100%; height:auto;'>​</a></span><br><br>​"
+        "Confirm with the customer whether the installation was done correctly?<br>1.<span style='color: red'>All units​ The gas connection must be made with a ¾” gas connection<br><span style='color: black'>2.<span style='color: red'>If it's NG (Natural Gas), take 14” W.C. (1/2 PSI) and regulate it down to the 4” W.C. for NG.<br><span style='color:burlywood'> For most natural gas setups the regulator supplied with the unit is sufficient.  Verify that the regulator is receiving at least 4” W.C. from the main in the building.<br><br><span style='color: black'>3.<span style='color: red'>If it's LP,take 14” W.C. (1/2 PSI) and regulate it down to the 10” W.C. for LP.<br><span style='color:burlywood'>The regulator is Adjustable to either NG or LP depending on the position of the pin under the top cap.<img src='./ATCMR.png' style='max-width:100%; height:auto;'>​</a></span><br><br>​"
           
         ],
         "technician": [ 
-           "Pilot Randomly Goes Out <br>1.<span style='color: red'>Remove the Pilot Orifice and check for debris.<br> <span style='color: black'>2.<span style='color: red'>Replace the Thermocouple.</span><br><br>",
-          "Griddle Top Not Heating Evenly <br>1.<span style='color: red'>Verify the gas pressure at the Unit Manifold.Adjust Accordingly.​.<br> <span style='color: black'>2.<span style='color: red'>Griddle top is Cast Iron.  Griddle top will need to be seasoned like a cast iron skillet before first use and if cleaned to bare metal.​.<br><br>",
-          "Top Leaking-This happens when the Grease Catch Tray separates from the griddle top.<br><span style='color: red'> The weld on the griddle top has broken loose and is not repairable.  Griddle will need to be replaced.<br><br>",
-          "Temperature calibration is inaccurate.<img src='./AGRCON.png' style='max-width:100%; height:auto;'>​</a></span><br><br>",
-         " Top Burner Valves<img src='./AGRVAL.png' style='max-width:100%; height:auto;'>​</a></span><br><br>"
+           "Pilot Randomly Goes Out <br>1.<span style='color: red'>Remove the Pilot Orifice and check for debris.<br> <span style='color: black'>2.<span style='color: red'>Adjust the low flame .​<span style='color: black'><br>3.<span style='color: red'>Replace the Thermocouple.</span><br><br>",
+          "Griddle Top Not Heating Evenly <br>1.<span style='color: red'>Adjust the low flame​.<br> <span style='color: black'>2.<span style='color: red'>Verify the gas pressure at the Unit Manifold.  Adjust Accordingly​.​<span style='color: black'><br>3.<span style='color: red'>Griddle top is Cast Iron.  Griddle top will need to be seasoned like a cast iron skillet before first use and if cleaned to bare metal.​<br><br>",
+          "Griddle Top Leaking.<br><span style='color: red'> The weld on the griddle top has broken loose and is not repairable.  Griddle will need to be replaced.<br><br>"
         
          
        ]
+      }
       },
-"Plumbing Diagram": {
-        "customer": [
 
-          
-        ],
-        "technician": [
-          "Plumbing Diagram <img src='./AGRP.png' style='max-width:100%; height:auto;'>"
-        ]
-      }
-      },
-     "documents": [
+     
+      "documents": [
       
-      {
-        "title": "MODEL MATCH UP</span><br><br>",
-        "url": "https://sks.atosausa.com/media/notices/GEN-001_Model_Match_Up.pdf"
-      }
-    ]
-  },
-      
+        {
+          "title": "MODEL MATCH UP</span><br><br>",
+          "url": "https://sks.atosausa.com/media/notices/GEN-001_Model_Match_Up.pdf"
+        }
+      ]
+    },
   "models": {
-    "AGR-10B": {
-      "title": "AGR-10B — 60″ Gas Range with Ten (10) Open Burners",
-      "image": "AGR10BP.png",
+    "ATCM-36": {
+      "title": "ATCM-36 — 36″ Cheesemelter",
+      "image": "ATCMP.png",
       "diagram": "AGR10BD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
       
       
       "documents": [
         {
           "title": "SPCIFICATION SHEET</span><br><br>",
-          "url": "https://atosausa.com/wp-content/uploads/2023/10/AGR-4B_6B_8B_10B_specsheet.pdf"
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATCM-36_Specsheet_08302024.pdf"
         },
         {
           "title": "PARTS BREAKDOWN</span><br><br>",
-          "url": "https://atosausa.com/wp-content/uploads/2023/10/AGR-10B.pdf"
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATCM-36-Parts-Breakdown.pdf"
         }
           
       
@@ -298,3 +291,4 @@
 }
 }
   }
+
