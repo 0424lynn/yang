@@ -1,0 +1,349 @@
+{
+  "common": {
+    "issues": {
+      "Gas Pressure Information": {
+        "customer": [
+
+          
+        ],
+        "technician": [
+          " Gas Pressure Information <img src='./AGRPRE.png' style='max-width:100%; height:auto;'>​</a></span><br><br>"
+        ]
+      },
+      "Altitude/Elevation Information": {
+        "customer": [
+        ],
+        "technician": [
+        "A gas burner works based on Bernoulli’s Principle.  Simply put, the jet of fast-moving gas coming out of the orifice, drags the surrounding air into the burner with it.  The venturi effect mixes the air with the gas to create the fuel to air mixture that burns when it comes out of the burner holes.</span><br><br>",
+        "As you increase in elevation the air begins to thin out, there is less oxygen in the air to burn so the flame on the unit is more gas than it is oxygen, this causes the flame to turn orange and produce soot.  To counteract this the holes in the orifices on the unit need to be smaller. This restricts the volume of gas coming out of the orifice without slowing the speed at which it comes out.  This allows for more air to mix in the burner venturi to keep the flame blue. ​<br><br><span style='color:red'>​All our units are shipped out with “Sea Level” Orifices in them.It is up to the end user's installer to size the orifices on the unit accordingly when the unit is to be installed at elevation.<br><br><img src='./AGRORI.png' style='max-width:100%; height:auto;'>"
+      ]
+      
+    },
+   
+    
+   
+      "Valve Information & Usage Cleaning": {
+       "customer": [ 
+         "If the customer doesn't know how to use it, please send them this instructional video <a href='https://www.youtube.com/watch?v=ZFNfkVlQYm8' target='_blank'><span style='color: red'>Same procedure as with AGR</span><br><br>"
+],
+
+        "technician": [
+         "<img src='./ATCM.png' style='max-width:100%; height:auto;'>​</a></span><br><br>​"
+        ]
+      
+      },
+      "physical Damage": {
+        "customer": [
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+        "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)</span><br><br>"
+      
+        ],
+        "technician": [
+            "Determine whether a technician needs to be dispatched based on the photos provided by the customer."
+        ]
+          },
+      
+      "Hot issue": {
+        "customer": [
+           "If the unit is not working,asking the customer to record a picture and send it to us for analysis.<span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+        "Confirm with the customer whether the installation was done correctly?<br>1.<span style='color: red'>All units​ The gas connection must be made with a ¾” gas connection<br><span style='color: black'>2.<span style='color: red'>If it's NG (Natural Gas), take 14” W.C. (1/2 PSI) and regulate it down to the 4” W.C. for NG.<br><span style='color:burlywood'> For most natural gas setups the regulator supplied with the unit is sufficient.  Verify that the regulator is receiving at least 4” W.C. from the main in the building.<br><br><span style='color: black'>3.<span style='color: red'>If it's LP,take 14” W.C. (1/2 PSI) and regulate it down to the 10” W.C. for LP.<br><span style='color:burlywood'>The regulator is Adjustable to either NG or LP depending on the position of the pin under the top cap.<img src='./ATCMR.png' style='max-width:100%; height:auto;'>​</a></span><br><br>​"
+          
+        ],
+        "technician": [ 
+           "Pilot Randomly Goes Out <br>1.<span style='color: red'>Remove the Pilot Orifice and check for debris.<br> <span style='color: black'>2.<span style='color: red'>Adjust the low flame .​<span style='color: black'><br>3.<span style='color: red'>Replace the Thermocouple.</span><br><br>",
+          "Griddle Top Not Heating Evenly <br>1.<span style='color: red'>Adjust the low flame​.<br> <span style='color: black'>2.<span style='color: red'>Verify the gas pressure at the Unit Manifold.  Adjust Accordingly​.​<span style='color: black'><br>3.<span style='color: red'>Griddle top is Cast Iron.  Griddle top will need to be seasoned like a cast iron skillet before first use and if cleaned to bare metal.​<br><br>",
+          "Griddle Top Leaking.<br><span style='color: red'> The weld on the griddle top has broken loose and is not repairable.  Griddle will need to be replaced.<br><br>"
+        
+         
+       ]
+      }
+      },
+
+     
+      "documents": [
+      
+        {
+          "title": "MODEL MATCH UP</span><br><br>",
+          "url": "https://sks.atosausa.com/media/notices/GEN-001_Model_Match_Up.pdf"
+        }
+      ]
+    },
+  "models": {
+    "ATRC-24": {
+      "title": "ATRC-24 — 24″ Radiant Broiler",
+      "image": "ATRC-24P.png",
+      "diagram": "ATRCD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATRC-24_ATRC-36_ATRC-48_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATRC-Parts-Breakdown.pdf"
+       
+        }
+          
+      
+      ]
+    
+    },
+    "ATRC-48": {
+      "title": "ATRC-48 — 48″ Radiant Broiler",
+      "image": "ATRC-48P.png",
+      "diagram": "ATRCD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATRC-24_ATRC-36_ATRC-48_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATRC-Parts-Breakdown.pdf"
+       
+        }
+          
+      
+      ]
+    
+    },
+    "ATRC-36": {
+      "title": "ATRC-36 — 36″ Radiant Broiler",
+      "image": "ATRC-36P.png",
+      "diagram": "ATRCD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATRC-24_ATRC-36_ATRC-48_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATRC-Parts-Breakdown.pdf"
+       
+        }
+      ]
+    },
+    "ATCB-24": {
+      "title": "ATCB-24 — 24″ Char Rock Broiler",
+      "image": "ATCB-24P.png",
+      "diagram": "ATCBD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATCB-24_ATCB-36_ATCB-48_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATCB-24.pdf"
+       
+        }
+        
+    
+]
+},
+    "ATCB-36": {
+      "title": "ATCB-36 — 36″ Char Rock Broiler",
+      "image": "ATCB-36P.png",
+      "diagram": "ATCBD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATCB-24_ATCB-36_ATCB-48_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATCB-36.pdf"
+       
+        }
+      ]
+    },
+        
+    "ATCB-48": {
+      "title": "ATCB-48 — 48″ Char Rock Broiler",
+      "image": "ATCB-48P.png",
+      "diagram": "ATCBD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATCB-24_ATCB-36_ATCB-48_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATCB-48.pdf"
+       
+        }
+      ]
+    },
+    "ACHP-2": {
+      "title": "ACHP-2 — 12″ Two (2) Burner Hot Plate",
+      "image": "ACHP-2P.png",
+      "diagram": "ACHPD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ACHP-2_4_6_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ACHP.pdf"
+       
+        }
+      ]
+    },
+    "ACHP-4": {
+      "title": "ACHP-4 — 24″ Four (4) Burner Hot Plate",
+      "image": "ACHP-4P.png",
+      "diagram": "ACHPD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ACHP-2_4_6_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ACHP.pdf"
+       
+        }
+      ]
+    },
+    "ACHP-6": {
+      "title": "ACHP-6 — 36″ Six (6) Burner Hot Plate",
+      "image": "ACHP-6P.png",
+      "diagram": "ACHPD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ACHP-2_4_6_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ACHP.pdf"
+       
+        }
+      ]
+    },
+    "ATMG-24": {
+      "title": "ATMG-24 — 24″ Manual Griddle",
+      "image": "ATMG-24P.png",
+      "diagram": "ATMGD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATMG-24_36_48_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATMG-24.pdf"
+       
+        }
+]
+},
+    "ATMG-36": {
+      "title": "ATMG-36 — 36″ Manual Griddle",
+      "image": "ATMG-36P.png",
+      "diagram": "ATMGD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATMG-24_36_48_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATMG-36.pdf"
+       
+        }
+]
+},
+    "ATMG-48": {
+      "title": "ATMG-48 — 48″ Manual Griddle",
+      "image": "ATMG-48P.png",
+      "diagram": "ATMGD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATMG-24_36_48_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATMG-48.pdf"
+       
+        }
+      ]
+    },
+    "ATSP-18-1": {
+      "title": "ATSP-18-1 — Single Stock Pot Stove, Standard Height",
+      "image": "ATSP-18-1P.png",
+      "diagram": "ATSPD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATSP-18-1_18-2_18-1L_18-2L_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATSP-Parts-Breakdown.pdf"
+       
+        }
+]
+},
+    "ATSP-18-2": {
+      "title": "ATSP-18-2 — Double Stock Pot Stove, Standard Height",
+      "image": "ATSP-18-2P.png",
+      "diagram": "ATSPD.png",
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATSP-18-1_18-2_18-1L_18-2L_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATSP-Parts-Breakdown.pdf"
+       
+        }
+]
+}
+}
+  }
+
