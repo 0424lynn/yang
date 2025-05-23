@@ -1,0 +1,87 @@
+{
+  "common": {
+    "issues": {
+      
+      "physical Damage": {
+        "customer": [
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+        "If the door gasket is damaged, suggest the customer replace it themselves<img src='./ATHCG.png' style='max-width:100%; height:auto;'></span><br><br>",
+          "If the door Handle is damaged, suggest the customer replace it themselves<img src='./ATHCH.png' style='max-width:100%; height:auto;'></span><br><br>"
+      
+        ],
+        "technician": [
+            "Door Replacement Steps.<img src='./ATHCD.png' style='max-width:100%; height:auto;'>"
+        ]
+          },
+          "Module Disassembly Diagram": {
+            "customer": [
+             
+            ],
+        
+        "technician": [
+            "1.Before replacing any parts, the module must be removed for servicing.<img src='./ATHCM.png' style='max-width:100%; height:auto;'></span><br><br>",
+           "<img src='./ATHCM1.png' style='max-width:100%; height:auto;'></span><br><br>"
+          ]
+          },
+      
+      "Heating issue": {
+        "customer": [
+           "If the unit is not working,asking the customer to record a Video and send it to us for analysis.<span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+           "If the unit is not displaying anything.<br><span style='color: red'>The display does not turn on after switching on the power, ask the customer to try a different power outlet to ensure the outlet has power output.</span><br><br>",
+          "Operation mode<br>1.<span style='color: red'>When the power switch is turned on, the display shows the temperature<span style='color: black'><br>2.<span style='color: red'>When the thermostat is turned on, the heating element and blower fan start operating.</span><br><br>."
+          ],
+        "technician": [ 
+           "The display is not working.<br>1.<span style='color: red'>Confirm if the power switch has electrical output（If there is voltage input but no voltage output, the power switch is likely faulty）<span style='color: black'><br>2.<span style='color: red'>Check whether the terminal block is burned or damaged.<br> <spa  n style='color: black'>3.<span style='color: red'>Test the display to see if it is receiving voltage input. If there is voltage but no display, the display is likely defective.​<span style='color: black'><br>4.<span style='color: red'>Check whether the wiring harness is loose or damaged.</span><br><br>"
+         
+       ]
+      }
+      },
+
+     
+      "documents": [
+      
+        {
+          "title": "MODEL MATCH UP</span><br><br>",
+          "url": "https://sks.atosausa.com/media/notices/GEN-001_Model_Match_Up.pdf"
+        }
+      ]
+    },
+  "models": {
+    "ATHC-9ES": {
+      "title": "ATHC-9ES — Insulated Warming & Holding Cabinet",
+      "image": "ATHC-9ESP.png",
+      "diagram": "ATHCESD.png",
+      "issues": ["physical Damage","Module Disassembly Diagram","Heating issue"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2024/11/ATHC-9ES_18ES_Specsheet_10222024.pdf"
+        }
+          
+      
+      ]
+    
+    },
+    "ATHC-18ES": {
+      "title": "ATHC-18ES — Insulated Warming & Holding Cabinet",
+      "image": "ATHC-18ESP.png",
+      "diagram": "ATHCESD.png",
+      "issues": ["physical Damage","Module Disassembly Diagram","Heating issue"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2024/11/ATHC-9ES_18ES_Specsheet_10222024.pdf"
+        }
+       
+        
+    
+        
+]
+}
+}
+  }
+

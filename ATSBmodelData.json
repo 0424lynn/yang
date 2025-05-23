@@ -72,7 +72,7 @@
     "ATSB-36": {
       "title": "ATSB-36 — 36″ Salamander Broiler",
       "image": "ATSBP.png",
-      "diagram": "AGR10BD.png",
+      "diagram": "ATCMD.png",
       "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
       
       
