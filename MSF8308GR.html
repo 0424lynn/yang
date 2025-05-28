@@ -136,19 +136,19 @@
             // 合并通用和型号特定的解决方案
             let allCustomerSolutions = [...commonCustomerSolutions, ...modelCustomerSolutions];
             let allTechnicianSolutions = [...commonTechnicianSolutions, ...modelTechnicianSolutions];
-// 渲染 HTML
-customerSolution.innerHTML = `<div class="solution-header">Customer Solution</div><ul>`;
-allCustomerSolutions.forEach(solution => {
-    customerSolution.innerHTML += `<li>${solution}</li>`;
-});
-customerSolution.innerHTML += `</ul>`;
 
-technicianSolution.innerHTML = `<div class="solution-header">Technician Solution</div><ul>`;
-allTechnicianSolutions.forEach(solution => {
-    technicianSolution.innerHTML += `<li>${solution}</li>`;
-});
-technicianSolution.innerHTML += `</ul>`;
+            // 渲染 HTML
+            customerSolution.innerHTML = `<div class="solution-header">Customer Solution</div><ul>`;
+            allCustomerSolutions.forEach(solution => {
+                customerSolution.innerHTML += `<li>${solution}</li>`;
+            });
+            customerSolution.innerHTML += `</ul>`;
 
+            technicianSolution.innerHTML = `<div class="solution-header">Technician Solution</div><ul>`;
+            allTechnicianSolutions.forEach(solution => {
+                technicianSolution.innerHTML += `<li>${solution}</li>`;
+            });
+            technicianSolution.innerHTML += `</ul>`;
         })
         .catch(error => console.error('Error loading issue data:', error));
 }

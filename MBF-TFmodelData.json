@@ -67,7 +67,7 @@
 
   "Check if the compressor is working properly?<br>1. <span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video</a>.</span><br>2. <span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3-in-1 start kit <a href='https://0424lynn.github.io/yang/3n1.png' target='_blank'>3-in-1 Operating Instructions</a>.</span></span><br><br>",
 
-  "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1. <span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 10-14 PSI. Please refer to this parameter <a href='https://0424lynn.github.io/yang/psi.png' target='_blank'>Pressure Temperature Chart</a>.</span><br>2. <span style='color: red'>Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor. <a href='https://0424lynn.github.io/yang/Solder%20joint%20diagram.png' target='_blank'>Refrigerant Circuit Diagram</a>.</span><br>3. <span style='color: red'>If the technician needs us to provide capillary tube fittings, please let them know we recommend cutting 2-3 inches off the end cap tube, blowing the whole system with nitrogen, replacing it with a new universal filter drier, vacuuming, and recharging the unit.</span>"
+  "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1. <span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 10-14 PSI. Please refer to this parameter <a href='https://0424lynn.github.io/yang/psi.png' target='_blank'>Pressure Temperature Chart</a>.</span><br>2. <span style='color: red'>Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor. <a href='https://0424lynn.github.io/yang/Solder%20joint%20diagram.png' target='_blank'>Refrigerant Circuit Diagram</a>.</span><br>3. <span style='color: red'>If the technician needs us to provide capillary tube fittings, please let them know we recommend cutting 2-3 inches off the end cap tube, blowing the whole system with nitrogen, replacing it with a new universal filter drier, vacuuming, and recharging the unit.</span><br><br>"
 
 
        ]
@@ -79,7 +79,7 @@
           "Please ask the customer to check if the power cord is damaged?<br><span style='color: red'>(If there is any damage, please take a photo and send it to us. We will send part and  dispatch tech to repair it.)"
         ],
         "technician": [
-         "If the unit has no power:<br>1.<span style='color: red'>Check if the controller wiring harness is properly connected and ensure there are no loose connections.<br><span style='color: black'>2.<span style='color: red'>Check if the Power Switch is faulty"
+         "If the unit has no power:<br>1.<span style='color: red'>Check if the controller wiring harness is properly connected and ensure there are no loose connections.<br><span style='color: black'>2.<span style='color: red'>Check if the Power Switch is faulty</span><br><br>"
         
         ]
         },
@@ -125,7 +125,13 @@
       "image": "MBF15FSGRP.png",
       "diagram": "MBF15FSGRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
-      
+      "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3700mm"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -155,6 +161,13 @@
       "image": "MBF8001GRP.png",
       "diagram": "MBF8001GRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3500mm"
+        ]
+    
+    },
       "documents": [
         {
           "title": "SPCIFICATION SHEET</span><br><br>",
@@ -181,6 +194,13 @@
       "image": "MBF8002GRP.png",
       "diagram": "MBF8002GRD.png",
     "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+    "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 2780mm"
+        ]
+    
+    },
     "documents": [
       {
         "title": "SPCIFICATION SHEET</span><br><br>",
@@ -202,6 +222,13 @@
   "image": "MBF8003GRP.png",
   "diagram": "MBF8003GRD.png",
 "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+"cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 2500mm"
+        ]
+    
+    },
 "Power Issue": {
         "customer": [
           "Check if the voltage installation is normal and take a photo to confirm.<br><span style='color: red'>(The compressor operates at 220V and requires a professional electrician for installation.)"
