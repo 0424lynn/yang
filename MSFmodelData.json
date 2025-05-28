@@ -69,7 +69,7 @@
           "115V Fan Troubleshooting:<br>1.<span style='color: red'>If all fans are not working, please check if there is output 115V  for the fans on the controller board</span> <a href='https://0424lynn.github.io/yang/Dixell.png' target='_blank'>Dixell Fan Voltage Test</a>, <a href='https://0424lynn.github.io/yang/Carel.png' target='_blank'>Carel Fan Voltage Test</a> <span style='color: red'>(If there is no voltage,replace the controller board)<br><span style='color: black'>2.</span> <span style='color: red'>If only one fan is not working, replace the fan directly.</span></span><br><br>",
           "24V Fan Troubleshooting:<br>1.<span style='color: red'>If all fans are not working, Check if the transformer has 115V input or 24V output:<br>①.If the transformer has a 115V input, but no 24V output, replace the transformer.<br>②.If the transformer has no 115V input,please check if there is a 115V output on the control board<a href='https://0424lynn.github.io/yang/Dixell.png' target='_blank'>Dixell Fan Voltage Test</a> <span style='color: red'>(If there is no voltage,replace the controller board)</span><br><br>",
           "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1.<span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 36-38 PSI<br><span style='color: black'>2.<span style='color: red'>If the tech needs us to provide capillary tube fittings,Please let the tech know we recommend cut 2-3 inches of the end cap tube and blow the whole system by nitrogen and then replace a new universal filter drier, vacuum and recharge the unit</span><br><br>",
-          "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）"
+          "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator)</span><br><br>"
         ]
       }, "Power Issue": {
         "customer": [
@@ -132,6 +132,13 @@
       "image": "MSF8301GRP.png",
       "diagram": "MSF8301GRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+      "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 540mm"
+        ]
+    
+    },
       "documents": [
         {
           "title": "SPCIFICATION SHEET</span><br><br>",
@@ -148,6 +155,13 @@
       "image": "MSF8302GRP.png",
       "diagram": "MSF8302GRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+     "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 2300mm"
+        ]
+    
+    },
       "leakingWater outside": {
       "technician": [
   "3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
@@ -170,6 +184,13 @@
       "image": "MSF8303GRP.png",
       "diagram": "MSF8303GRD.png",
     "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+    "cooling Issue": {
+        
+      "technician": [
+        "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 2300mm"
+      ]
+  
+  },
     "leakingWater outside": {
       "technician": [
   "3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
@@ -192,6 +213,13 @@
       "image": "MSF8304GRP.png",
       "diagram": "MSF8304GRD.png",
     "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+    "cooling Issue": {
+        
+      "technician": [
+        "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 2300mm"
+      ]
+  
+  },
     "leakingWater outside": {
       "technician": [
   "3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
@@ -215,6 +243,13 @@
     "image": "MSF8305GRP.png",
     "diagram": "MSF8305GRD.png",
   "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "cooling Issue": {
+        
+      "technician": [
+        "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 2500mm"
+      ]
+  
+  },
   "documents": [
     {
       "title": "SPCIFICATION SHEET</span><br><br>",
@@ -231,6 +266,13 @@
     "image": "MSF8306GRP.png",
     "diagram": "MSF8306GRD.png",
   "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "cooling Issue": {
+        
+    "technician": [
+      "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 2300mm"
+    ]
+
+},
   "leakingWater outside": {
     "technician": [
 "3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
@@ -253,6 +295,13 @@
     "image": "MSF8307GRP.png",
     "diagram": "MSF8307GRD.png",
   "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+ "cooling Issue": {
+        
+    "technician": [
+      "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 2300mm"
+    ]
+
+},
   "leakingWater outside": {
       "technician": [
   "3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
@@ -276,6 +325,13 @@
     "image": "MSF8308GRP.png",
     "diagram": "MSF8308GRD.png",
   "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+ "cooling Issue": {
+        
+    "technician": [
+      "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 2300mm"
+    ]
+
+},
   "leakingWater outside": {
      
     "technician": [
@@ -311,6 +367,13 @@
     "image": "MSF3610GRP.png",
     "diagram": "MSF3610GRD.png",
   "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+ "cooling Issue": {
+        
+    "technician": [
+      "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 2500mm"
+    ]
+
+},
   "documents": [
     {
       "title": "SPCIFICATION SHEET</span><br><br>",
@@ -323,6 +386,13 @@
     "image": "MSF3615GRP.png",
     "diagram": "MSF3615GRD.png",
   "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "cooling Issue": {
+        
+    "technician": [
+      "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 2500mm"
+    ]
+
+},
   "documents": [
     {
       "title": "SPCIFICATION SHEET</span><br><br>",

@@ -64,12 +64,12 @@
       
         ],
         "technician": [ 
-         "Check if the evaporator is frozen?<br><span style='color: red'>Test if probes are working properly. Different temperatures show different OHM values. Please refer to this parameter <a href='https://0424lynn.github.io/yang/test_probe.png' target='_blank'>Test probe</a>.</span></span><br><br>",
+         "Check if the evaporator is frozen?<br><span style='color: red'>Test if probes are working properly. Different temperatures show different OHM values. Please refer to this parameter <a href='https://0424lynn.github.io/yang/test probe.png' target='_blank'>Test probe</a>.</span></span><br><br>",
           "Check if the evaporator fan is working?<br><span style='color: red'>(Confirm if there is a 115V voltage output. <a href='https://0424lynn.github.io/yang/evp_fan.png' target='_blank'>Evaporator fan maintenance manual</a>)</span></span><br><br>",
           "Check if the compressor is working properly?<br>1. <span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video</a>.</span><br>2. <span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3-in-1 start kit <a href='https://0424lynn.github.io/yang/3n1.png' target='_blank'>3-in-1 Operating Instructions</a>.</span></span><br><br>",
           "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1.<span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 36-38 PSI, please refer to this parameter <a href='https://0424lynn.github.io/yang/psi.png' target='_blank'>Pressure temperature Chart</a>)</span></span><br><br>",
           "Check if the compressor is working properly? <br>1.<span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video </a>)<br><span style='color: black'>2.<span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3n'1 start kit<a href='/3n1.png' target='_blank'> 3n'1 Operating Instructions)</span><br><br>",
-          "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1.<span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 44-46 PSI,please refer to this parameter <a href=\"/psi.png\" target=\"_blank\">Pressure temperature Chart</a>)<br></span>\n<span style=\"color: black\">2.<span style=\"color: red\">Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor.<a href=\"/Solder joint diagram.png\" target=\"_blank\">Refrigerant Circuit Diagram</a></span></span><br><span style='color: black'>3.<span style='color: red'>If the tech needs us to provide capillary tube fittings,Please let the tech know we recommend cut 2-3 inches of the end cap tube and blow the whole system by nitrogen and then replace a new universal filter drier, vacuum and recharge the unit"
+          "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1.<span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 44-46 PSI,please refer to this parameter <a href='./psi.png' target='_blank'>Pressure temperature Chart</a>)<br><span style='color: black'>2.<span style='color: red'>Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor.<a href='./Solder joint diagram.png' target='_blank'>Refrigerant Circuit Diagram</a></span></span><br><span style='color: black'>3.<span style='color: red'>If the tech needs us to provide capillary tube fittings,Please let the tech know we recommend cut 2-3 inches of the end cap tube and blow the whole system by nitrogen and then replace a new universal filter drier, vacuum and recharge the unit</span><br><br>"
         ]
       },
       "Power Issue": {
@@ -88,7 +88,7 @@
           "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 1 of 7</a>)"
         ],
         "technician": [
-          "Carel Parameters: <a href=\"https://www.youtube.com/watch?v=6M5W5OQD-Vc&t=223s\" target=\"_blank\">Atosa Carel Refrigerator parameters</a><br> <span style=\"color: black;\">EO:</span><span style=\"color: red;\"> Probe 1 (White Probe) Failed or Disconnected. Code shows when probe is disconnected.</span><br> <span style=\"color: black;\">El:</span><span style=\"color: red;\"> Probe 2 Failed or Disconnected. Code shows when probe is disconnected. If unit is a refrigerator change d0 parameter to 2</span><br> <span style=\"color: black;\">OF:</span><span style=\"color: red;\"> Hold down the power button for 3sec </span><a href=\"https://www.youtube.com/watch?v=rF8OkY-XBT8\" target=\"_blank\">Operation video</a><br> <span style=\"color: black;\">Do:</span><span style=\"color: red;\"> Door Open Alarm. Verify A4 parameter is set to 6 and check the magnet door switch wiring</span><a href=\"https://www.youtube.com/watch?v=ZelNDCVHa1g\" target=\"_blank\"> Do Code Solution</a><br> <span style=\"color: black;\">EE&amp;EF:</span><span style=\"color: red;\"> Unit Parameter Error. Replace Controller.</span><br> <span style=\"color: black;\">ED:</span><span style=\"color: red;\"> Defrost Ended by Timeout. Possible P2 Probe Failure or Defrost Solenoid Issue.</span><br> <span style=\"color: black;\">DF:</span><span style=\"color: red;\"> Unit is in Defros</span></span><br><br>",
+          "Carel Parameters: <a href='https://www.youtube.com/watch?v=6M5W5OQD-Vc&t=223s'target='_blank'>Atosa Carel Refrigerator parameters</a><br> <span style='color: black;'>EO:</span><span style='color: red;'> Probe 1 (White Probe) Failed or Disconnected. Code shows when probe is disconnected.</span><br> <span style='color: black;'>El:</span><span style='color: red;'> Probe 2 Failed or Disconnected. Code shows when probe is disconnected. If unit is a refrigerator change d0 parameter to 2</span><br> <span style='color: black;'>OF:</span><span style='color: red;'> Hold down the power button for 3sec </span><a href='https://www.youtube.com/watch?v=rF8OkY-XBT8' target='_blank'>Operation video</a><br> <span style='color: black;'>Do:</span><span style='color: red;'> Door Open Alarm. Verify A4 parameter is set to 6 and check the magnet door switch wiring</span><a href='https://www.youtube.com/watch?v=ZelNDCVHa1g'target='_blank'> Do Code Solution</a><br> <span style='color: black;'>EE&amp;EF:</span><span style='color: red;'> Unit Parameter Error. Replace Controller.</span><br> <span style='color: black;'>ED:</span><span style='color: red;'> Defrost Ended by Timeout. Possible P2 Probe Failure or Defrost Solenoid Issue.</span><br> <span style='color: black;'>DF:</span><span style='color: red;'> Unit is in Defros</span></span><br><br>",
           "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
           "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 1 of 7</a>)"
         ]
@@ -123,6 +123,13 @@
       "image": "MBF8505GRP.png",
       "diagram": "MBF8505GRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3000mm"
+        ]
+    
+    },
       "documents": [
         {
           "title": "SPCIFICATION SHEET</span><br><br>",
@@ -144,6 +151,13 @@
       "image": "MBF8506GRP.png",
       "diagram": "MBF8506GRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3000mm"
+        ]
+    
+    },
       "documents": [
       {
           "title": "SPCIFICATION SHEET</span><br><br>",
@@ -164,6 +178,13 @@
       "image": "MBF8507GRP.png",
       "diagram": "MBF8507GRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+     "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3000mm"
+        ]
+    
+    },
       "documents": [
       {
           "title": "SPCIFICATION SHEET</span><br><br>",
@@ -185,6 +206,13 @@
     "image": "MBF8508GRP.png",
     "diagram": "MBF8508GRD.png",
     "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+    "cooling Issue": {
+        
+      "technician": [
+        "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.3mm × 0.6mm / Length: 3300mm"
+      ]
+  
+  },
     "documents": [
     {
         "title": "SPCIFICATION SHEET</span><br><br>",
@@ -206,6 +234,13 @@
     "image": "MBF8519GRP.png",
     "diagram": "MBF8519GRD.png",
     "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+    "cooling Issue": {
+        
+      "technician": [
+        "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3000mm"
+      ]
+  
+  },
     "documents": [
     {
         "title": "SPCIFICATION SHEET</span><br><br>",

@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
  // 产品列表
     const products = [
     "MSF8302GR", "MSF8308GR", "MSF17GR-NTCV", "MSF3610GR", "MSF3615GR",
-      "MSF8301GR",  "MSF8302GR", 
+      "MSF8301GR",  
       "MSF8303GR", "MSF8304GR", 
       "MSF8305GR",  "MSF8306GR", 
       "MSF8307GR", 

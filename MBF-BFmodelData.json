@@ -60,14 +60,14 @@
           "Confirm with the customer which icons are displayed on the screen. <br><span style='color: red'>(The icons indicate that the corresponding components are functioning <a href='https://0424lynn.github.io/yang/icon.png' target='_blank'>Basic Unit Functions</a>)</span><br><br>",
           "Is the condenser fan working?<br><span style='color: red'>①.If not, check if the fan blade is obstructed by any foreign objects. <br><span style='color: red'>②.If it’s not obstructed but still not working, the fan needs to be replaced</span><br><br>",
           "Check if the internal evaporator fan is working?<br><span style='color: red'>If only one fan is not working, replace the faulty fan.</span><br><br>",
-        "Check if the condenser is dirty or clogged?<br><span style='color: red'>If the customer is unsure, ask them to take a photo and send it for confirmation"
+        "Check if the condenser is dirty or clogged?<br><span style='color: red'>If the customer is unsure, ask them to take a photo and send it for confirmation</span><br><br>"
         ],
         "technician":[
   "Check if the evaporator is frozen?<br>1. <span style='color: red'>Test if both probes are working properly (Different temperatures show different OHM values; please refer to this parameter <a href='https://0424lynn.github.io/yang/test%20probe.png' target='_blank'>Test probe</a>).</span><br>2. <span style='color: red'>Check if the drain pan & drain hose heaters are working properly (Check the ohm values of these two accessories. This is the inspection manual <a href='https://0424lynn.github.io/yang/heater%20test.png' target='_blank'>Heater Test Manual</a>).</span><br>3. <span style='color: red'>Check if the evaporator fan is working? (Confirm if there is a 115V voltage output. <a href='https://0424lynn.github.io/yang/evp%20fan.png' target='_blank'>Evaporator Fan Maintenance Manual</a>).</span></span><br><br>",
 
   "Check if the compressor is working properly?<br>1. <span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video</a>.</span><br>2. <span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3-in-1 start kit <a href='https://0424lynn.github.io/yang/3n1.png' target='_blank'>3-in-1 Operating Instructions</a>.</span></span><br><br>",
 
-  "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1. <span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 10-14 PSI. Please refer to this parameter <a href='https://0424lynn.github.io/yang/psi.png' target='_blank'>Pressure Temperature Chart</a>.</span><br>2. <span style='color: red'>Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor. <a href='https://0424lynn.github.io/yang/Solder%20joint%20diagram.png' target='_blank'>Refrigerant Circuit Diagram</a>.</span><br>3. <span style='color: red'>If the technician needs us to provide capillary tube fittings, please let them know we recommend cutting 2-3 inches off the end cap tube, blowing the whole system with nitrogen, replacing it with a new universal filter drier, vacuuming, and recharging the unit.</span>"
+  "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1. <span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 10-14 PSI. Please refer to this parameter <a href='https://0424lynn.github.io/yang/psi.png' target='_blank'>Pressure Temperature Chart</a>.</span><br>2. <span style='color: red'>Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor. <a href='https://0424lynn.github.io/yang/Solder%20joint%20diagram.png' target='_blank'>Refrigerant Circuit Diagram</a>.</span><br>3. <span style='color: red'>If the technician needs us to provide capillary tube fittings, please let them know we recommend cutting 2-3 inches off the end cap tube, blowing the whole system with nitrogen, replacing it with a new universal filter drier, vacuuming, and recharging the unit.</span><br><br>"
 
 
        ]
@@ -126,7 +126,13 @@
       "image": "MBF8501GRP.png",
       "diagram": "MBF8501GRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
-      
+      "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3700mm"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -153,6 +159,13 @@
       "image": "MBF8502GRP.png",
       "diagram": "MBF8502GRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3000mm"
+        ]
+    
+    },
       "documents": [
         {
           "title": "SPCIFICATION SHEET</span><br><br>",
@@ -174,6 +187,13 @@
       "image": "MBF8503GRP.png",
       "diagram": "MBF8503GRD.png",
     "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+    "cooling Issue": {
+        
+      "technician": [
+        "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3000mm"
+      ]
+  
+  },
     "documents": [
       {
         "title": "SPCIFICATION SHEET</span><br><br>",
@@ -219,54 +239,19 @@
   }
 ]
 },
-  "MBF8007GR": {
-  "title": "MBF8007GR — Top Mount Three Door Reach-in Freezer",
-  "image": "MBF8007GRP.png",
-  "diagram": "MBF8007GRD.png",
-"issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
-
-"documents": [
-  {
-    "title": "SPCIFICATION SHEET</span><br><br>",
-    "url": "https://atosausa.com/wp-content/uploads/2024/08/MBF8007GR_8007GRL_8008GR_Specsheet_11212024.pdf"
-  },
-  {
-    "title": "PARTS BREAKDOWN</span><br><br>",
-    "url": "https://atosausa.com/wp-content/uploads/2023/10/MBF8007GR-V2.pdf"
-  },
-  {
-    "title": "COMPRESSOR WIRING DIAGRAM-NUT90</span><br><br> ",
-    "url": "./NUT90.png"
-    
-  },
-  {
-    "title": "COMPRESSOR WIRING DIAGRAM-CA90 </span><br><br>",
-    "url": "./ca90.png"
-    
-}
-]
-},
-"MBF8008GR": {
-  "title": "MBF8008GR — Top Mount Two-Section (4) Divided Door Freezer",
-  "image": "MBF8008GRP.png",
-  "diagram": "MBF8008GRD.png",
-"issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
-"documents": [
-  {
-    "title": "SPCIFICATION SHEET</span><br><br>",
-    "url": "https://atosausa.com/wp-content/uploads/2024/08/MBF8007GR_8007GRL_8008GR_Specsheet_11212024.pdf"
-  },
-  {
-    "title": "PARTS BREAKDOWN</span><br><br>",
-    "url": "https://atosausa.com/wp-content/uploads/2023/10/MBF8008GR-V2.pdf"
-  }
-]
-},
+  
   "MBF8520GR": {
     "title": "MBF8520GR — Low Height Freezer",
     "image": "MBF8520GRP.png",
     "diagram": "MBF8520GRD.png",
     "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+    "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3700mm"
+        ]
+    
+    },
     "documents": [
     {
         "title": "SPCIFICATION SHEET</span><br><br>",
@@ -293,6 +278,13 @@
     "image": "MBF8531GRP.png",
     "diagram": "MBF8531GRD.png",
     "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+   "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3700mm"
+        ]
+    
+    },
     "documents": [
     {
         "title": "SPCIFICATION SHEET</span><br><br>",
