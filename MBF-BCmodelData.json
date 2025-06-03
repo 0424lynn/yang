@@ -64,7 +64,7 @@
       
         ],
         "technician": [ 
-         "Check if the evaporator is frozen?<br><span style='color: red'>Test if probes are working properly. Different temperatures show different OHM values. Please refer to this parameter <a href='https://0424lynn.github.io/yang/test probe.png' target='_blank'>Test probe</a>.</span></span><br><br>",
+         "Check if the evaporator is frozen?<br> <span style='color: red'>Ensure that the refrigerator temperature setting is not lower than 35℉.</span></span><br><br>",
           "Check if the evaporator fan is working?<br><span style='color: red'>(Confirm if there is a 115V voltage output. <a href='https://0424lynn.github.io/yang/evp_fan.png' target='_blank'>Evaporator fan maintenance manual</a>)</span></span><br><br>",
           "Check if the compressor is working properly?<br>1. <span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video</a>.</span><br>2. <span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3-in-1 start kit <a href='https://0424lynn.github.io/yang/3n1.png' target='_blank'>3-in-1 Operating Instructions</a>.</span></span><br><br>",
           "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1.<span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 36-38 PSI, please refer to this parameter <a href='https://0424lynn.github.io/yang/psi.png' target='_blank'>Pressure temperature Chart</a>)</span></span><br><br>",

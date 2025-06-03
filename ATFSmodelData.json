@@ -71,7 +71,16 @@
         "A gas burner works based on Bernoulli’s Principle.  Simply put, the jet of fast-moving gas coming out of the orifice, drags the surrounding air into the burner with it.  The venturi effect mixes the air with the gas to create the fuel to air mixture that burns when it comes out of the burner holes.</span><br><br>",
         "As you increase in elevation the air begins to thin out, there is less oxygen in the air to burn so the flame on the unit is more gas than it is oxygen, this causes the flame to turn orange and produce soot.  To counteract this the holes in the orifices on the unit need to be smaller. This restricts the volume of gas coming out of the orifice without slowing the speed at which it comes out.  This allows for more air to mix in the burner venturi to keep the flame blue. ​<br><br><span style='color:red'>​All our units are shipped out with “Sea Level” Orifices in them.It is up to the end user's installer to size the orifices on the unit accordingly when the unit is to be installed at elevation.<br><br><img src='./ATFSO.png' style='max-width:100%; height:auto;'>"
       ]
-      }
+      
+    },
+    "LP → NG / NG → LP": {
+      "customer": [
+        "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATFS40-50-75.png' style='max-width:100%; height:auto;'>"
+
+      ],
+      "technician": [
+      ]
+    }
     },
    
     
@@ -88,7 +97,7 @@
       "title": "ATFS-40 — 40LB Deep Fryer",
       "image": "ATFS40P.png",
       "diagram": "ATFS40D.png",
-      "issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information"],
+      "issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
       
       
       "documents": [
@@ -109,7 +118,7 @@
       "title": "ATFS-35ES — 35LB Deep Fryer",
       "image": "ATFS40P.png",
       "diagram": "ATFS40D.png",
-     "issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information"],
+    "issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
       
       
       "documents": [
@@ -127,7 +136,7 @@
       "title": "ATFS-50 — 50LB Deep Fryer",
       "image": "ATFS40P.png",
       "diagram": "ATFS40D.png",
-     "issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information"],
+     "issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
       
       
       "documents": [
@@ -148,7 +157,7 @@
   "title": "ATFS-75 — 75 LB Deep Fryer",
   "image": "ATFS75P.png",
   "diagram": "ATFS40D.png",
-"issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information"],
+"issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
 "documents": [
   {
     "title": "SPCIFICATION SHEET</span><br><br>",
