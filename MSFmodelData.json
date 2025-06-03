@@ -1,6 +1,14 @@
 {
   "common": {
-    "issues": {
+      "issues": {
+     "Note: New issues with the pan temperature is not cold": {
+      "label": "<span style='color: red; font-size: 25px; font-weight: bold;'>Note: New issues with the pan temperature is not cold</span>",
+      
+        "technician": [
+          "If customer complains that the pan temperature is too high or uneven. Below are the recommended solutions:<br>1.<span style='color: red'>Replace with a larger compressor W0201043-NUT70NR1.<br><span style='color: black'>2.<span style='color: red'>Modify the parameters；set Hy to 5.<br><span style='color: black'>3.<span style='color: red'>Modify the parameters；set id to 5.<br><span style='color: black'>4.<span style='color: red'>Please make sure that the Air Divider, Insert, Pan, and Base Support must not be removed under any circumstances.</span><br><br>"
+          
+        ]
+        },
       "noise": {
         "customer": [
           "Ask the customer to record a video and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
@@ -265,7 +273,7 @@
     "title": "MSF8306GR — 48\" Sandwich Prep Table",
     "image": "MSF8306GRP.png",
     "diagram": "MSF8306GRD.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "issues":  ["Note: New issues with the pan temperature is not cold","noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
   "cooling Issue": {
         
     "technician": [
@@ -294,7 +302,7 @@
     "title": "MSF8307GR — 60\" Mega Top Sandwich Prep Table",
     "image": "MSF8307GRP.png",
     "diagram": "MSF8307GRD.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "issues":  ["Note: New issues with the pan temperature is not cold","noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
  "cooling Issue": {
         
     "technician": [
@@ -324,7 +332,7 @@
     "title": "MSF8308GR — Refrigerated Sandwich Prep Table",
     "image": "MSF8308GRP.png",
     "diagram": "MSF8308GRD.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+ "issues":  ["Note: New issues with the pan temperature is not cold","noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
  "cooling Issue": {
         
     "technician": [
