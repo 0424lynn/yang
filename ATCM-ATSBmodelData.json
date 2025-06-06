@@ -54,8 +54,16 @@
           "Griddle Top Not Heating Evenly <br>1.<span style='color: red'>Adjust the low flame​.<br> <span style='color: black'>2.<span style='color: red'>Verify the gas pressure at the Unit Manifold.  Adjust Accordingly​.​<span style='color: black'><br>3.<span style='color: red'>Griddle top is Cast Iron.  Griddle top will need to be seasoned like a cast iron skillet before first use and if cleaned to bare metal.​<br><br>",
           "Griddle Top Leaking.<br><span style='color: red'> The weld on the griddle top has broken loose and is not repairable.  Griddle will need to be replaced.<br><br>"
         
-         
-       ]
+        ]
+      
+      },
+      "LP → NG / NG → LP": {
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATSB-ATCM.png' style='max-width:100%; height:auto;'>"
+  
+        ],
+        "technician": [
+        ]
       }
       },
 
@@ -73,7 +81,7 @@
       "title": "ATCM-36 — 36″ Cheesemelter",
       "image": "ATCMP.png",
       "diagram": "ATCMD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
       
       
       "documents": [

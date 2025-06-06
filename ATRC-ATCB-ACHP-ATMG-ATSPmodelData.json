@@ -55,7 +55,14 @@
           "Griddle Top Leaking.<br><span style='color: red'> The weld on the griddle top has broken loose and is not repairable.  Griddle will need to be replaced.<br><br>"
         
          
-       ]
+        ]
+      
+      },
+      "LP → NG / NG → LP": {
+        "customer": [
+          
+        ]
+      
       }
       },
 
@@ -73,8 +80,14 @@
       "title": "ATRC-24 — 24″ Radiant Broiler",
       "image": "ATRC-24P.png",
       "diagram": "ATRCD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATRC-24-36-48.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -95,8 +108,14 @@
       "title": "ATRC-48 — 48″ Radiant Broiler",
       "image": "ATRC-48P.png",
       "diagram": "ATRCD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATRC-24-36-48.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -117,8 +136,14 @@
       "title": "ATRC-36 — 36″ Radiant Broiler",
       "image": "ATRC-36P.png",
       "diagram": "ATRCD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATRC-24-36-48.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -136,8 +161,14 @@
       "title": "ATCB-24 — 24″ Char Rock Broiler",
       "image": "ATCB-24P.png",
       "diagram": "ATCBD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATRC-24-36-48.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -157,8 +188,14 @@
       "title": "ATCB-36 — 36″ Char Rock Broiler",
       "image": "ATCB-36P.png",
       "diagram": "ATCBD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATRC-24-36-48.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -177,8 +214,14 @@
       "title": "ATCB-48 — 48″ Char Rock Broiler",
       "image": "ATCB-48P.png",
       "diagram": "ATCBD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATRC-24-36-48.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -196,8 +239,14 @@
       "title": "ACHP-2 — 12″ Two (2) Burner Hot Plate",
       "image": "ACHP-2P.png",
       "diagram": "ACHPD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ACHP12-24-36.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -215,8 +264,14 @@
       "title": "ACHP-4 — 24″ Four (4) Burner Hot Plate",
       "image": "ACHP-4P.png",
       "diagram": "ACHPD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ACHP12-24-36.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -234,8 +289,14 @@
       "title": "ACHP-6 — 36″ Six (6) Burner Hot Plate",
       "image": "ACHP-6P.png",
       "diagram": "ACHPD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ACHP12-24-36.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -253,8 +314,14 @@
       "title": "ATMG-24 — 24″ Manual Griddle",
       "image": "ATMG-24P.png",
       "diagram": "ATMGD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATMG24-36-48.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -272,8 +339,14 @@
       "title": "ATMG-36 — 36″ Manual Griddle",
       "image": "ATMG-36P.png",
       "diagram": "ATMGD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATMG24-36-48.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -291,8 +364,14 @@
       "title": "ATMG-48 — 48″ Manual Griddle",
       "image": "ATMG-48P.png",
       "diagram": "ATMGD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATMG24-36-48.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -310,8 +389,14 @@
       "title": "ATSP-18-1 — Single Stock Pot Stove, Standard Height",
       "image": "ATSP-18-1P.png",
       "diagram": "ATSPD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATSP-18-1(L)-2(L).png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -329,8 +414,14 @@
       "title": "ATSP-18-2 — Double Stock Pot Stove, Standard Height",
       "image": "ATSP-18-2P.png",
       "diagram": "ATSPD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATSP-18-1(L)-2(L).png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {

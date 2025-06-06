@@ -196,7 +196,15 @@
       "image": "MGF8401GRP.png",
       "diagram": "MGF8401GRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+      "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 2500mm"
+        ]
+    
+    },
       "documents": [
+       
         {
           "title": "SPCIFICATION SHEET</span><br><br>",
           "url": "https://atosausa.com/wp-content/uploads/2023/10/MGF24RGR_8401GR_8401GRL_36RGR_8402_8403_8404_Specsheet_09272024.pdf"
