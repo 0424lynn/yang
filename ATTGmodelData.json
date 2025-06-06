@@ -64,8 +64,18 @@
         "technician": [
           "Plumbing Diagram <img src='./ATTGPLU.png' style='max-width:100%; height:auto;'>"
         ]
+      
+      },
+      "LP → NG / NG → LP": {
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATTG24-36-48.png' style='max-width:100%; height:auto;'>"
+  
+        ],
+        "technician": [
+        ]
       }
       },
+     
      "documents": [
       
       {
@@ -80,7 +90,7 @@
       "title": "ATTG-24 — 24″ Thermostatic Griddle with 1″ Griddle Plate",
       "image": "ATTG-24P.png",
       "diagram": "ATTGD.png",
-      "issues": ["Gas Pressure Information","Thermostat Information  Usage&Cleaning Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
+      "issues": ["Gas Pressure Information","Thermostat Information  Usage&Cleaning Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information","LP → NG / NG → LP"],
       
       
       "documents": [
@@ -101,7 +111,7 @@
       "title": "ATTG-36 — 36″ Thermostatic Griddle with 1′ Griddle Plate″ Griddle",
       "image": "ATTG-36P.png",
       "diagram": "ATTGD.png",
-     "issues": ["Gas Pressure Information","Thermostat Information  Usage&Cleaning Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
+     "issues": ["Gas Pressure Information","Thermostat Information  Usage&Cleaning Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information","LP → NG / NG → LP"],
       
       
       "documents": [
@@ -119,7 +129,7 @@
       "title": "ATTG-48 — 48″ Thermostatic Griddle with 1′ Griddle Plate",
       "image": "ATTG-48P.png",
       "diagram": "ATTGD.png",
-      "issues": ["Gas Pressure Information","Thermostat Information  Usage&Cleaning Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
+      "issues": ["Gas Pressure Information","Thermostat Information  Usage&Cleaning Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information","LP → NG / NG → LP"],
       
       
       "documents": [

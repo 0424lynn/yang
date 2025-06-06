@@ -55,7 +55,16 @@
           "Griddle Top Leaking.<br><span style='color: red'> The weld on the griddle top has broken loose and is not repairable.  Griddle will need to be replaced.<br><br>"
         
          
-       ]
+        ]
+      
+      },
+      "LP → NG / NG → LP": {
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATSB-ATCM.png' style='max-width:100%; height:auto;'>"
+  
+        ],
+        "technician": [
+        ]
       }
       },
 
@@ -73,7 +82,7 @@
       "title": "ATSB-36 — 36″ Salamander Broiler",
       "image": "ATSBP.png",
       "diagram": "ATCMD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information"],
+      "issues": ["Gas Pressure Information","Valve Information & Usage Cleaning","physical Damage","Hot issue","Altitude/Elevation Information","LP → NG / NG → LP"],
       
       
       "documents": [

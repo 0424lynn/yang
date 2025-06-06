@@ -64,6 +64,15 @@
         "technician": [
           "Plumbing Diagram <img src='./AGRP.png' style='max-width:100%; height:auto;'>"
         ]
+      
+      },
+      "LP → NG / NG → LP": {
+        "customer": [
+          
+  
+        ],
+        "technician": [
+        ]
       }
       },
      "documents": [
@@ -80,8 +89,14 @@
       "title": "AGR-10B — 60″ Gas Range with Ten (10) Open Burners",
       "image": "AGR10BP.png",
       "diagram": "AGRD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./AGR-10B.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -101,8 +116,14 @@
       "title": "AGR-24G — 24″ Gas Range with 24″ Griddle",
       "image": "AGR24GP.png",
       "diagram": "AGRD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./AGR-24G.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -119,8 +140,14 @@
       "title": "AGR-2B24GL — 36″ Gas Range with Two Left Open Burners & 24″ Griddle",
       "image": "AGR2B24GLP.png",
       "diagram": "AGRD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./AGR-2B24G-24G2B.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -138,8 +165,14 @@
       "title": "AGR-36G — 36″ Gas Range with 36″ Griddle",
       "image": "AGR36GP.png",
       "diagram":"AGRD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./AGR-36G.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -156,8 +189,14 @@
       "title": "AGR-4B — 24″ Gas Range with Four (4) Open Burners",
       "image": "AGR-4BP.png",
       "diagram":"AGRD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./AGR-4B.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -210,8 +249,14 @@
       "title": "AGR-4B36GR — 60″ Gas Range with Four (4) Open Burners & 36″ Griddle",
       "image": "AGR-4B36GRP.png",
       "diagram":"AGRD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./AGR-4B36G.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -228,8 +273,14 @@
       "title": "AGR-6B — 36″ Gas Range with Six (6) Open Burners",
       "image": "AGR-6BP.png",
       "diagram":"AGRD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./AGR-6B.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       "documents": [
         {
           "title": "SPCIFICATION SHEET</span><br><br>",
@@ -246,8 +297,14 @@
       "title": "AGR-6B24GR — 60″ Gas Range with Six (6) Open Burners & 24″ Griddle",
       "image": "AGR-6B24GRP.png",
       "diagram":"AGRD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./AGR-6B24G.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -265,8 +322,14 @@
       "title": "AGR-8B — 48″ Gas Range with Eight (8) Open Burners",
       "image": "AGR-8BP.png",
       "diagram":"AGRD.png",
-      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
-      
+      "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./AGR-8B.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
       
       "documents": [
         {
@@ -283,8 +346,15 @@
   "title": "AGR-2B24GR — 36″ Gas Range with Two (2) Open Burners & 24″ Griddle",
   "image": "AGR2B24GRP.png",
   "diagram":"AGRD.png",
-  "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information"],
-"documents": [
+  "issues": ["Gas Pressure Information","Valve Information & Usage Instructions","physical Damage","Hot issue","Plumbing Diagram","Altitude/Elevation Information","LP → NG / NG → LP"],
+ "LP → NG / NG → LP": {
+        
+        "customer": [
+          "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./AGR-2B24G-24G2B.png' style='max-width:100%; height:auto;'>"
+        ]
+    
+    },
+  "documents": [
   {
     "title": "SPCIFICATION SHEET</span><br><br>",
     "url": "https://atosausa.com/wp-content/uploads/2023/10/AGR-2B24GR_2B24GL_specsheet.pdf"
