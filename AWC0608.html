@@ -78,11 +78,11 @@
 
     <script>
         // 加载 JSON 数据并更新页面内容
-        fetch('MCF-BSCmodelData.json')
+        fetch('AWC-modelData.json')
             .then(response => response.json())
             .then(data => {
                 // 获取当前型号（比如 MSF8302GR）
-                let model = "MCF8729GR";  // 可以根据需求动态设置
+                let model = "AWC1012";  // 可以根据需求动态设置
 
                 // 更新标题、图片和图示
                 document.getElementById('product-title').innerText = data.models[model].title;
@@ -117,10 +117,10 @@
 
         // 显示解决方案
         function showSolution(category) {
-            fetch('MCF-BSCmodelData.json')
+            fetch('AWC-modelData.json')
                 .then(response => response.json())
                 .then(data => {
-                    let model = "MCF8729GR"; // 获取当前型号
+                    let model = "AWC1012"; // 获取当前型号
                     let customerSolution = document.getElementById('customerSolution');
                     let technicianSolution = document.getElementById('technicianSolution');
 

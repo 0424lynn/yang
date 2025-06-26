@@ -122,9 +122,9 @@
         .then(data => {
             let model = "MCF8728GR"; // 获取当前型号
             let customerSolution = document.getElementById('customerSolution');
-            let technicianSolution = document.getElementById('technicianSolution');
+                    let technicianSolution = document.getElementById('technicianSolution');
 
-            // 获取通用 `cooling Issue`
+                    // 获取通用 `cooling Issue`
             let commonCustomerSolutions = data.common.issues[category]?.customer || [];
             let commonTechnicianSolutions = data.common.issues[category]?.technician || [];
 

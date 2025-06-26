@@ -34,8 +34,7 @@
       },
      "Led issue": {
         "customer": [
-         "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
-         "customer complains that the new top light panel is too bright?<br><span style='color: red'>The new cover plate has a built-in light, which makes it brighter than the old light strip. If the customer wants it dimmer, we suggest they replace it with our light strip. Please note that if the new board is replaced with the old light strip, the following components must also be replaced:<br>1.Bottom Frame 2.Top Frame 3.Right Frame 4.Left Frame 5.ATOSA logo 6.Left and Right Metal Support Parts 7.LED light"
+         "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>"
         ],
         "technician": [
           "Check if the power supply is working.<br><span style='color: red'>()</span><br><br>",
@@ -123,6 +122,13 @@
           "image": "MCF8709GRP.png",
           "diagram": "MCF8709GRD.png",
           "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","Sliding Door issue","physical Damage","cooling Issue","Power Issue","error Code"],
+          "Led issue": {
+      
+            "customer": [
+             "The new LED panel replaces the old light strip<br><span style='color: red'>The new LED panel will be brighter than the old light strip. If the customer wishes to upgrade to the new LED panel, please dispatch a technician and send the following parts:<br>1. Light Panel – R03004000104<br>2. Top Frame for Light Panel – R04012001674<br>3. Bottom Frame for Light Panel – R04012001673<br>Here is the repair manual<a href='https://sc.atosausa.com/file/2025/06/24/Install%20the%20NEW%20led%20panel%20from%20the%20Old%20style%20(1)%20(1)_f59aee1c-a70f-4ef7-8d49-64b3b434946e.pdf' target='_blank'> NEW LED ATOSA LOGO PANEL"
+            ]
+        
+        },
           "documents": [
             {
               "title": "SPCIFICATION SHEET</span><br><br>",
@@ -165,6 +171,13 @@
           "image": "MCF8727GRP.png",
           "diagram": "MCF8727GRD.png",
           "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","Sliding Door issue","physical Damage","cooling Issue","Power Issue","error Code"],
+          "Led issue": {
+      
+            "customer": [
+             "The new LED panel replaces the old light strip<br><span style='color: red'>The new LED panel will be brighter than the old light strip. If the customer wishes to upgrade to the new LED panel, please dispatch a technician and send the following parts:<br>1. Light Panel – R03004000104<br>2. Top Frame for Light Panel – R04012001674<br>3. Bottom Frame for Light Panel – R04012001673<br>Here is the repair manual<a href='https://sc.atosausa.com/file/2025/06/24/Install%20the%20NEW%20led%20panel%20from%20the%20Old%20style%20(1)%20(1)_f59aee1c-a70f-4ef7-8d49-64b3b434946e.pdf' target='_blank'> NEW LED ATOSA LOGO PANEL"
+            ]
+        
+        },
           "documents": [
             {
               "title": "SPCIFICATION SHEET</span><br><br>",
@@ -183,6 +196,13 @@
           "image": "MCF8729GRP.png",
           "diagram": "MCF8729GRD.png",
           "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","Sliding Door issue","physical Damage","cooling Issue","Power Issue","error Code"],
+          "Led issue": {
+      
+            "customer": [
+             "The new LED panel replaces the old light strip<br><span style='color: red'>The new LED panel will be brighter than the old light strip. If the customer wishes to upgrade to the new LED panel, please dispatch a technician and send the following parts:<br>1. Light Panel – R03004000106<br>2. Top Frame for Light Panel – R04012001674<br>3. Bottom Frame for Light Panel – R04012001295<br>Here is the repair manual<a href='https://sc.atosausa.com/file/2025/06/24/Install%20the%20NEW%20led%20panel%20from%20the%20Old%20style%20(1)%20(1)_f59aee1c-a70f-4ef7-8d49-64b3b434946e.pdf' target='_blank'> NEW LED ATOSA LOGO PANEL"
+            ]
+        
+        },
           "documents": [
             {
               "title": "SPCIFICATION SHEET</span><br><br>",
