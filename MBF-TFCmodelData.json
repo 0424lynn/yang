@@ -61,12 +61,12 @@
           "Confirm with the customer which icons are displayed on the screen. <br><span style='color: red'>(The icons indicate that the corresponding components are functioning<a href='/icon.png' target='_blank'> Basic Unit Functions)</span><br><br>",
           "Is the condenser fan working?<br><span style='color: red'>①.If not, check if the fan blade is obstructed by any foreign objects. <br><span style='color: red'>②.If it’s not obstructed but still not working, the fan needs to be replaced</span><br><br>",
           "Check if the internal evaporator fan is working?<br><span style='color: red'>If only one fan is not working, replace the faulty fan.</span><br><br>",
-        "Check if the condenser is dirty or clogged?<br><span style='color: red'>If the customer is unsure, ask them to take a photo and send it for confirmation"
+        "Check if the condenser is dirty or clogged?<br><span style='color: red'>If the customer is unsure, ask them to take a photo and send it for confirmation</span><br><br>"
         ],
         "technician": [ 
           "Check if the evaporator is frozen?<br>1.<span style='color: red'>Check if the drain pan & drain hose heaters are working properly (Check the ohm values of these two accessories. This is the inspection manual <a href='./heater test.png' target='_blank'>heater Test manual</a>).</span></span><br><span style='color: black'>2.<span style='color: red'>Check if the evaporator fan is working? (Confirm if there is a 115V voltage output. <a href='/evp fan.png'target='_blank'>Evaporator fan maintenance manual</a>)</span></span></span><br><br>",
           "Check if the compressor is working properly? <br>1.<span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video </a>)<br><span style='color: black'>2.<span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3n'1 start kit<a href='./3n1.png' target='_blank'> 3n'1 Operating Instructions)</span><br><br>",
-          "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1.<span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 10-14 PSI,please refer to this parameter <a href='./psi.png'target='_blank'>Pressure temperature Chart</a>)<br></span><span style='color: black'>2.<span style='color: red'>Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor.<a href='./Solder joint diagram.png'target='_blank'>Refrigerant Circuit Diagram</a></span></span><br><span style='color: black'>3.<span style='color: red'>If the tech needs us to provide capillary tube fittings,Please let the tech know we recommend cut 2-3 inches of the end cap tube and blow the whole system by nitrogen and then replace a new universal filter drier, vacuum and recharge the unit"
+          "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1.<span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 10-14 PSI,please refer to this parameter <a href='./psi.png'target='_blank'>Pressure temperature Chart</a>)<br></span><span style='color: black'>2.<span style='color: red'>Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor.<a href='./Solder joint diagram.png'target='_blank'>Refrigerant Circuit Diagram</a></span></span><br><span style='color: black'>3.<span style='color: red'>If the tech needs us to provide capillary tube fittings,Please let the tech know we recommend cut 2-3 inches of the end cap tube and blow the whole system by nitrogen and then replace a new universal filter drier, vacuum and recharge the unit</span><br><br>"
        ]
       },
       "Power Issue": {
@@ -121,6 +121,13 @@
       "image": "MBF8129GRP.png",
       "diagram": "MBF8129GRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+     "cooling Issue": {
+        
+      "technician": [
+        "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube For Refrigeration：TP2-Y / φ2.4mm × 0.6mm / Length: 2500mm <br><span style='color:orange'>Capillary Tube For Freezer：TP2-Y / φ2.4mm × 0.6mm / Length: 3500mm"
+      ]
+  
+  },
       "documents": [
         {
           "title": "SPCIFICATION SHEET</span><br><br>",

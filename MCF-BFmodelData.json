@@ -78,7 +78,7 @@
     "technician": [
       "Check if the evaporator is frozen?<br>1. <span style='color: red'>Check if the drain pan & drain hose heaters are working properly (Check the OHM values of these two accessories. This is the inspection manual: <a href='https://0424lynn.github.io/yang/heater test.png' target='_blank'>Heater Test Manual</a>.)</span><br>2. <span style='color: red'>Check if the evaporator fan is working? (Confirm if there is a 115V voltage output: <a href='https://0424lynn.github.io/yang/evp fan.png' target='_blank'>Evaporator Fan Maintenance Manual</a>.)</span></span><br><br>",
       "Check if the compressor is working properly? <br>1. <span style='color: red'>Check if the compressor resistance is normal: <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video</a>.</span><br>2. <span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3-in-1 start kit: <a href='https://0424lynn.github.io/yang/3n1.png' target='_blank'>3-in-1 Operating Instructions</a>.</span></span><br><br>",
-      "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1. <span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 10-14 PSI, please refer to this parameter: <a href='https://0424lynn.github.io/yang/psi.png' target='_blank'>Pressure Temperature Chart</a>.</span><br>2. <span style='color: red'>Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor: <a href='https://0424lynn.github.io/yang/Solder joint diagram.png' target='_blank'>Refrigerant Circuit Diagram</a>.</span><br>3. <span style='color: red'>If the technician needs us to provide capillary tube fittings, please let them know we recommend cutting 2-3 inches off the end cap tube, blowing the whole system with nitrogen, replacing it with a new universal filter drier, vacuuming, and recharging the unit.</span>"
+      "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1. <span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 10-14 PSI, please refer to this parameter: <a href='https://0424lynn.github.io/yang/psi.png' target='_blank'>Pressure Temperature Chart</a>.</span><br>2. <span style='color: red'>Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor: <a href='https://0424lynn.github.io/yang/Solder joint diagram.png' target='_blank'>Refrigerant Circuit Diagram</a>.</span><br>3. <span style='color: red'>If the technician needs us to provide capillary tube fittings, please let them know we recommend cutting 2-3 inches off the end cap tube, blowing the whole system with nitrogen, replacing it with a new universal filter drier, vacuuming, and recharging the unit.</span><br><br>"
     ]
   },
 
@@ -134,7 +134,13 @@
       "image": "MCF8701GRP.png",
       "diagram": "MCF8701GRD.png",
       "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","Glass Door issue","physical Damage","cooling Issue","Power Issue","error Code"],
-      
+      "cooling Issue": {
+        
+    "technician": [
+      "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3700mm"
+    ]
+
+},
       
       "documents": [
         {
@@ -168,7 +174,7 @@
      "cooling Issue": {
         
         "technician": [
-          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 540mm"
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3000mm"
         ]
     
     },
@@ -196,7 +202,7 @@
       "cooling Issue": {
         
         "technician": [
-          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 540mm"
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3000mm"
         ]
     
     },
@@ -231,6 +237,13 @@
           "Power Issue",
           "error Code"
         ],
+        "cooling Issue": {
+        
+          "technician": [
+            "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.8mm × 0.6mm / Length: 2520mm"
+          ]
+      
+      },
     "documents": [
     ]
   },
@@ -248,7 +261,14 @@
           "cooling Issue",
           "Power Issue",
           "error Code"],
-        "Led issue": {
+          "cooling Issue": {
+        
+            "technician": [
+              "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3700mm"
+            ]
+        
+        },
+          "Led issue": {
         
       "customer": [
        "The new LED panel replaces the old light strip<br><span style='color: red'>The new LED panel will be brighter than the old light strip. If the customer wishes to upgrade to the new LED panel, please dispatch a technician and send the following parts:<br>1. Light Panel – R03004000102<br>2. Top Frame for Light Panel – R04012001361<br>3. Bottom Frame for Light Panel – R04012001362<br>4. Left Frame for Light Panel – R04011000381<br>5. Right Frame for Light Panel – R04011000380<br>Here is the repair manual<a href='https://sc.atosausa.com/file/2025/06/24/Install%20the%20NEW%20led%20panel%20from%20the%20Old%20style%20(1)%20(1)_f59aee1c-a70f-4ef7-8d49-64b3b434946e.pdf' target='_blank'> NEW LED ATOSA LOGO PANEL"
@@ -291,7 +311,13 @@
           "Power Issue",
           "error Code"
         ],
+        "cooling Issue": {
+        
+          "technician": [
+            "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3000mm"
+          ]
       
+      },
       
         "documents": [
           
@@ -316,6 +342,13 @@
           "Power Issue",
           "error Code"
         ],
+        "cooling Issue": {
+        
+          "technician": [
+            "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3000mm"
+          ]
+      
+      },
         "Led issue": {
       
     "customer": [
@@ -354,6 +387,13 @@
           "Power Issue",
           "error Code"
         ],
+        "cooling Issue": {
+        
+          "technician": [
+            "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3000mm"
+          ]
+      
+      },
         "Led issue": {
       
           "customer": [
@@ -383,6 +423,13 @@
           "Power Issue",
           "error Code"
         ],
+        "cooling Issue": {
+        
+          "technician": [
+            "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.8mm × 0.6mm / Length: 2520mm"
+          ]
+      
+      },
         "Led issue": {
       
     "customer": [

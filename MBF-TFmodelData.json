@@ -258,7 +258,13 @@
   "image": "MBF8007GRP.png",
   "diagram": "MBF8007GRD.png",
 "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
-
+"cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 3500mm"
+        ]
+    
+    },
 "documents": [
   {
     "title": "SPCIFICATION SHEET</span><br><br>",
@@ -285,6 +291,13 @@
   "image": "MBF8008GRP.png",
   "diagram": "MBF8008GRD.png",
 "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+"cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube：TP2-Y / φ2.4mm × 0.6mm / Length: 2780mm"
+        ]
+    
+    },
 "documents": [
   {
     "title": "SPCIFICATION SHEET</span><br><br>",
