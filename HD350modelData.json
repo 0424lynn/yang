@@ -9,7 +9,14 @@
           
         ]
         },
-    
+        "How to remove the ice bin Panel": {
+          "customer": [
+            
+          ],
+          "technician": [
+            "<img src='./HD350.png' style='max-width:100%; height:auto;'>.</span><br><br>>"
+          ]
+          },
       "noise": {
         "customer": [
           "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
@@ -153,7 +160,7 @@
       "title": "HD350-AP-161 — Hotel Ice Dispenser (350 LB / 24 HR)",
       "image": "HD350P.png",
       "diagram": "YR140D.jpeg",
-      "issues": ["Note: New issues with the compressor","noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
+      "issues": ["Note: New issues with the compressor","How to remove the ice bin Panel","noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
       
       
       "documents": [

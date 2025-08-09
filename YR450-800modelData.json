@@ -140,63 +140,7 @@
     ]
   },
   "models": {
-    "YR140-AP-161": {
-      "title": "YR140-AP-161 —Undercounter Ice Maker (142 LB / 24 HR)",
-      "image": "YR140P.png",
-      "diagram": "YR140D.jpeg",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
-      
-      
-      "documents": [
-        {
-          "title": "SPCIFICATION SHEET</span><br><br>",
-          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR140-AP-161_Specsheet_05152024.pdf"
-        },
-
-        {
-          "title": "TECH SPECIFICATIONS</span><br><br>",
-          "url": "./YR SPECI.png"
-        },
-        {
-          "title": "PARTS BREAKDOWN</span><br><br>",
-          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR140-AP-161-V2.pdf"
-        }
-          
-      
-      ]
     
-    },
-    
-   
-    "YR280-AP-161": {
-      "title": "YR280-AP-161 — Undercounter Ice Maker (283 LB / 24 HR)",
-      "image": "YR140P.png",
-      "diagram": "YR140D.jpeg",
-     "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
-      "noise": {
-        "customer": [
-          
-        ],
-        "technician": [
-          "Confirm whether the noise is coming from the fan itself？<br><span style='color: red'>If the fan itself is making a loud noise, please apply for our other fan model.<br>Part Number: YR280QuiteFan<br>Part Name: YR280 Quiet Condenser Fan"
-        ]
-      },
-      
-      "documents": [
-        {
-          "title": "SPCIFICATION SHEET</span><br><br>",
-          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR280-AP-161_Specsheet_05152024.pdf"
-        },
-        {
-          "title": "TECH SPECIFICATIONS</span><br><br>",
-          "url": "./YR SPECI.png"
-        },
-        {
-          "title": "PARTS BREAKDOWN</span><br><br>",
-          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR280-AP-161-V2.pdf"
-        }
-      ]
-    },
     
     "YR450-AP-161": {
       "title": "YR450-AP-161 — Modular Ice Maker (460 LB / 24 HR)",
