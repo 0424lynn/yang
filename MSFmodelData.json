@@ -48,7 +48,7 @@
           "Ask the customer to take a photo to confirm if anything is installed on the right side of the unite. <br><span style='color: red'>(Screws might damage the internal wiring, causing the display to be irreparable. This is not covered under warranty,but we can provide a repair solution.<a href='https://sc.atosausa.com/file/2025/02/03/MSF%20Display%20Wire%20Fix_a5a124d1-da05-415c-a70d-68af2e286220.pdf' target='_blank'>Display Wire Repair</a>)"
         ],
         "technician": [
-          "Check if the display port has a 24V output?<br><span style='color: black'>1.<span style='color: red;'>(Voltage Present but No Display: Reverse the terminal connector and try again. If it still doesn't display, replace the display) <br><span style='color: black;'>2.<span style='color: red;'>(No Voltage: Measure the control board’s display terminal to check if there is a 24V output. if there is no voltage, the control board needs to be replaced)<br><span style='color: black;'>3.<span style='color: red;'>(Terminal Connection: Inspect if the terminal inside the cabinet is not properly connected)</span><br><br>",
+          "Check if the display port has a 24V output?<br><span style='color: black'>1.<span style='color: red;'>(Voltage Present but No Display: Reverse the terminal connector and try again. If it still doesn't display, replace the display) <a href='https://sks.atosausa.com/media/notices/Display_change_OLD_to_NEW.pdf' target='_blank'> Display Replacement Old to New.</a><br><span style='color: black;'>2.<span style='color: red;'>(No Voltage: Measure the control board’s display terminal to check if there is a 24V output. if there is no voltage, the control board needs to be replaced)<br><span style='color: black;'>3.<span style='color: red;'>(Terminal Connection: Inspect if the terminal inside the cabinet is not properly connected)</span><br><br>",
         "If the new display is still not showing and the voltage is normal.<br><span style='color: red'>(Try reversing the direction of the green clip terminal block and test again. It is possible that the positive and negative connections are reversed.)"
         ]
       },
@@ -228,9 +228,9 @@
       ]
   
   },
-    "leakingWater outside": {
-      "technician": [
-  "3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
+   "leakingWater outside": {
+  "technician": [
+"3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan.<a href='./drain_heater.mp4' target='_blank'>Drain pan heater video</a></span>"
 ]
 
     },
@@ -282,8 +282,8 @@
 
 },
   "leakingWater outside": {
-    "technician": [
-"3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
+      "technician": [
+  "3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain-heater.mp4' target='_blank'>Drain pan heater video</a></span>"
 ]
 
   },
@@ -310,9 +310,9 @@
     ]
 
 },
-  "leakingWater outside": {
-      "technician": [
-  "3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
+"leakingWater outside": {
+  "technician": [
+"3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain-heater.mp4' target='_blank'>Drain pan heater video</a></span>"
 ]
 
     },
@@ -340,10 +340,9 @@
     ]
 
 },
-  "leakingWater outside": {
-     
-    "technician": [
-"3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan. <a href='./drain heater.jpg' target='_blank'>Drain pan heater</a></span>"
+"leakingWater outside": {
+  "technician": [
+"3.<span style='color: red'>Install the electric heated drain pan, and ensure the PC tube is slightly tilted so that the water flows directly into the drain pan.<a href='./drain_heater.mp4' target='_blank'>Drain pan heater video</a></span>"
 ]
 
  },

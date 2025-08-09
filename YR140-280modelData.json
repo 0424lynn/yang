@@ -1,6 +1,14 @@
 {
   "common": {
     "issues": {
+      "How to remove the ice bin": {
+        "customer": [
+         
+        ],
+        "technician": [
+          "<img src='./YR140&280.png' style='max-width:100%; height:auto;'>.</span><br><br>"
+        ]
+        },
       "noise": {
         "customer": [
           "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
@@ -144,7 +152,7 @@
       "title": "YR140-AP-161 —Undercounter Ice Maker (142 LB / 24 HR)",
       "image": "YR140P.png",
       "diagram": "YR140D.jpeg",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
+      "issues": ["How to remove the ice bin","noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
       
       
       "documents": [
@@ -172,7 +180,7 @@
       "title": "YR280-AP-161 — Undercounter Ice Maker (283 LB / 24 HR)",
       "image": "YR140P.png",
       "diagram": "YR140D.jpeg",
-     "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
+     "issues": ["How to remove the ice bin","noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
       "noise": {
         "customer": [
           
@@ -195,45 +203,7 @@
           "title": "PARTS BREAKDOWN</span><br><br>",
           "url": "https://atosausa.com/wp-content/uploads/2023/10/YR280-AP-161-V2.pdf"
         }
-      ]
-    },
-    
-    "YR450-AP-161": {
-      "title": "YR450-AP-161 — Modular Ice Maker (460 LB / 24 HR)",
-      "image": "YR450P.png",
-      "diagram": "YR450D.jpeg",
-     "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Ice issue-cooling fine","Not make ice Issue","Water inlet valve-Test","Water outlet valve-Test","NTC Probe-Test","Power Issue"],
       
-      
-      "documents": [
-        {
-          "title": "SPCIFICATION SHEET</span><br><br>",
-          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR450-AP-161_Specsheet_05152024.pdf"
-        },
-        {
-          "title": "TECH SPECIFICATIONS</span><br><br>",
-          "url": "./YR SPECI.png"
-        },
-        {
-          "title": "PARTS BREAKDOWN</span><br><br>",
-          "url": "https://atosausa.com/wp-content/uploads/2023/10/YR450-AP-161-V2.pdf"
-        }
-      ]
-    },
-"MBF8008GR": {
-  "title": "MBF8008GR — Top Mount Two-Section (4) Divided Door Freezer",
-  "image": "MBF8008GRP.png",
-  "diagram": "MBF8008GRD.png",
-"issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
-"documents": [
-  {
-    "title": "SPCIFICATION SHEET",
-    "url": "https://atosausa.com/wp-content/uploads/2024/08/MBF8007GR_8007GRL_8008GR_Specsheet_11212024.pdf"
-  },
-  {
-    "title": "PARTS BREAKDOWN",
-    "url": "https://atosausa.com/wp-content/uploads/2023/10/MBF8008GR-V2.pdf"
-  }
     
 ]
 }
