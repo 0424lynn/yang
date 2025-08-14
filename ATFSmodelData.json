@@ -37,13 +37,16 @@
          
        ]
       },
-"Plumbing Diagram": {
+"Thermostat Calibretion": {
         "customer": [
 
           
         ],
         "technician": [
-          "Plumbing Diagram <img src='./ATFSD.png' style='max-width:100%; height:auto;'>"
+          
+          "Features: Calibration instructions for ATFS models. <br><br> Quarter turn is changing temperature 25 degrees (+/-5).<br><span style='color:red'>(If the difference between setting temperature and actual temperature is at +/-10 degrees, then calibration is not necessary, just need to re-dial knob and reset temp) <img src='./ca.png' style='max-width:100%; height:auto;'></span>"
+          
+          
         ]
       },
       "Valve Information": {
@@ -61,6 +64,7 @@
           
         ],
         "technician": [
+          " Pressure Testing <br>1.<span style = 'color:red'>​Testing at the pressure valve on the black pipe, this must be done while the burners are engaged.<span style='color:black'> <br>2.<span style='color:red'> Testing at the gas source before getting to the gas valve.<br> <span style='color:black'>3.<span style='color:red'>  Remedial testing at the gas valve itself. This will give a reading of the pressure coming to the valve in instances where the valve is not activating and engaging the burners.<br> <a href='https://sks.atosausa.com/media/notices/H-004_Tech_Guidance.pdf' target='_blank'> FRYER PRESSURE CHECK </span><br><br>",
           "Gas Pressure Information<img src='./ATFSG.png' style='max-width:100%; height:auto;'>"
         ]
       },
@@ -97,7 +101,7 @@
       "title": "ATFS-40 — 40LB Deep Fryer",
       "image": "ATFS40P.png",
       "diagram": "ATFS40D.png",
-      "issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
+      "issues": ["leakingOil outside","physical Damage","Hot issue","Thermostat Calibretion","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
       
       
       "documents": [
