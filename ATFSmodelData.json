@@ -39,12 +39,13 @@
       },
 "Thermostat Calibretion": {
         "customer": [
-
+         
           
         ],
         "technician": [
           
-          "Features: Calibration instructions for ATFS models. <br><br> Quarter turn is changing temperature 25 degrees (+/-5).<br><span style='color:red'>(If the difference between setting temperature and actual temperature is at +/-10 degrees, then calibration is not necessary, just need to re-dial knob and reset temp) <img src='./ca.png' style='max-width:100%; height:auto;'></span>"
+          "Features: Calibration instructions for ATFS models <a href='https://sks.atosausa.com/media/notices/H-005_Tech_Guidance.pdf' target='_blank'>Calibration Manual</a> <br><br> Quarter turn is changing temperature 25 degrees (+/-5).<br><span style='color:red'>(If the difference between setting temperature and actual temperature is at +/-10 degrees, then calibration is not necessary, just need to re-dial knob and reset temp)</span><br><img src='./calib.png' style='max-width:100%; height:auto;'>"
+
           
           
         ]
@@ -122,7 +123,7 @@
       "title": "ATFS-35ES — 35LB Deep Fryer",
       "image": "ATFS40P.png",
       "diagram": "ATFS40D.png",
-    "issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
+   "issues": ["leakingOil outside","physical Damage","Hot issue","Thermostat Calibretion","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
       
       
       "documents": [
@@ -140,7 +141,7 @@
       "title": "ATFS-50 — 50LB Deep Fryer",
       "image": "ATFS40P.png",
       "diagram": "ATFS40D.png",
-     "issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
+     "issues": ["leakingOil outside","physical Damage","Hot issue","Thermostat Calibretion","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
       
       
       "documents": [
@@ -161,7 +162,7 @@
   "title": "ATFS-75 — 75 LB Deep Fryer",
   "image": "ATFS75P.png",
   "diagram": "ATFS40D.png",
-"issues": ["leakingOil outside","physical Damage","Hot issue","Plumbing Diagram","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
+"issues": ["leakingOil outside","physical Damage","Hot issue","Thermostat Calibretion","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
 "documents": [
   {
     "title": "SPCIFICATION SHEET</span><br><br>",
