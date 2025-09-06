@@ -15,8 +15,7 @@
           "Check if the condenser fan blade is hitting any foreign objects."
         ],
         "technician": [
-          "Check if noise outside:<br><span style='color: black'>1.<span style='color: red'>Check if the fan motor is defective.<br><span style='color: black'>2.<span style='color: red'>Check whether there is any noise caused by loose screws.<br><span style='color: black'>3.<span style='color: red'>Inspect the compressor for abnormal noise.</span><br><br>",
-          "Check if noise inside:<br>1.<span style='color: red'>The fan vibration causes noise, see the <a href='https://sc.atosausa.com/file/2024/09/03/C-014_Tech_Guidance_ebc7a0ac-e6ad-4ffa-b9b5-70385a627dbc.pdf' target='_blank'>Tech Guidance PDF</a>."
+          "Check if noise outside:<br><span style='color: black'>1.<span style='color: red'>Check if the fan motor is defective.<br><span style='color: black'>2.<span style='color: red'>Check whether there is any noise caused by loose screws.<br><span style='color: black'>3.<span style='color: red'>Inspect the compressor for abnormal noise.</span><br><br>"
         ]
       },
       "leakingWater inside": {
@@ -24,44 +23,49 @@
           "Ask the customer to take a picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
           "Is the Unit Level? <br><span style='color: red'>(A unit not being level will cause a puddle to form the a side of the unit rather than just in the back of the unit)</span><br><br>",
           "Drain Hose Clogged? <br><span style='color: red'>(Scale build up is the most likely cause of leaking within the unit. If customer is comfrotable this sort of issue is fixable over the phone by explaining how to remove and clean the drain pipe)</span><br><br>",
-        "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）"
-        ],
+        "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）</span><br><br>",
+        "If the door gasket is damaged<br><span style='color: red'>suggest the customer replace it themselves "
+      ],
         "technician": [
-          "Evap Drain Pan Long enough? <br><span style='color: red'>(This issue only occurs in older MSF units as the factory has corrected this at this time)</span><br><br>",
-          "Silver Tape Unsealed?<br><span style='color: red'>(This issue is a rare one but it can happen over time with a customer who does indepth cleaning. This is visable only through removal of the fan gaurd</span><br><br>",
+          
+          
           "Check if the door gasket is damaged?<br><span style='color: red'>(A damaged door gasket can allow external air to enter the cabinet, leading to excessive moisture buildup"
         ]
       },
       "leakingWater outside": {
         "customer": [
-          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)</span><br>1.<span style='color: red'>If condensation forms on the top panel, keep the top clear (no items placed).</span><br>2.<span style='color: red'>Explain that in high-humidity environments, this problem is more likely to occur.</span><br><br>",
           "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）"
         ],
         "technician": [
+          "Surface Condensation on Unit?<br><span style='color: red'>If the back/side leakage is heavy condensate, have the tech adhere insulation foam/insulation cotton to those areas.(Require the tech to document ambient temp & RH and upload photos for our records)</span><br><br>",
+          "There’s a lot of condensation under the countertop?<br><span style='color: red'>Advise the technician to apply insulation cotton/foam at the joints to prevent cold-air leakage<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</span><br><br>",
           "Wire Harness not Sealed? <br><span style='color: red'>(This occurs when the back right wire harness in the unit is not sealed properly. This appears as a small puddle sourcing near the rear right wheel)<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</a></span><br><br>",
           "lower suction tube leaking water? <br><span style='color: red'>(This issue appears as a small trickle or puddle in the back of the unit and is visible when a tech checks the lowside insulation)<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</a></span><br><br>",
-          "Condenser drain pan overflow?<br>1.<span style='color: red'>Recommend replacing it with new absorbent paper<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Installation.pdf' target='_blank'>WICKING KIT INSTALL</a><br><span style='color: black'>2.<span style='color: red'>Let the condensing fan run continuously<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required."
+          "Condenser drain pan overflow?<br><span style='color: red'>Send new wicking paper +  condensing fan run continuously<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required."
         ]
       },
       "No display but cooling is functioning normall": {
         "customer": [
-          "Ask the customer to take a photo to confirm if anything is installed on the right side of the unite. <br><span style='color: red'>(Screws might damage the internal wiring, causing the display to be irreparable. This is not covered under warranty,but we can provide a repair solution.<a href='https://sc.atosausa.com/file/2025/02/03/MSF%20Display%20Wire%20Fix_a5a124d1-da05-415c-a70d-68af2e286220.pdf' target='_blank'>Display Wire Repair</a>)"
+          
         ],
         "technician": [
-          "Check if the display port has a 24V output?<br><span style='color: black'>1.<span style='color: red;'>(Voltage Present but No Display: Reverse the terminal connector and try again. If it still doesn't display, replace the display) <a href='https://sks.atosausa.com/media/notices/Display_change_OLD_to_NEW.pdf' target='_blank'> Display Replacement Old to New.</a><br><span style='color: black;'>2.<span style='color: red;'>(No Voltage: Measure the control board’s display terminal to check if there is a 24V output. if there is no voltage, the control board needs to be replaced)<br><span style='color: black;'>3.<span style='color: red;'>(Terminal Connection: Inspect if the terminal inside the cabinet is not properly connected)</span><br><br>",
-        "If the new display is still not showing and the voltage is normal.<br><span style='color: red'>(Try reversing the direction of the green clip terminal block and test again. It is possible that the positive and negative connections are reversed.)"
+         "Ask the customer to take a photo to confirm if anything is installed on the right side of the unite. <br><span style='color: red'>Screws might damage the internal wiring, causing the display to be irreparable<a href='https://sc.atosausa.com/file/2025/02/03/MSF%20Display%20Wire%20Fix_a5a124d1-da05-415c-a70d-68af2e286220.pdf' target='_blank'>Display Wire Repair</a><br>(Please remind the customer that after the repair, they’ll see a new wiring harness)</a></span><br><br>",
+          "Check if the display port has a 24V output?<br></span>1.<span style='color: red;'>No Voltage: Measure the control board’s display terminal to check if there is a 24V output. if there is no voltage, the control board needs to be replaced<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required</a><br></span>2.<span style='color: red;'>Terminal Connection: Inspect if the terminal inside the cabinet is not properly connected<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required</span><br><br>",
+        "If the new display is still not showing and the voltage is normal.<br><span style='color: red'>Try reversing the direction of the green clip terminal block and test again. It is possible that the positive and negative connections are reversed<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required."
         ]
       },
       "physical Damage": {
         "customer": [
           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
-          "If the door gasket is damaged, suggest the customer replace it themselves <br><span style='color: red'>(as door gaskets are considered consumable parts Send the replacement tutorial video to the customer<a href='https://youtu.be/8fOAAQySY6w' target='_blank'> Door Gasket Replacement Video </a>)</span><br><br>",
+          "Lid damaged — customer to replace.<br><span style='color: red'>Within warranty → part covered; customer self-install; no technician dispatch<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</a></span><br><br>",
+          "If the door gasket is damaged, suggest the customer replace it themselves <br><span style='color: red'>Within warranty → part covered; customer self-install; no technician dispatch.(as door gaskets are considered consumable parts Send the replacement tutorial video to the customer<a href='https://youtu.be/8fOAAQySY6w' target='_blank'> Door Gasket Replacement Video </a>)</span><br><br>",
           "The Air Divider weld point is cracked.<br><span style='color: red'>(Send a new part to the customer, allowing them to install it themselves or arrange for a technician to perform the repair<a href='https://sks.atosausa.com/media/notices/C-023_Tech_Guidance.pdf' target='_blank'>MSF INNER PAN BROKEN CORNER WELDS REPAIR</a></span><br><br>",
           "How to replace the Pilasters and Clips?<br><span style='color: red'>(Send the parts to the customer for self-replacement <a href='https://0424lynn.github.io/yang/Clips.png' target='_blank'>Pilasters and Clips</a>)</span><br><br>",
        "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)"
         ],
         "technician": [
-          "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)</span><br><br>",
+          "If the caster is broken,technician will need to replace it onsite </span><br><br>",
           "If the handle is broken, Do not send the new Lid! technician needs to be dispatched for replacement<br><span style='color: red'> (cut the silicone seal on both sides of the lid, then separate the cover plate to access the internal screws. Reminder: After reassembling, remember to reseal with silicone<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</a></span><br><br>",
         "If there is an issue with the door, pay attention to the following when replacing it:<br><span style='color: red'>(When you install the new door, try opening and closing it to see if it closes by itself. If not, then it is not turned correctly or the resistance is not strong enough <a href='https://0424lynn.github.io/yang/replace_door.png' target='_blank'>Door Installation Method</a>)"
         ]
@@ -79,22 +83,34 @@
           "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1.<span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 36-38 PSI<br><span style='color: black'>2.<span style='color: red'>If the tech needs us to provide capillary tube fittings,Please let the tech know we recommend cut 2-3 inches of the end cap tube and blow the whole system by nitrogen and then replace a new universal filter drier, vacuum and recharge the unit</span><br><br>",
           "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator)</span><br><br>"
         ]
-      }, "Power Issue": {
+      }, 
+      "Power Issue": {
         "customer": [
           "The unit is completely non-functional?<br><span style='color: red'>(Check if the display and condenser fan are completely non-functional,Please replace the power outlet and try again to ensure there is power in the outlet.)</span><br><br>",
           "Please ask the customer to check if the power cord is damaged?<br><span style='color: red'>(If there is any damage, please take a photo and send it to us. We will send part and  dispatch tech to repair it.)"
         ],
         "technician": [
-         "If the equipment is short-circuiting:<br><span style='color: red'>①.Check if the control board has been damaged by water <br><span style='color: red'>(Usually, water can enter the control board during kitchen cleaning) <br> <span style='color: red'>②.Check if the fan wiring is in contact with the sheet metal <br><span style='color: red'>(If the wiring is positioned incorrectly, prolonged vibration can cause the wiring to be cut, Repair Suggestions<a href='https://sks.atosausa.com/media/notices/C-014_Tech_Guidance.pdf' target='_blank'>MSF FAN RATTLE - TRIPPING</a>"
+        
         ]
-        },
+      
+        }, 
+        "Door-to-drawer conversion": {
+
+          "customer": [
+            
+          ],
+          "technician": [
+          "MGF, MSF series – Door to Drawer Replacement Video<video controls width='900'><source src='./MGFMSF Drawer .mp4' type='video/mp4'></video></span>"
+          ]
+          },
       "error Code": {
         "customer": [
-          "Dixell Parameters——(All US under-counter refrigerators use the Dixell controller) <br>P1:<span style='color: red'>Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style='color: black;'>P2:<span style='color: red;'>This unit doesn't have a defrost probe. Please calibrate the parameters first (Check the P2 parameter to see if it's set to 'n')or replace the control board.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>The MSF series doesn't have door magnetic switches.</span><br><br>",
-          "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
-          "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 5 of 7</a>)"
+          
         ],
         "technician": [
+          "Dixell Parameters——(All US under-counter refrigerators use the Dixell controller) <br>P1:<span style='color: red'>Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style='color: black;'>P2:<span style='color: red;'>This unit doesn't have a defrost probe. Please calibrate the parameters first (Check the P2 parameter to see if it's set to 'n')or replace the control board.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>The MSF series doesn't have door magnetic switches.</span><br><br>",
+          "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
+          "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 5 of 7</a>)</span><br><br><br><br><br>",
           "Carel Parameters——(All Canadian under-counter refrigerators use the Carel controller)<br> <span style='color: black;''>EO:<span style='color: red'>Probe 1 Failure(White Probe) <br> <span style='color: black;''>El:<span style='color: red'>Probe 2 Failure(Blue Probe);(dO =0/1] [if refrigertor has El, check parameter do to 2<br><span style='color: black;'>E3:<span style='color: red;'>Bad controller<br><span style='color: black;''>Do:<span style='color: red;''>The MSF series doesn't have door magnetic switches. <br> <span style='color: black;''>ER:<span style='color: red;''>MSF product, please replace it with the Dixell three-piece set:Front display,green clip,controller board</span><br><br>",
           "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
           "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 4 of 7</a>)"
@@ -139,7 +155,7 @@
       "title": "MSF8301GR — 27\" Sandwich Prep Table",
       "image": "MSF8301GRP.png",
       "diagram": "MSF8301GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
       "cooling Issue": {
         
         "technician": [
@@ -162,7 +178,7 @@
       "title": "MSF8302GR — 48\" Sandwich Prep Table",
       "image": "MSF8302GRP.png",
       "diagram": "MSF8302GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
      "cooling Issue": {
         
         "technician": [
@@ -191,7 +207,7 @@
       "title": "MSF8303GR — 60\" Sandwich Prep Table",
       "image": "MSF8303GRP.png",
       "diagram": "MSF8303GRD.png",
-    "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+    "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
     "cooling Issue": {
         
       "technician": [
@@ -220,7 +236,7 @@
       "title": "MSF8304GR — 72\" Sandwich Prep Table",
       "image": "MSF8304GRP.png",
       "diagram": "MSF8304GRD.png",
-    "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+    "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
     "cooling Issue": {
         
       "technician": [
@@ -250,7 +266,7 @@
     "title": "MSF8305GR — 27\" Mega Top Sandwich Prep Table",
     "image": "MSF8305GRP.png",
     "diagram": "MSF8305GRD.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
   "cooling Issue": {
         
       "technician": [
@@ -273,7 +289,7 @@
     "title": "MSF8306GR — 48\" Sandwich Prep Table",
     "image": "MSF8306GRP.png",
     "diagram": "MSF8306GRD.png",
-  "issues":  ["Note: New issues with the pan temperature is not cold","noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "issues":  ["Note: New issues with the pan temperature is not cold","noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
   "cooling Issue": {
         
     "technician": [
@@ -302,7 +318,7 @@
     "title": "MSF8307GR — 60\" Mega Top Sandwich Prep Table",
     "image": "MSF8307GRP.png",
     "diagram": "MSF8307GRD.png",
-  "issues":  ["Note: New issues with the pan temperature is not cold","noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "issues":  ["Note: New issues with the pan temperature is not cold","noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
  "cooling Issue": {
         
     "technician": [
@@ -332,7 +348,7 @@
     "title": "MSF8308GR — Refrigerated Sandwich Prep Table",
     "image": "MSF8308GRP.png",
     "diagram": "MSF8308GRD.png",
- "issues":  ["Note: New issues with the pan temperature is not cold","noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+ "issues":  ["Note: New issues with the pan temperature is not cold","noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
  "cooling Issue": {
         
     "technician": [
@@ -361,7 +377,7 @@
     "title": "MSF17GR-NTCV— 17\" Sandwich Prep Table with Night Cover",
     "image": "MSF17GRP-NTCV.png",
     "diagram": "MSF17GRD-NTCV.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
   "documents": [
     {
       "title": "SPCIFICATION SHEET</span><br><br>",
@@ -373,7 +389,7 @@
     "title": "MSF3610GR — 36\" Sandwich Prep Table",
     "image": "MSF3610GRP.png",
     "diagram": "MSF3610GRD.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
  "cooling Issue": {
         
     "technician": [
@@ -392,7 +408,7 @@
     "title": "MSF3615GR — 36\" Sandwich Prep Table",
     "image": "MSF3615GRP.png",
     "diagram": "MSF3615GRD.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code"],
+  "issues":  ["noise", "leakingWater inside", "leakingWater outside","No display but cooling is functioning normall","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
   "cooling Issue": {
         
     "technician": [

@@ -8,13 +8,10 @@
       },
       "leakingWater inside": {
         "customer": [
-          "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
-          "Check the drain hose for loose drains inside? <br><span style='color: red'>(The customer may have accidentally detached the drain hose while storing items.)</span><br><br>",
-          "Drain Hose Clogged? <br><span style='color: red'>(Scale build up is the most likely cause of leaking within the unit. If customer is comfrotable this sort of issue is fixable over the phone by explaining how to remove and clean the drain pipe)</span><br><br>",
-         "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）"
+          "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>"
         ],
         "technician": [
-          "Please confirm the above five points with the technician:<br>1.<span style='color: red'>record a video or picture and send it to us for analysis.<br><span style='color: black'>2.<span style='color: red'>Check the drain hose for loose drains inside?<br><span style='color: black'>3.<span style='color: red'>Drain Hose Clogged?<br><span style='color: black'>4.<span style='color: red'>Is there any hot equipment placed next to the refrigerator?."
+         
         ]
       },
       "leakingWater outside": {
@@ -25,13 +22,21 @@
           
         ]
       },
-      "Led issue": {
+      "Led&display&pressure relief&frame heater(Old Ver)": {
         "customer": [
           
         ],
         "technician": [
           "Check if the power supply is working.<img src='./AWCS.png' style='max-width:100%; height:auto;'></span><br><br>",
           "Check if the Led is working.<br><span style='color: red'>(If the LED Lighting connector is getting voltage and the light is still not coming on, then the LED light is faulty</a>)"
+      ]
+      },
+      "Led&display&pressure relief&frame heater(Current Ver)": {
+        "customer": [
+          
+        ],
+        "technician": [
+          "LED doesn’t light up.<br>1. <span style='color: red'>Check the power supply and confirm there is 240 VAC at the input and 24 VDC at the output.</span> <a href='/AWCLED.png' target='_blank'>LED power supply test</a><br> <span style='color: Black'>2. <span style='color: red'>Check whether the light switch has 24 VDC at both the input and the output, and confirm whether the switch is faulty.</span> <a href='/LEDSWI.png' target='_blank'>LED Switch</a><br><span style='color: Black'>3.<span style='color: red'>There’s a 24 VDC junction box at the upper-right inside the door. Open it and check whether the light wires have 24 VDC(#3,#4). If voltage is present but the light doesn’t work, replace the light.</span> <a href='/3,4LED.png' target='_blank'>LED test</a><br><br>"
       ]
       },
       "physical Damage": {
@@ -46,8 +51,8 @@
          "<img src='./AWCDD.png' style='max-width:100%; height:auto;'></span><br><br>"
         ],
         "technician": [ 
-          "Check if the evaporator is frozen?<br>1.<span style='color: red'>Check if the evap heater & drain pan & drain hose heaters are working properly</a>.</span><br>2. <span style='color: red'>Check if the evaporator fan is working? (Confirm if there is a 115V voltage output)</span><br><br>",
-          "Check if the evaporator fan is working?<br><span style='color: red'>(Confirm if there is a 115V voltage output. <a href='https://0424lynn.github.io/yang/evp_fan.png' target='_blank'>Evaporator fan maintenance manual</a>)</span></span><br><br>",
+          "Check if the evaporator is frozen?<br>1.<span style='color: red'>Check if the evap heater & drain pan & drain hose heaters are working properly</a>.</span><br>2.<span style='color: red'>Check if the evaporator fan is working? (Confirm if there is a 240V voltage output)</span><br><br>",
+          "Check if the evaporator fan is working?<br><span style='color: red'>(Confirm if there is a 240V voltage output. <a href='https://0424lynn.github.io/yang/evp_fan.png' target='_blank'>Evaporator fan maintenance manual</a>)</span></span><br><br>",
           "Check if the compressor is working properly?<br>1. <span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video</a>.</span><br>2. <span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3-in-1 start kit <a href='https://0424lynn.github.io/yang/3n1.png' target='_blank'>3-in-1 Operating Instructions</a>.</span></span><br><br>",
           "All parts are functioning properly. Please check if there is a refrigerant leak."
         ]
@@ -72,7 +77,7 @@
       "title": "AWC1012-TF – Walk-in Cooler",
       "image": "AWCP.png",
       "diagram": "AWCD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led&display&pressure relief&frame heater(Old Ver)","Led&display&pressure relief&frame heater(Current Ver)","physical Damage","cooling Issue","Power Issue"],
       
       "documents": [
         {

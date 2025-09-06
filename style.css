@@ -193,4 +193,11 @@ h1 {
         height: auto; /* 保持比例 */
         display: block;
     }
-}
+    .problem-box ul li a.active,
+    .problem-box ul li a.active:hover,
+    .problem-box ul li a.active:focus-visible {
+      background: #e0e0e0 !important;
+      color: #000 !important;
+      font-weight: 600 !important;
+    }
+}    

@@ -1,0 +1,189 @@
+{
+  "common": {
+      "issues": {
+     "Note: New issues with the pan temperature is not cold": {
+      "label": "<span style='color: red; font-size: 25px; font-weight: bold;'>Note: New issues with the pan temperature is not cold</span>",
+      
+        "technician": [
+          "If customer complains that the pan temperature is too high or uneven. Below are the recommended solutions:<br>1.<span style='color: red'>Replace with a larger compressor W0201043-NUT70NR1.<br><span style='color: black'>2.<span style='color: red'>Modify the parameters；set Hy to 5.<br><span style='color: black'>3.<span style='color: red'>Modify the parameters；set id to 5.<br><span style='color: black'>4.<span style='color: red'>Please make sure that the Air Divider, Insert, Pan, and Base Support must not be removed under any circumstances.</span><br><br>"
+          
+        ]
+        },
+      "noise": {
+        "customer": [
+          "Ask the customer to record a video and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
+          "Check if the condenser fan blade is hitting any foreign objects."
+        ],
+        "technician": [
+          "Check if noise outside:<br><span style='color: black'>1.<span style='color: red'>Check if the fan motor is defective.<br><span style='color: black'>2.<span style='color: red'>Check whether there is any noise caused by loose screws.<br><span style='color: black'>3.<span style='color: red'>Inspect the compressor for abnormal noise.</span><br><br>"
+        ]
+      },
+      "leakingWater inside": {
+        "customer": [
+          "Ask the customer to take a picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
+          "Is the Unit Level? <br><span style='color: red'>(A unit not being level will cause a puddle to form the a side of the unit rather than just in the back of the unit)</span><br><br>",
+          "Drain Hose Clogged? <br><span style='color: red'>(Scale build up is the most likely cause of leaking within the unit. If customer is comfrotable this sort of issue is fixable over the phone by explaining how to remove and clean the drain pipe)</span><br><br>",
+        "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）"
+        ],
+        "technician": [
+        
+        ]
+      },
+      "leakingWater outside": {
+        "customer": [
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
+          "Is there condensation on the glass surface?<br><span style='color: red'> Please confirm with the customer whether the heater switch is turned on<a href='/RDCSSW.png' target='_blank'> Heater Switch</a></span><br><br>"
+        ],
+        "technician": [
+         "lower suction tube leaking water? <br><span style='color: red'>(This issue appears as a small trickle or puddle in the back of the unit and is visible when a tech checks the lowside insulation)<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</a></span><br><br>",
+          "Condenser drain pan overflow?<br>1.<span style='color: red'>Recommend replacing it with new wicking paper.</a><br><span style='color: black'>2.<span style='color: red'>If it still isn’t fixed, please dispatch an MSF drain pan heater as a replacement.<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required."
+        ]
+      },
+     
+      "physical Damage": {
+        "customer": [
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+        "If the door  is damaged, suggest the customer replace it themselves<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required "
+        ],
+        "technician": [
+          "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)</span><br><br>"
+      ]
+      },
+      "cooling Issue": {
+        "customer": [
+          "1.It’s showing a high temperature and not cooling <br><span style='color: red'>Please confirm the compressor switch is turned ON, and make sure the condenser fan is running.<a href='/RDCSSW.png' target='_blank'> Compressor Switch</a></span><br><br>",
+          "2.Is the condenser fan working?<br><span style='color: red'>①.If not, check if the fan blade is obstructed by any foreign objects. <br><span style='color: red'>②.If it’s not obstructed but still not working, the fan needs to be replaced</span><br><br>",
+          "3.Check if the internal evaporator fan is working?<br><span style='color: red'>If only one fan is not working, replace the faulty fan."
+        ],
+        "technician": [
+          "Check if Evap fans working inside-24V from a transformer <br><span style='color: red'>The transformer is wired to the power line, so once the unit is plugged in, the evaporator fan will run continuously. If you don’t hear the internal fan running:<br> <span style='color: black'>1.<span style='color: red'>Check whether the transformer’s indicator light is on and whether there is a 24 VDC output; if there’s no output, replace the transformer</span> <a href='/RDCSLED.png' target='_blank'>evp fan transformer test</a><br> <span style='color: black'>2.<span style='color: red'>Check whether the fan is receiving 24 VDC. If voltage is present but the fan doesn’t run, replace the fan.</span><br><br>",
+          "Check if compressor&condenser fan working <br><span style='color: red'>The compressor and condenser fan share the same wiring harness, and their operation is controlled by the compressor switch,If it’s not working at all, please check the following: <br> <span style='color: black'>1.<span style='color: red'>Verify 115 VAC is present on the input and output of the compressor switch <a href='/RDCSSW.png' target='_blank'> Compressor Switch</a></span><br>2.<span style='color: red'>Verify the compressor switch–to–controller harness isn’t loose.</span><br>3.<span style='color: red'> Check if the compressor resistance is normal<a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video</a>.</span><br>4. <span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3-in-1 start kit <a href='https://0424lynn.github.io/yang/3n1.png' target='_blank'>3-in-1 Operating Instructions</a></span><br><br>",
+          "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1.<span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 36-38 PSI<br><span style='color: black'>2.<span style='color: red'>If the tech needs us to provide capillary tube fittings,Please let the tech know we recommend cut 2-3 inches of the end cap tube and blow the whole system by nitrogen and then replace a new universal filter drier, vacuum and recharge the unit</span><br><br>"
+        ]
+      }, "Power Issue": {
+        "customer": [
+          "The unit is completely non-functional?<br><span style='color: red'>(Check if the display and condenser fan are completely non-functional,Please replace the power outlet and try again to ensure there is power in the outlet.)</span><br><br>",
+          "Please ask the customer to check if the power cord is damaged?<br><span style='color: red'>(If there is any damage, please take a photo and send it to us. We will send part and  dispatch tech to repair it.)"
+        ],
+        "technician": [
+         
+        ]
+        },
+      "error Code": {
+        "customer": [
+         
+        ],
+        "technician": [
+          "Dixell Parameters——(All US under-counter refrigerators use the Dixell controller) <br>P1:<span style='color: red'>Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style='color: black;'>P2:<span style='color: red;'>This unit doesn't have a defrost probe. Please calibrate the parameters first (Check the P2 parameter to see if it's set to 'n')or replace the control.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>The RDCS series doesn't have door magnetic switches.</span><br><br>",
+          "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>"
+          
+        ]
+      }
+    },
+    "documents": [
+
+            {
+              "title": "COMPRESSOR WIRING DIAGRAM-NUT35/NUT45/NUT70 </span><br><br>",
+              "url": "./NUT35%20NUT45%20NUT70.png"
+              
+      },
+     
+      {
+        "title": "DIXELL PARAMETERS (OLD)</span><br><br>",
+        "url": "https://sc.atosausa.com/file/2024/09/03/Dixell_Parameters_aa8b83ca-8375-4ff8-9699-3c0addae175f.pdf"
+       
+      },
+      {
+        "title": "CAREL PARAMETERS</span><br><br>",
+        "url": "https://sc.atosausa.com/file/2024/11/27/Carel_Parameters_79b1a385-3e58-427a-aa79-e92d11acac18.pdf"
+      },
+      {
+        "title": "NEW SERIAL NUMBER BREAKDOWN</span><br><br>",
+        "url": "https://sks.atosausa.com/media/notices/New_Serial_Number_Breakdown.pdf"
+      },
+      {
+        "title": "COMPRESSOR DATA</span><br><br>",
+        "url": "https://sc.atosausa.com/file/2024/09/04/Compressor_Data_dblx8sx_7abf71fa-eea8-4820-bd5f-c1a362c49313.pdf"
+      },
+      {
+        "title": "MODEL MATCH UP</span><br><br>",
+        "url": "https://sks.atosausa.com/media/notices/GEN-001_Model_Match_Up.pdf"
+      }
+    ]
+    
+  },
+
+  "models": {
+    "RDCS-35": {
+      "title": "RDCS-35 – Floor Model Refrigerated Square Display Case",
+      "image": "RDCS-35P.png",
+      "diagram": "RDCS-35D.png",
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Power Issue","cooling Issue","error Code"],
+      "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube："
+        ]
+    
+    },
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2024/04/RDCS-35_48_60_Specsheet_09262024.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2024/04/RDCS-35-1.pdf"
+        }
+      ]
+    },
+    "RDCS-48": {
+      "title": "RDCS-48 – Floor Model Refrigerated Square Display Case",
+      "image": "RDCS-48P.png",
+      "diagram": "RDCS-35D.png",
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Power Issue","cooling Issue","error Code"],
+     "cooling Issue": {
+        
+        "technician": [
+          "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube:"
+        ]
+    
+    },
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2024/04/RDCS-35_48_60_Specsheet_09262024.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2024/04/RDCS-48-1.pdf"
+        }
+      ]
+    },
+    "RDCS-60": {
+      "title": "RDCS-60 – Floor Model Refrigerated Square Display Case",
+      "image": "RDCS-60P.png",
+      "diagram": "RDCS-35D.png",
+    "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Power Issue","cooling Issue","error Code"],
+    "cooling Issue": {
+        
+      "technician": [
+        "The entire capillary tube should only be replaced if it is completely beyond repair；<br><span style='color:orange'>Capillary Tube"
+      ]
+  
+  },
+    
+    "documents": [
+      {
+        "title": "SPCIFICATION SHEET</span><br><br>",
+        "url": "https://atosausa.com/wp-content/uploads/2024/04/RDCS-35_48_60_Specsheet_09262024.pdf"
+      },
+      {
+        "title": "PARTS BREAKDOWN</span><br><br>",
+        "url": "https://atosausa.com/wp-content/uploads/2024/04/RDCS-60-1.pdf"
+      }
+    ]
+    }
+    }
+    }

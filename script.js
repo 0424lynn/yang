@@ -1,8 +1,65 @@
+/* === 左侧问题大类高亮 · 行内样式版（仅追加，不修改现有代码） === */
+(function () {
+  const SEL = '.problem-box ul li a';                 // 左栏问题大类链接
+  const KEY = 'issueHL_' + location.pathname;         // 当前页面的记忆key
+
+  // 清除所有高亮
+  function clearAll(links) {
+    links.forEach(x => {
+      x.style.background = '';
+      x.style.color = '';
+      x.style.fontWeight = '';
+      x.style.boxShadow = '';
+      x.style.borderRadius = '';
+    });
+  }
+
+  // 给某个项染色并记忆
+  function highlight(a) {
+    const links = document.querySelectorAll(SEL);
+    if (!links.length || !a) return;
+    clearAll(links);
+    a.style.background = '#e0e0e0';
+    a.style.color = '#000';
+    a.style.fontWeight = '600';
+    a.style.boxShadow = 'inset 3px 0 0 #0ea5e9'; // 左侧色条（可删）
+    a.style.borderRadius = '8px';
+    try { localStorage.setItem(KEY, (a.textContent || '').trim().toLowerCase()); } catch {}
+  }
+
+  // 进入页面时恢复：先找本地记忆，其次找 hash 对应，其次第一个
+  function restore() {
+    const links = document.querySelectorAll(SEL);
+    if (!links.length) return;
+    const saved = (localStorage.getItem(KEY) || '').toLowerCase();
+    let target = [...links].find(a => (a.textContent || '').trim().toLowerCase() === saved);
+
+    if (!target && location.hash) {
+      target = [...links].find(a => a.getAttribute('href') === location.hash);
+    }
+    if (!target) target = links[0];
+    highlight(target);
+  }
+
+  // 用事件委托捕获点击（点到整行也能命中）
+  document.addEventListener('click', function (e) {
+    const a = e.target && e.target.closest && e.target.closest(SEL);
+    if (!a) return;
+    highlight(a);
+  }, true);
+
+  // DOM 就绪恢复一次
+  document.addEventListener('DOMContentLoaded', restore);
+
+  // 如果左侧菜单会被重绘，观察到变化后再恢复一次
+  const mo = new MutationObserver(() => restore());
+  try { mo.observe(document.querySelector('.problem-box') || document.body, { childList: true, subtree: true }); } catch {}
+})();
+
+
+//原有数据以下
 document.addEventListener("DOMContentLoaded", function () {
   const loginForm = document.getElementById("login-form");
-
- 
-
 
   if (loginForm) {
     loginForm.addEventListener("submit", function (event) {
@@ -189,6 +246,9 @@ document.addEventListener("DOMContentLoaded", function () {
 "SBB69GR",
 "SBB69SGGR",
 "SBB90GGR",
+"RDCS-60",
+"RDCS-48",
+"RDCS-35",
 "YR140-AP-161",
 "YR280-AP-161",
 "HD350-AP-161",

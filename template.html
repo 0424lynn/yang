@@ -166,7 +166,7 @@
       <div class="frame fixed-height solution-box">
         <div class="solution-container">
           <div class="solution-section" id="customerSolution">
-            <div class="solution-header">Customer Solution</div>
+            <div class="solution-header">Non-warranty Issue</div>
           </div>
           <div class="solution-section" id="technicianSolution">
             <div class="solution-header">Technician Solution</div>
@@ -289,11 +289,11 @@
 
       if (custRow) {
         customerSection.innerHTML = `
-          <div class="solution-header">Customer Solution</div>
+          <div class="solution-header">Non-warranty Issue</div>
           <ul>${splitSolution(custRow.Solutions).map(item => `<li>${item}</li>`).join("")}</ul>
         `;
       } else {
-        customerSection.innerHTML = `<div class="solution-header">Customer Solution</div><p>No data.</p>`;
+        customerSection.innerHTML = `<div class="solution-header">Non-warranty Issue</div><p>No data.</p>`;
       }
 
       if (techRow) {

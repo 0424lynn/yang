@@ -31,7 +31,7 @@
             <div class="frame solution-box">
                 <div class="solution-container">
                     <div class="solution-section" id="customerSolution">
-                        <div class="solution-header">Customer Solution</div>
+                        <div class="solution-header">Non-warranty Issue</div>
                         <ul>
                             <li><span style="color: grey;"> Select an issue on the left to see the solution for the customer.</li>
                         </ul>
@@ -126,7 +126,7 @@
 
                     // 确保 category 存在于数据中
                     if (data.common.issues[category]) {
-                        customerSolution.innerHTML = `<div class="solution-header">Customer Solution</div><ul>`;
+                        customerSolution.innerHTML = `<div class="solution-header">Non-warranty Issue</div><ul>`;
                         data.common.issues[category].customer.forEach(solution => {
                             customerSolution.innerHTML += `<li>${solution}</li>`;
                         });
@@ -138,7 +138,7 @@
                         });
                         technicianSolution.innerHTML += `</ul>`;
                     } else {
-                        customerSolution.innerHTML = `<div class="solution-header">Customer Solution</div><ul><li>No solution found</li></ul>`;
+                        customerSolution.innerHTML = `<div class="solution-header">Non-warranty Issue</div><ul><li>No solution found</li></ul>`;
                         technicianSolution.innerHTML = `<div class="solution-header">Technician Solution</div><ul><li>No solution found</li></ul>`;
                     }
                 })
