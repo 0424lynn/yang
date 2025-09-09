@@ -15,11 +15,12 @@
           "Ask the customer to take a picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
           "Is the Unit Level? <br><span style='color: red'>(A unit not being level will cause a puddle to form the a side of the unit rather than just in the back of the unit)</span><br><br>",
           "Drain Hose Clogged? <br><span style='color: red'>(Scale build up is the most likely cause of leaking within the unit. If customer is comfrotable this sort of issue is fixable over the phone by explaining how to remove and clean the drain pipe)</span><br><br>",
-        "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）"
-        ],
+        "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）</span><br><br>",
+        "If the door gasket is damaged, suggest the customer replace it themselves <br><span style='color: red'>Within warranty → part covered; customer self-install; no technician dispatch.(as door gaskets are considered consumable parts Send the replacement tutorial video to the customer<a href='https://youtu.be/8fOAAQySY6w' target='_blank'> Door Gasket Replacement Video </a>)</span><br><br>"
+      ],
         "technician": [
-          "Confirm whether the drain pan is installed in the wrong direction or is cracked?<br>Solution: <span style='color: red'>Cut off half of the drain outlet at the bottom of the drain pan.</span><br><br>",
-          "Check if the door gasket is damaged?<br><span style='color: red'>(A damaged door gasket can allow external air to enter the cabinet, leading to excessive moisture buildup"
+          "Confirm whether the Evap drain pan is installed in the wrong direction or is cracked?<br>Solution: <span style='color: red'>Cut off half of the drain outlet at the bottom of the drain pan.</span><br><br>"
+          
         ]
       },
       "leakingWater outside": {
@@ -43,7 +44,8 @@
         ],
         "technician": [
           "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)</span><br><br>",
-       "If there is an issue with the door, pay attention to the following when replacing it:<br><span style='color: red'>(When you install the new door, try opening and closing it to see if it closes by itself. If not, then it is not turned correctly or the resistance is not strong enough <a href='https://0424lynn.github.io/yang/replace_door.png' target='_blank'>Door Installation Method</a>)"
+          "If the handle is broken, Do not send the new Lid! technician needs to be dispatched for replacement<br><span style='color: red'> (cut the silicone seal on both sides of the lid, then separate the cover plate to access the internal screws. Reminder: After reassembling, remember to reseal with silicone<a href='https://sks.atosausa.com/media/notices/Wicking_Kit_Insta.pdf' target='_blank'>Maintenance manual required.</a></span><br><br>",
+          "If there is an issue with the door, pay attention to the following when replacing it:<br><span style='color: red'>(When you install the new door, try opening and closing it to see if it closes by itself. If not, then it is not turned correctly or the resistance is not strong enough <a href='https://0424lynn.github.io/yang/replace_door.png' target='_blank'>Door Installation Method</a>)"
         ]
       },
       "cooling Issue": {
@@ -65,16 +67,26 @@
           "Please ask the customer to check if the power cord is damaged?<br><span style='color: red'>(If there is any damage, please take a photo and send it to us. We will send part and  dispatch tech to repair it.)"
         ],
         "technician": [
-         "If the equipment is short-circuiting:<br><span style='color: red'>Check if the control has been damaged by water <br><span style='color: red'>(Usually, water can enter the control board during kitchen cleaning)</a>"
+       
+        ]
+      }, 
+      "Door-to-drawer conversion": {
+
+        "customer": [
+          
+        ],  
+        "technician": [
+          "MPF series – Door to Drawer Replacement Video <video controls preload='metadata' playsinline style='width:100%;max-width:900px;'><source src='/yang/MPF-Drawer web-720.mp4' type='video/mp4'></video>"
         ]
         },
       "error Code": {
         "customer": [
-          "Dixell Parameters——(All US under-counter refrigerators use the Dixell controller) <br>P1:<span style='color: red'>Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style='color: black;'>P2:<span style='color: red;'>This unit doesn't have a defrost probe. Please calibrate the parameters first (Check the P2 parameter to see if it's set to 'n')or replace the control board.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>The MGF series doesn't have door magnetic switches.</span><br><br>",
-          "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
-          "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 5 of 7</a>)"
+         
         ],
         "technician": [
+          "Dixell Parameters——(All US under-counter refrigerators use the Dixell controller) <br>P1:<span style='color: red'>Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style='color: black;'>P2:<span style='color: red;'>This unit doesn't have a defrost probe. Please calibrate the parameters first (Check the P2 parameter to see if it's set to 'n')or replace the control board.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>The MGF series doesn't have door magnetic switches.</span><br><br>",
+          "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
+          "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 5 of 7</a>)</span><br><br><br><br>",
           "Carel Parameters——(All Canadian under-counter refrigerators use the Carel controller)<br> <span style='color: black;''>EO:<span style='color: red'>Probe 1 Failure(White Probe) <br> <span style='color: black;''>El:<span style='color: red'>Probe 2 Failure(Blue Probe);(dO =0/1] [if refrigertor has El, check parameter do to 2<br><span style='color: black;'>E3:<span style='color: red;'>Bad controller<br><span style='color: black;''>Do:<span style='color: red;''>The MGF series doesn't have door magnetic switches. <br> <span style='color: black;''>ER:<span style='color: red;''>MGF product, please replace it with the Dixell three-piece set:Front display,green clip,controller board</span><br><br>",
           "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
           "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 4 of 7</a>)"
@@ -123,7 +135,7 @@
       "title": "MPF8201GR — 44″ Refrigerated Pizza Prep. Table",
       "image": "MPF8201GRP.png",
       "diagram": "MPF8201GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Power Issue","cooling Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
       "documents": [
         {
           "title": "SPCIFICATION SHEET</span><br><br>",
@@ -143,7 +155,7 @@
       "title": "MPF8202GR — 67″ Refrigerated Pizza Prep. Table",
       "image": "MPF8202GRP.png",
       "diagram": "MPF8202GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Power Issue","cooling Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
      "cooling Issue": {
         
         "technician": [
@@ -168,7 +180,7 @@
     "title": "MPF8203GR — 93″ Refrigerated Pizza Prep. Table",
     "image": "MPF8203GRP.png",
     "diagram": "MPF8203GRD.png",
-  "issues":  ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Power Issue","cooling Issue","error Code"],
+  "issues":  ["noise", "leakingWater inside", "leakingWater outside","physical Damage","Power Issue","cooling Issue","error Code","Door-to-drawer conversion"],
   "documents": [
     {
       "title": "SPCIFICATION SHEET</span><br><br>",

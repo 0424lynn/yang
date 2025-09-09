@@ -24,12 +24,12 @@
           "Is the Unit Level? <br><span style='color: red'>(A unit not being level will cause a puddle to form the a side of the unit rather than just in the back of the unit)</span><br><br>",
           "Drain Hose Clogged? <br><span style='color: red'>(Scale build up is the most likely cause of leaking within the unit. If customer is comfrotable this sort of issue is fixable over the phone by explaining how to remove and clean the drain pipe)</span><br><br>",
         "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）</span><br><br>",
-        "If the door gasket is damaged<br><span style='color: red'>suggest the customer replace it themselves "
+        "If the door gasket is damaged, suggest the customer replace it themselves <br><span style='color: red'>Within warranty → part covered; customer self-install; no technician dispatch.(as door gaskets are considered consumable parts Send the replacement tutorial video to the customer<a href='https://youtu.be/8fOAAQySY6w' target='_blank'> Door Gasket Replacement Video </a>)</span><br><br>"
       ],
         "technician": [
           
           
-          "Check if the door gasket is damaged?<br><span style='color: red'>(A damaged door gasket can allow external air to enter the cabinet, leading to excessive moisture buildup"
+         
         ]
       },
       "leakingWater outside": {
@@ -110,7 +110,7 @@
         "technician": [
           "Dixell Parameters——(All US under-counter refrigerators use the Dixell controller) <br>P1:<span style='color: red'>Room Probe Failure(White Proe)or Loose Wiring on the controler <br> <span style='color: black;'>P2:<span style='color: red;'>This unit doesn't have a defrost probe. Please calibrate the parameters first (Check the P2 parameter to see if it's set to 'n')or replace the control board.<br><span style='color: black;''>P3&P4:<span style='color: red;'>Bad controller <br><span style='color: black;''>dA:<span style='color: red;'>The MSF series doesn't have door magnetic switches.</span><br><br>",
           "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
-          "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 5 of 7</a>)</span><br><br><br><br><br>",
+          "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 5 of 7</a>)</span><br><br><br><br>",
           "Carel Parameters——(All Canadian under-counter refrigerators use the Carel controller)<br> <span style='color: black;''>EO:<span style='color: red'>Probe 1 Failure(White Probe) <br> <span style='color: black;''>El:<span style='color: red'>Probe 2 Failure(Blue Probe);(dO =0/1] [if refrigertor has El, check parameter do to 2<br><span style='color: black;'>E3:<span style='color: red;'>Bad controller<br><span style='color: black;''>Do:<span style='color: red;''>The MSF series doesn't have door magnetic switches. <br> <span style='color: black;''>ER:<span style='color: red;''>MSF product, please replace it with the Dixell three-piece set:Front display,green clip,controller board</span><br><br>",
           "It is recommended to verify all the parameters based on the parameter table in the document section</span><br><br>",
           "Confirm whether the wiring is correct(<a href='https://sks.atosausa.com/media/notices/C-012_Tech_Guidance_pGjMr6y.pdf' target='_blank'>Please refer to the wiring method of Dixell on the Page 4 of 7</a>)"
