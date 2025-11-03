@@ -13,6 +13,7 @@
       "leakingWater inside": {
         "customer": [
           "Ask the customer to take a picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
+          "Confirm whether the bottom bracket has been removed <br><span style='color: red'>This part is only to prevent the door from sagging during transport; it must be removed during use to avoid air infiltration and excessive condensation.</span><br><br>",
           "Is the Unit Level? <br><span style='color: red'>(A unit not being level will cause a puddle to form the a side of the unit rather than just in the back of the unit)</span><br><br>",
           "Drain Hose Clogged? <br><span style='color: red'>(Scale build up is the most likely cause of leaking within the unit. If customer is comfrotable this sort of issue is fixable over the phone by explaining how to remove and clean the drain pipe)</span><br><br>",
         "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）</span><br><br>",

@@ -7,37 +7,36 @@
           "Check if the condenser fan blade is hitting any foreign objects."
         ],
         "technician": [
-          "Check if noise outside: <br>1.<span style='color: red'>Check if the fan motor is defective.<br><span style='color: black'>2.<span style='color: red'>Check whether there is any noise caused by loose screws.<br><span style='color: black'>3.<span style='color: red'>Inspect the compressor for abnormal noise.</span><br><br>",
-          "Check if noise inside: <br>1.<span style='color: red'>Check if the evaporator fan is hitting the banding strap"
+          "Check if noise outside: <br>1.<span style='color: red'>Check if the fan motor is defective.<br><span style='color: black'>2.<span style='color: red'>Check whether there is any noise caused by loose screws.<br><span style='color: black'>3.<span style='color: red'>Inspect the compressor for abnormal noise.</span><br><br>"
         ]
         },
       "leakingWater inside": {
         "customer": [
           "Ask the customer to record a video or picture and send it to us for analysis. <br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
-          "Check the drain hose for loose drains inside? <br><span style='color: red'>(The customer may have accidentally detached the drain hose while storing items.)</span><br><br>",
-          "Drain Hose Clogged? <br><span style='color: red'>(Scale build up is the most likely cause of leaking within the unit. If customer is comfrotable this sort of issue is fixable over the phone by explaining how to remove and clean the drain pipe)</span><br><br>",
-         "Check if the door gasket is damaged?<br><span style='color: red'>(A damaged door gasket can allow external air to enter the cabinet, leading to excessive moisture buildup</span><br><br>",
+        "Confirm whether the bottom bracket has been removed <br><span style='color: red'>This part is only to prevent the door from sagging during transport; it must be removed during use to avoid air infiltration and excessive condensation.</span><br><br>",
+         "If the door gasket is damaged, suggest the customer replace it themselves <br><span style='color: red'>Within warranty → part covered; customer self-install; no technician dispatch.(as door gaskets are considered consumable parts Send the replacement tutorial video to the customer<a href='https://youtu.be/8fOAAQySY6w' target='_blank'> Door Gasket Replacement Video </a>)</span><br><br>",
          "Is there any hot equipment placed next to the unit?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）"
         ],
         "technician": [
-          "Please confirm the above five points with the technician:<br>1.<span style='color: red'>record a video or picture and send it to us for analysis.<br><span style='color: black'>2.<span style='color: red'>Check the drain hose for loose drains inside?<br><span style='color: black'>3.<span style='color: red'>Drain Hose Clogged?<br><span style='color: black'>4.<span style='color: red'>Check if the door gasket is damaged?<br><span style='color: black'>5.<span style='color: red'>Is there any hot equipment placed next to the refrigerator?."
+         "Check whether the drain hose is too long <br><span style='color: red'>An overly long hose can press against the Air Relief Valve, stopping drainage and causing frost buildup</span><br><br>"
         ]
       },
       "leakingWater outside": {
         "customer": [
           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)</span><br><br>",
-          "Water is leaking from The backpack drain pan?<br>1.<span style='color: red'>(Due to the overheating of the High-pressure pipe and its direct contact with the backpack drain pan, the bottom of the backpack drain pan has been heat-damaged and cracked, causing a water leak. We recommend sending a new backpack drain pan. If the customer does not wish to repair it themselves, we can dispatch a technician)</span><br><br>",
+          
           "Is there ice on the outer surfaces of the freezer on both sides? <br><span style='color: red'>(Please confirm whether the distance between the two unites is too close,It is recommended to maintain a distance of 10-15 cm between each refrigerator.)"
         ],
         "technician": [
-          "Is there water leakage at the bottom of the backpack drain-pan? <br><span style='color: red'>(There is water leakage at the air pressure balance valve, and the sealant needs to be reapplied.<br>Here is the repair manual<a href='https://sc.atosausa.com/file/2024/09/03/C-001_Tech_Guidance_d72efe6b-2449-492d-9804-38d934e01491.pdf' target='_blank'> Air Relief Valve  </a>)"
+          "Is there water leakage at the bottom of the backpack drain-pan? <br>1.<span style='color: red'>There is water leakage at the air pressure balance valve, and the sealant needs to be reapplied.（Here is the repair manual<a href='https://sc.atosausa.com/file/2024/09/03/C-001_Tech_Guidance_d72efe6b-2449-492d-9804-38d934e01491.pdf' target='_blank'> Air Relief Valve）</a></span><br>2.<span style='color: red'>Check if the bottom of the drain pan is cracked from heat, which may be causing the leakage.</span><br>3.<span style='color: red'>Check the length of the drain hose. If it is too short, the water may not flow directly into the rear pack, causing external leakage.)"
         ]
       },
       "Led issue": {
         "customer": [
-          "Please confirm if the light turns on when the door is opened? <br><span style='color: red'>( If it doesn't turn on, it’s likely that the related parts are faulty, and a technician will need to be sent for inspection.The specific troubleshooting method is in the technical solution)"
+          
         ],
         "technician": [
+          "Please confirm if the light turns on when the door is opened?<br>If the door light does not turn on, it is recommended to first send an<span style='color: red'> power supply </span>and <span style='color: red'>light strip </span>to the technician.If it still doesn’t work, ask the technician to confirm the following points:</span><br><br>",
           "Check if the power supply is working.<br><span style='color: red'>(The LED lighting on the unit is 24vdc. The lighting control board and the lighting power supply can all be accessed from the front of the unit. Here is the Diagnostic manual <a href='https://0424lynn.github.io/yang/Led_wiring.png' target='_blank'>Led wiring</a>)</span><br><br>",
           "Check if the Led Controller is working.<br><span style='color: red'>(This small board is the LED lighting controller. Here is the Diagnostic manual <a href='https://0424lynn.github.io/yang/Led_controller.png' target='_blank'>Led controller board</a>)</span><br><br>",
           "Check if the Led is working.<br><span style='color: red'>(If the LED Lighting connector is getting voltage and the light is still not coming on, then the LED light is faulty. Here is the Diagnostic manual <a href='https://0424lynn.github.io/yang/Led_light.png' target='_blank'>Led</a>)"
@@ -52,22 +51,37 @@
         ],
         "technician": [
           "If the caster is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the casters along with the nuts when shipping the accessories!)</span><br><br>",
+          "When opening the door, it cannot stay open.<br>1.<span style='color: red'>Check if the door lock is severely worn; part code – W0604038</span><br>2.<span style='color: red'>check if the hinge is sagging, and recommend adjusting the hinge</span><br><br>",
           "If there is an issue with the door, pay attention to the following when replacing it:<br><span style='color: red'>(When you install the new door, try opening and closing it to see if it closes by itself. If not, then it is not turned correctly or the resistance is not strong enough <a href='https://0424lynn.github.io/yang/replace_door.png' target='_blank'>Door Installation Method</a>)</span><br><br>"
         ]
       },
       "cooling Issue": {
         "customer": [
            "Confirm with the customer which icons are displayed on the screen. <br><span style='color: red'>(The icons indicate that the corresponding components are functioning <a href='https://0424lynn.github.io/yang/icon.png' target='_blank'>Basic Unit Functions</a>)</span><br><br>",
-          "Is the condenser fan working?<br><span style='color: red'>①.If not, check if the fan blade is obstructed by any foreign objects. <br><span style='color: red'>②.If it’s not obstructed but still not working, the fan needs to be replaced</span><br><br>",
-          "Check if the internal evaporator fan is working?<br><span style='color: red'>If only one fan is not working, replace the faulty fan.</span><br><br>",
+         "Confirm if there are any items stacked on the top.<br><span style='color: red'>Recommend the customer to check the top of the unit. If there are any items stacked, they should be removed to avoid poor heat dissipation or blockage of the fan blades.</span><br><br>",
           "Check if the condenser is dirty or clogged?<br><span style='color: red'>If the customer is unsure, ask them to take a photo and send it for confirmation"
         ],
         "technician":[
-  "Check if the evaporator is frozen?<br>1. <span style='color: red'>Check if the drain pan & drain hose heaters are working properly (Check the ohm values of these two accessories. This is the inspection manual <a href='https://0424lynn.github.io/yang/heater%20test.png' target='_blank'>Heater Test Manual</a>).</span><br>2. <span style='color: red'>Check if the evaporator fan is working? (Confirm if there is a 115V voltage output. <a href='https://0424lynn.github.io/yang/evp%20fan.png' target='_blank'>Evaporator Fan Maintenance Manual</a>).</span></span><br><br>",
+  "Confirm whether the solenoid valve is functioning properly.<br>1.<span style='color: red'>",
 
-  "Check if the compressor is working properly?<br>1. <span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video</a>.</span><br>2. <span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3-in-1 start kit <a href='https://0424lynn.github.io/yang/3n1.png' target='_blank'>3-in-1 Operating Instructions</a>.</span></span><br><br>",
+  "Check if the compressor is working properly?<br>1.<span style='color: red'>Check if the compressor resistance is normal <a href='https://www.youtube.com/watch?v=Cix_ko2dYuM' target='_blank'>Compressor Resistance Check Video</a>.</span><br>2. <span style='color: red'>If the start component is faulty, it is recommended that the technician try using a 3-in-1 start kit <a href='https://0424lynn.github.io/yang/3n1.png' target='_blank'>3-in-1 Operating Instructions</a>.</span></span><br><br>",
 
   "All parts are functioning properly. Please check if there is a refrigerant leak.<br>1. <span style='color: red'>Recommend the technician to test the low-side; the normal low pressure should be 10-14 PSI. Please refer to this parameter <a href='https://0424lynn.github.io/yang/psi.png' target='_blank'>Pressure Temperature Chart</a>.</span><br>2. <span style='color: red'>Check for leakage points, prioritizing the areas marked in black. Each machine has this label near the compressor. <a href='https://0424lynn.github.io/yang/Solder%20joint%20diagram.png' target='_blank'>Refrigerant Circuit Diagram</a>.</span><br>3. <span style='color: red'>If the technician needs us to provide capillary tube fittings, please let them know we recommend cutting 2-3 inches off the end cap tube, blowing the whole system with nitrogen, replacing it with a new universal filter drier, vacuuming, and recharging the unit.</span><br><br>"
+
+
+       ]
+      },
+      "cooling Issue-Ice Buildup": {
+        "customer": [
+          "Food surface icing issue. <br><span style='color: red'>Uncovered food releases moisture; the vapor freezes on cold surfaces/evaporator → frost/ice.<br>Prevent: Cover/seal all food, let hot items cool first, and keep airflow paths clear.</span><br><br>",
+          "frost buildup on the evaporator?<br><span style='color: red'>Please advise the customer to turn off the unit overnight to allow a natural defrost, so the technician can complete the repair more quickly.</span><br><br>"
+        ],
+        "technician":[
+  "Waterfall-like icing on the back?<br>1. <span style='color: red'>Please check whether the flexible hose is too long or the drain hose has come off, which can cause internal ice buildup.</span><br><br>",
+
+ "Check if the evaporator is frozen?<br>1. <span style='color: red'>Check if the drain pan & drain hose heaters are working properly (Check the ohm values of these two accessories. This is the inspection manual <a href='https://0424lynn.github.io/yang/heater%20test.png' target='_blank'>Heater Test Manual</a>).</span><br>2. <span style='color: red'>Check if the evaporator fan is working? (Confirm if there is a 115V voltage output. <a href='https://0424lynn.github.io/yang/evp%20fan.png' target='_blank'>Evaporator Fan Maintenance Manual</a>).</span></span><br><br>",
+
+  "Icing on the surface of the evaporator fan panel. <br><span style='color: red'>Install the heater wire inside the shroud panel and connect it directly to the defrost heater circuit.</span><br><br>"
 
 
        ]
@@ -124,7 +138,7 @@
       "title": "MBF15FSGR — Top Mount One Door Reach-in Freezer",
       "image": "MBF15FSGRP.png",
       "diagram": "MBF15FSGRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","cooling Issue-Ice Buildup","Power Issue","error Code"],
       "cooling Issue": {
         
         "technician": [
@@ -160,7 +174,7 @@
       "title": "MBF8001GR — Top Mount One Door Reach-in Freezer",
       "image": "MBF8001GRP.png",
       "diagram": "MBF8001GRD.png",
-      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+      "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","cooling Issue-Ice Buildup","Power Issue","error Code"],
       "cooling Issue": {
         
         "technician": [
@@ -193,7 +207,7 @@
       "title": "MBF8002GR — Top Mount Two Door Reach-in Freezer",
       "image": "MBF8002GRP.png",
       "diagram": "MBF8002GRD.png",
-    "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+    "issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","cooling Issue-Ice Buildup","Power Issue","error Code"],
     "cooling Issue": {
         
         "technician": [
@@ -221,7 +235,7 @@
   "title": "MBF8003GR — Top Mount Three Door Reach-in Freezer",
   "image": "MBF8003GRP.png",
   "diagram": "MBF8003GRD.png",
-"issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+"issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","cooling Issue-Ice Buildup","Power Issue","error Code"],
 "cooling Issue": {
         
         "technician": [
@@ -257,7 +271,7 @@
   "title": "MBF8007GR — Top Mount Three Door Reach-in Freezer",
   "image": "MBF8007GRP.png",
   "diagram": "MBF8007GRD.png",
-"issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+"issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","cooling Issue-Ice Buildup","Power Issue","error Code"],
 "cooling Issue": {
         
         "technician": [
@@ -290,7 +304,7 @@
   "title": "MBF8008GR — Top Mount Two-Section (4) Divided Door Freezer",
   "image": "MBF8008GRP.png",
   "diagram": "MBF8008GRD.png",
-"issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","Power Issue","error Code"],
+"issues": ["noise", "leakingWater inside", "leakingWater outside","Led issue","physical Damage","cooling Issue","cooling Issue-Ice Buildup","Power Issue","error Code"],
 "cooling Issue": {
         
         "technician": [

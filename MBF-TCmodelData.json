@@ -20,7 +20,8 @@
          "Is there any hot equipment placed next to the refrigerator?<br><span style='color: red'>(The temperature and heat from nearby hot products can directly affect the refrigerator's surface or cause excess moisture inside. This is a normal occurrence, unless the customer keeps the hot equipment far away from the refrigerator.）"
         ],
         "technician": [
-          "Please confirm the above five points with the technician:<br>1.<span style='color: red'>record a video or picture and send it to us for analysis.<br><span style='color: black'>2.<span style='color: red'>Check the drain hose for loose drains inside?<br><span style='color: black'>3.<span style='color: red'>Drain Hose Clogged?<br><span style='color: black'>4.<span style='color: red'>Check if the door gasket is damaged?<br><span style='color: black'>5.<span style='color: red'>Is there any hot equipment placed next to the refrigerator?."
+          "Please confirm the above five points with the technician:<br>1.<span style='color: red'>record a video or picture and send it to us for analysis.<br><span style='color: black'>2.<span style='color: red'>Check the drain hose for loose drains inside?<br><span style='color: black'>3.<span style='color: red'>Drain Hose Clogged?<br><span style='color: black'>4.<span style='color: red'>Check if the door gasket is damaged?<br><span style='color: black'>5.<span style='color: red'>Is there any hot equipment placed next to the refrigerator?.",
+       "Check the drain hose for loose drains inside? <br><span style='color: red'>(The customer may have accidentally detached the drain hose while storing items.)</span><br><br>"
         ]
       },
       "leakingWater outside": {

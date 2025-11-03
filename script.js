@@ -56,6 +56,85 @@
   try { mo.observe(document.querySelector('.problem-box') || document.body, { childList: true, subtree: true }); } catch {}
 })();
 
+/* === Admin 专用侧栏（仅 admin/4321 可见；仅 dashboard.html 生效） === */
+(function () {
+  const DASH_MATCH = /\/dashboard\.html\b/i;
+  // ——— 按你的要求：两个按钮都保留 ———
+  const TECH_MAP_URL      = "https://tech-map.streamlit.app/";
+  // 加入 guest=1 & debug=1 & #可视化，尽力直达“可视化”页并尝试免登录
+  const DATA_ANALYSIS_URL = "https://after-sales-service-report.streamlit.app/?guest=1&debug=1#可视化";
+
+  if (!DASH_MATCH.test(location.pathname)) return;
+  const userRole = (localStorage.getItem("userRole") || "").trim();
+  if (userRole !== "superAdmin") return;
+
+  if (document.getElementById("adminSidebar")) return;
+
+  const css = `
+  #adminSidebar {
+    position: fixed; left: 0; top: 0; bottom: 0; width: 260px;
+    background: #0f172a; color: #e5e7eb; box-shadow: 2px 0 12px rgba(0,0,0,.2);
+    z-index: 9999; transform: translateX(-270px); transition: transform .25s ease;
+    display: flex; flex-direction: column; padding: 16px 14px;
+  }
+  #adminSidebar.open { transform: translateX(0); }
+  #adminSidebar h3 { margin: 0 0 12px 0; font-size: 18px; font-weight: 700; letter-spacing:.5px; }
+  #adminSidebar p.hint { margin: 0 0 12px 0; font-size: 12px; color:#9ca3af; }
+  #adminSidebar .btn {
+    display:block; width:100%; margin:8px 0; padding:12px 14px; border-radius:10px;
+    border:1px solid rgba(255,255,255,.12); background:#111827; color:#e5e7eb;
+    text-decoration:none; font-weight:600; text-align:center;
+    transition: transform .05s ease, background .2s ease, border-color .2s ease;
+  }
+  #adminSidebar .btn:hover { background:#0b1220; border-color: rgba(255,255,255,.24); }
+  #adminSidebar .btn:active { transform: translateY(1px); }
+  #adminSidebar .spacer { flex: 1; }
+  #adminSidebar .foot { font-size:11px; color:#9ca3af; opacity:.9; padding-top:8px; border-top:1px solid rgba(255,255,255,.08); }
+  #adminSidebarToggle {
+    position: fixed; left:12px; top:12px; z-index:10000; background:#0f172a; color:#e5e7eb;
+    border:1px solid rgba(255,255,255,.12); padding:8px 12px; border-radius:10px; cursor:pointer;
+    font-weight:700; letter-spacing:.3px; box-shadow:0 2px 12px rgba(0,0,0,.15);
+  }
+  #adminSidebarToggle:hover { background:#0b1220; }
+  @media (max-width: 640px){ #adminSidebar { width:86vw; transform: translateX(-90vw); } }
+  `;
+  const style = document.createElement("style");
+  style.id = "adminSidebarStyle";
+  style.textContent = css;
+  document.head.appendChild(style);
+
+  const side = document.createElement("aside");
+  side.id = "adminSidebar";
+  side.innerHTML = `
+    <h3>ADMIN PANEL</h3>
+    <p class="hint">仅 admin/4321 可见</p>
+    <a class="btn" href="${TECH_MAP_URL}" target="_blank" rel="noopener noreferrer">🚀 TECH MAP</a>
+    <a class="btn" href="${DATA_ANALYSIS_URL}" target="_blank" rel="noopener noreferrer">📊 Data Analysis</a>
+    <div class="spacer"></div>
+    <div class="foot">Secure · SuperAdmin</div>
+  `;
+  document.body.appendChild(side);
+
+  const toggle = document.createElement("button");
+  toggle.id = "adminSidebarToggle";
+  toggle.type = "button";
+  toggle.textContent = "☰ Admin";
+  toggle.title = "Open Admin Sidebar";
+  document.body.appendChild(toggle);
+
+  const open = () => side.classList.add("open");
+  const close = () => side.classList.remove("open");
+  const toggleOpen = () => side.classList.toggle("open");
+  toggle.addEventListener("click", (e) => { e.preventDefault(); toggleOpen(); });
+  document.addEventListener("click", (e) => {
+    if (!side.classList.contains("open")) return;
+    const withinSide = e.target.closest && e.target.closest("#adminSidebar");
+    const withinBtn  = e.target.closest && e.target.closest("#adminSidebarToggle");
+    if (!withinSide && !withinBtn) close();
+  });
+  setTimeout(open, 150);
+})();
+
 
 //原有数据以下
 document.addEventListener("DOMContentLoaded", function () {
@@ -535,24 +614,26 @@ document.addEventListener("DOMContentLoaded", function () {
       window.location.href = "index.html";
     });
   }
-  
-  // 检查用户权限并显示/隐藏地图按钮
-  const userRole = localStorage.getItem("userRole");
-  const mapButton = document.getElementById("mapButton");
-  
-  if (mapButton && userRole === "superAdmin") {
-    // 只有超级管理员(admin/4321)才能看到地图按钮
-    mapButton.style.display = "inline-block";
-  }
-  
-  // 检查用户权限并显示/隐藏地图链接
-  const mapSection = document.getElementById("mapSection");
-  
-  if (mapSection && userRole === "superAdmin") {
-    // 只有超级管理员(admin/4321)才能看到地图
-    mapSection.style.display = "block";
-  }
 });
+// === 只保留侧栏 TECH MAP：页面中的 Tech Map 全部隐藏 ===
+(function () {
+  const kill = (el) => { try { el.remove(); } catch { if (el) el.style.display = "none"; } };
+  const hideAll = () => {
+    ['#mapButton', '#techMapLink', '#mapSection', '.tech-map', '.btn-techmap', '.map-btn']
+      .forEach(sel => document.querySelectorAll(sel).forEach(kill));
+    // 兜底：把纯文本为“Tech Map/TECH MAP”的按钮/链接也干掉
+    document.querySelectorAll('a,button').forEach(el => {
+      const t = (el.textContent || '').trim().toLowerCase();
+      if (t === 'tech map' || t === 'techmap') kill(el);
+    });
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', hideAll);
+  } else {
+    hideAll();
+  }
+})();
+
 
 // **📌 搜索功能**
 function searchProduct() {
