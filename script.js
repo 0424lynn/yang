@@ -59,10 +59,10 @@
 /* === Admin 专用侧栏（仅 admin/4321 可见；仅 dashboard.html 生效） === */
 (function () {
   const DASH_MATCH = /\/dashboard\.html\b/i;
-  // ——— 按你的要求：两个按钮都保留 ———
-  const TECH_MAP_URL      = "https://tech-map.streamlit.app/";
-  // 加入 guest=1 & debug=1 & #可视化，尽力直达“可视化”页并尝试免登录
-  const DATA_ANALYSIS_URL = "https://after-sales-service-report.streamlit.app/?guest=1&debug=1#可视化";
+  // ——— 三个按钮：Tech Map / Data Analysis / Daily Follow-up ———
+  const TECH_MAP_URL       = "https://tech-map.streamlit.app/";
+  const DATA_ANALYSIS_URL  = "https://after-sales-service-report.streamlit.app/?guest=1&debug=1#可视化";
+  const DAILY_FOLLOW_URL   = "https://daily-follow-up.streamlit.app/";   // ← 新增
 
   if (!DASH_MATCH.test(location.pathname)) return;
   const userRole = (localStorage.getItem("userRole") || "").trim();
@@ -108,8 +108,9 @@
   side.innerHTML = `
     <h3>ADMIN PANEL</h3>
     <p class="hint">仅 admin/4321 可见</p>
-    <a class="btn" href="${TECH_MAP_URL}" target="_blank" rel="noopener noreferrer">🚀 TECH MAP</a>
+    <a class="btn" href="${TECH_MAP_URL}"      target="_blank" rel="noopener noreferrer">🚀 TECH MAP</a>
     <a class="btn" href="${DATA_ANALYSIS_URL}" target="_blank" rel="noopener noreferrer">📊 Data Analysis</a>
+    <a class="btn" href="${DAILY_FOLLOW_URL}"  target="_blank" rel="noopener noreferrer">🗓 Daily Follow-up</a>  <!-- ← 新增按钮 -->
     <div class="spacer"></div>
     <div class="foot">Secure · SuperAdmin</div>
   `;
@@ -615,18 +616,27 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
-// === 只保留侧栏 TECH MAP：页面中的 Tech Map 全部隐藏 ===
+// === 只保留侧栏 TECH MAP：把页面主体里的 Tech Map 入口隐藏，但不动 #adminSidebar 里的 ===
 (function () {
   const kill = (el) => { try { el.remove(); } catch { if (el) el.style.display = "none"; } };
-  const hideAll = () => {
-    ['#mapButton', '#techMapLink', '#mapSection', '.tech-map', '.btn-techmap', '.map-btn']
-      .forEach(sel => document.querySelectorAll(sel).forEach(kill));
-    // 兜底：把纯文本为“Tech Map/TECH MAP”的按钮/链接也干掉
-    document.querySelectorAll('a,button').forEach(el => {
+
+  function hideAll() {
+    // 只在页面主体里处理，避免影响 Admin 侧栏
+    const area = document.querySelector('.container') || document.body;
+
+    // 先按选择器清理（限定在 area 内）
+    ['#mapButton', '#techMapLink', '#mapSection', '.tech-map', '.btn-techmap', '.map-btn'].forEach(sel => {
+      area.querySelectorAll(sel).forEach(kill);
+    });
+
+    // 兜底：把纯文本为“Tech Map/TECH MAP”的按钮/链接也干掉，但跳过侧栏
+    area.querySelectorAll('a,button').forEach(el => {
+      if (el.closest('#adminSidebar')) return; // ← 关键：跳过侧栏
       const t = (el.textContent || '').trim().toLowerCase();
       if (t === 'tech map' || t === 'techmap') kill(el);
     });
-  };
+  }
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', hideAll);
   } else {
