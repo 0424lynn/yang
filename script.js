@@ -63,6 +63,7 @@
   const TECH_MAP_URL       = "https://tech-map.streamlit.app/";
   const DATA_ANALYSIS_URL  = "https://after-sales-service-report.streamlit.app/?guest=1&debug=1#可视化";
   const DAILY_FOLLOW_URL   = "https://daily-follow-up.streamlit.app/";   // ← 新增
+  const ISSUE_TRACKER_URL  = "https://issue-tracker.streamlit.app/?tab=list"; // ← 新增
 
   if (!DASH_MATCH.test(location.pathname)) return;
   const userRole = (localStorage.getItem("userRole") || "").trim();
@@ -111,6 +112,7 @@
     <a class="btn" href="${TECH_MAP_URL}"      target="_blank" rel="noopener noreferrer">🚀 TECH MAP</a>
     <a class="btn" href="${DATA_ANALYSIS_URL}" target="_blank" rel="noopener noreferrer">📊 Data Analysis</a>
     <a class="btn" href="${DAILY_FOLLOW_URL}"  target="_blank" rel="noopener noreferrer">🗓 Daily Follow-up</a>  <!-- ← 新增按钮 -->
+    <a class="btn" href="${ISSUE_TRACKER_URL}" target="_blank" rel="noopener noreferrer">🧩 Product issue-tracker</a>
     <div class="spacer"></div>
     <div class="foot">Secure · SuperAdmin</div>
   `;
