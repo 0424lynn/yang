@@ -1,0 +1,179 @@
+{
+  "common": {
+    "issues": {
+      
+      "leakingOil outside": {
+        "customer": [
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'> (Make sure to upload it into the system)"
+        ],
+        "technician": [
+          "Is there Oil leakage at the bottom of the unit? <br><span style='color: red'> Please confirm whether the oil leak is due to poor welding at the tank body"
+        ]
+      
+      },
+      "physical Damage": {
+        "customer": [
+          "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+        "If it is clearly a transportation damage issue caused by the customer during handling<br><span style='color: red'>(we will only send parts to the customer, not dispatch a technician)</span><br><br>"
+      
+        ],
+        "technician": [
+          "If the leg is broken,technician will need to replace it onsite <br><span style='color: red'>(Remember to send the leg along with the nuts when shipping the accessories!)"
+        ]
+          },
+      
+      "Hot issue": {
+        "customer": [
+           "asking the customer to record a picture and send it to us for analysis.<br><span style='color: red'>(Make sure to upload it into the system)</span><br><br>",
+        "Confirm with the customer whether the installation was done correctly?<br>1.<span style='color: red'>All units​ The gas connection must be made with a ¾” gas connection kit.The size of the line is important for volume.<br><span style='color: black'>2.<span style='color: red'>If it's NG (Natural Gas), the customer doesn't need to install any regulator. The pressure can be adjusted directly on the combination valve<a href='./PRESSURE.png' target='_blank'>pressure adjustment</a><br><span style='color: black'>3.<span style='color: red'>If it's LP,Verify that the customer has both a 1st and 2nd stage regulator similar to what is shown on the left, or a dual stage regulator that brings the pressure of the tank down to less than 14” W.C. (1/2 PSI) but greater than 10” W.C.The gas valves internal regulator will take it from there<a href='./LP GAS.png' target='_blank'>​Propane Gas – For all LP gas setups</a></span><br><br>.​"
+          
+        ],
+        "technician": [ 
+          "Thermopile working principle and fault diagnosis.<br>1.<span style='color: red'>The Millivolt fryer system runs on an 800mv thermopile.As flame is applied to the thermopile on the unit by the pilot, the thermopile generates 800mv of DC voltage.This voltage is what is used by the valve to hold the pilot open.It is also used by the valve when the thermostat on the unit calls for heat.The thermostat passes the voltage from the thermopile to the valve to open the main gas supply and turn on the burners.<br><span style='color: black'>2.<span style='color: red'>If the thermopile is bad or weak, then the unit will not work properly or will work intermittently.​</span><br><br>",
+         " Pilot will light but when the button is released the pilot goes out？<br>1.<span style='color:grey'>TEST THERMOPILE--<span style='color: red'>Disconnect the thermopile from the unit and test it in open flame.The thermopile should be producing between 750-800mv DC.<br><span style='color: black'>2.<span style='color: grey'>TEST HIGH LIMIT--<span style='color: red'>Disconnect the high limit from the unit and complete a continuity check on the high limit.  You should have continuity between common and normally closed.  You should not have continuity between common and normally open unless the oil in the fryer is hotter than 450 degrees.  If both above-mentioned parts test fine, then the gas valve will need to be replaced​</a></span><br><br>",
+          "Pilot will light and hold but the main burners will not come on？<br>1.<span style='color:grey'>TEST THERMOPILE--<span style='color: red'>Disconnect the thermopile from the unit and test it in open flame.The thermopile should be producing between 750-800mv DC.<br><span style='color: black'>2.<span style='color: grey'>TEST THERMOSTART--<span style='color: red'>Disconnect the thermostat from the fryer and perform a continuity check across the thermostat when it is off and on. ​​</a></span><br><br>",
+          "Pilot lights and main burners fire then shortly after everything shuts off.  Or unit heats up a little then everything shuts off？<br>1.<span style='color:grey'>TEST THERMOPILE--<span style='color: red'>Disconnect the thermopile from the unit and test it in open flame.  The thermopile should be producing between 750-800mv DC.<br><span style='color: black'>2.<span style='color: grey'>TEST HIGH-LIMIT--<span style='color: red'>Disconnect the high limit from the unit and complete a continuity check on the high limit.  You should have continuity between common and normally closed.  You should not have continuity between common and normally open unless the oil in the fryer is hotter than 450 degrees. ​​</a></span><br><br>",
+          "Unit heats up once then everything shuts off？<br>1.<span style='color:grey'>TEST HIGH-LIMIT--<span style='color: red'>Turn the unit on and set the thermostat to 350.Temp the oil as the unit heats.If the unit shuts off before reaching 350 this is a high limit issue<br><span style='color: black'>2.<span style='color: grey'>TEST THERMOSTAT--<span style='color: red'>If the unit goes up to 450 and then shuts off this is a thermostat issue. ​​</a></span><br><br>"
+         
+       ]
+      },
+"Thermostat Calibretion": {
+        "customer": [
+         
+          
+        ],
+        "technician": [
+          
+          "Features: Calibration instructions for ATFS models <a href='https://sks.atosausa.com/media/notices/H-005_Tech_Guidance.pdf' target='_blank'>Calibration Manual</a> <br><br> Quarter turn is changing temperature 25 degrees (+/-5).<br><span style='color:red'>(If the difference between setting temperature and actual temperature is at +/-10 degrees, then calibration is not necessary, just need to re-dial knob and reset temp)</span><br><img src='./calib.png' style='max-width:100%; height:auto;'>"
+
+          
+          
+        ]
+      },
+      "Valve Information": {
+        "customer": [
+
+          
+        ],
+        "technician": [
+          "Valve Information<img src='./ATFSV.png' style='max-width:100%; height:auto;'>"
+        ]
+      },
+      "Gas Pressure Information": {
+        "customer": [
+
+          
+        ],
+        "technician": [
+          " Pressure Testing <br>1.<span style = 'color:red'>​Testing at the pressure valve on the black pipe, this must be done while the burners are engaged.<span style='color:black'> <br>2.<span style='color:red'> Testing at the gas source before getting to the gas valve.<br> <span style='color:black'>3.<span style='color:red'>  Remedial testing at the gas valve itself. This will give a reading of the pressure coming to the valve in instances where the valve is not activating and engaging the burners.<br> <a href='https://sks.atosausa.com/media/notices/H-004_Tech_Guidance.pdf' target='_blank'> FRYER PRESSURE CHECK </span><br><br>",
+          "Gas Pressure Information<img src='./ATFSG.png' style='max-width:100%; height:auto;'>"
+        ]
+      },
+      "Altitude/Elevation Information": {
+        "customer": [
+        ],
+        "technician": [
+        "A gas burner works based on Bernoulli’s Principle.  Simply put, the jet of fast-moving gas coming out of the orifice, drags the surrounding air into the burner with it.  The venturi effect mixes the air with the gas to create the fuel to air mixture that burns when it comes out of the burner holes.</span><br><br>",
+        "As you increase in elevation the air begins to thin out, there is less oxygen in the air to burn so the flame on the unit is more gas than it is oxygen, this causes the flame to turn orange and produce soot.  To counteract this the holes in the orifices on the unit need to be smaller. This restricts the volume of gas coming out of the orifice without slowing the speed at which it comes out.  This allows for more air to mix in the burner venturi to keep the flame blue. ​<br><br><span style='color:red'>​All our units are shipped out with “Sea Level” Orifices in them.It is up to the end user's installer to size the orifices on the unit accordingly when the unit is to be installed at elevation.<br><br><img src='./ATFSO.png' style='max-width:100%; height:auto;'>"
+      ]
+      
+    },
+    "LP → NG / NG → LP": {
+      "customer": [
+        "If the customer wants to change the gas type, we only provide the replacement parts. This service is not covered under warranty.<img src='./ATFS40-50-75.png' style='max-width:100%; height:auto;'>"
+
+      ],
+      "technician": [
+      ]
+    }
+    },
+   
+    
+    "documents": [
+      
+      {
+        "title": "MODEL MATCH UP</span><br><br>",
+        "url": "https://sks.atosausa.com/media/notices/GEN-001_Model_Match_Up.pdf"
+      }
+    ]
+  },
+  "models": {
+    "ATFS-40": {
+      "title": "ATFS-40 — 40LB Deep Fryer",
+      "image": "ATFS40P.png",
+      "diagram": "ATFS40D.png",
+      "issues": ["leakingOil outside","physical Damage","Hot issue","Thermostat Calibretion","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATFS-35ES_40_50_75_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATFS-405075-Parts-Breakdowns.pdf"
+        }
+          
+      
+      ]
+    
+    },
+    "ATFS-35ES": {
+      "title": "ATFS-35ES — 35LB Deep Fryer",
+      "image": "ATFS40P.png",
+      "diagram": "ATFS40D.png",
+   "issues": ["leakingOil outside","physical Damage","Hot issue","Thermostat Calibretion","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATFS-35ES_40_50_75_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATSF-35ES.pdf"
+        }
+      ]
+    },
+    "ATFS-50": {
+      "title": "ATFS-50 — 50LB Deep Fryer",
+      "image": "ATFS40P.png",
+      "diagram": "ATFS40D.png",
+     "issues": ["leakingOil outside","physical Damage","Hot issue","Thermostat Calibretion","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
+      
+      
+      "documents": [
+        {
+          "title": "SPCIFICATION SHEET</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATFS-35ES_40_50_75_specsheet.pdf"
+        },
+        {
+          "title": "PARTS BREAKDOWN</span><br><br>",
+          "url": "https://atosausa.com/wp-content/uploads/2023/10/ATFS-405075-Parts-Breakdowns.pdf"
+        }
+      ]
+    },
+    
+   
+   
+"ATFS-75": {
+  "title": "ATFS-75 — 75 LB Deep Fryer",
+  "image": "ATFS75P.png",
+  "diagram": "ATFS40D.png",
+"issues": ["leakingOil outside","physical Damage","Hot issue","Thermostat Calibretion","Valve Information","Gas Pressure Information","Altitude/Elevation Information","LP → NG / NG → LP"],
+"documents": [
+  {
+    "title": "SPCIFICATION SHEET</span><br><br>",
+    "url": "https://atosausa.com/wp-content/uploads/2023/10/ATFS-35ES_40_50_75_specsheet.pdf"
+  },
+  {
+    "title": "PARTS BREAKDOWN",
+    "url": "https://atosausa.com/wp-content/uploads/2023/10/ATFS-405075-Parts-Breakdowns.pdf"
+  }
+    
+]
+}
+}
+}

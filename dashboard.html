@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ATOSA Technical Documentation Center</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100vh;
+      margin: 0;
+      position: relative; /* 确保伪元素定位正确 */
+    }
+
+    /* 使用 ::before 伪元素为背景添加透明度 */
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://img.tukuppt.com/ad_preview/00/09/24/5c9913d81f356.jpg!/fw/980');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.5; /* 设置背景透明度 */
+      z-index: -1; /* 确保背景图层不会遮挡其他内容 */
+      image-rendering: auto; /* 确保图像清晰且不会失真 */
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      width: 90%;
+      max-width: 1200px;
+      position: relative;
+      z-index: 1; /* 确保内容显示在背景上方 */
+    }
+
+    /* Position Logout Button at the top-right */
+    #logout {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    #logout:hover {
+      background-color: #0056b3;
+    }
+
+    .announcement-bar {
+      background-color: rgba(255, 243, 205, 0.8);
+      border: 1px solid #ffeeba;
+      color: #856404;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .announcement-bar h2 {
+      font-size: 1.5rem;
+      margin: 0 0 10px;
+    }
+
+    .announcement-content {
+      font-size: 1rem;
+      line-height: 1.5;
+      text-align: left;
+      margin: 0;
+      color: red;
+    }
+
+    .close-btn {
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      color: #856404;
+    }
+
+    .close-btn:hover {
+      color: #000;
+    }
+
+    #searchInput {
+      padding: 10px;
+      width: 60%;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    #productList {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 0;
+      margin: 0;
+      justify-content: center;
+    }
+
+    #productList li {
+      list-style-type: none;
+      margin: 5px;
+      width: 200px;
+      text-align: left;
+    }
+
+    #productList a {
+      text-decoration: none;
+      color: #007BFF;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #productList a:hover {
+      text-decoration: underline;
+    }
+
+    /* Serial Number Check */
+    .serial-check-container {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 2px solid #ddd;
+    }
+
+    #serialInput {
+      padding: 10px;
+      width: 30%;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    #checkSerialBtn {
+      padding: 10px 15px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    #checkSerialBtn:hover {
+      background-color: #0056b3;
+    }
+
+    #serialFeedback {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    
+    /* 地图链接样式 */
+    .map-container {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .map-link {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    
+    .map-link:hover {
+      background-color: #218838;
+    }
+    
+    /* 添加地图按钮样式 */
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .map-button {
+      margin-right: 20px;
+      padding: 10px 15px;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    
+    .map-button:hover {
+      background-color: #218838;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- ✅ Logout Button -->
+    <button id="logout" class="logout-btn">Logout</button>
+
+    <!-- ✅ Announcement Bar -->
+    <div class="announcement-bar" id="announcementBar">
+      <button class="close-btn" onclick="closeAnnouncement()">×</button>
+      <h2>Announcement</h2>
+      <p class="announcement-content">
+        1. The MCF, MBF, MGF, MSF, YR, ATFS, AGR, ATCM, ATSB, ATTG, ATRC, ATCB, ACHP, ATMG, ATSP, ATHC,series products have been updated. Next, We will continue updating the AGR issue. <br>
+        2. If you have any new requirements, please organize your questions in a timely manner and send them to Lynn; operator53@smartkitchenservice.com
+      </p>
+    </div>
+
+    <!-- ✅ 修改后的标题区域，包含地图按钮 -->
+    <div class="header-container">
+      <a id="mapButton" href="https://salty-river-39081-77ca2b964755.herokuapp.com/" target="_blank" class="map-button" style="display: none;">Tech Map</a>
+      <h1>ATOSA——Technical Documentation Center</h1>
+    </div>
+
+
+    <!-- ✅ Product Search -->
+    <input type="text" id="searchInput" placeholder="Search for a product model..." onkeyup="searchProduct()">
+    
+    <div class="directory">
+      <ul id="productList"></ul>
+    </div>
+
+    <!-- ✅ Serial Number Check -->
+    <div class="serial-check-container">
+      <h2>Serial Number Check</h2>
+      <p>Expected Format: <strong style="font-size: 18px; color: blue;">MCF8725 AUS 1 C N4U 021</strong></p>
+
+      <input type="text" id="serialInput" placeholder="Enter serial number..." />
+      <button id="checkSerialBtn">Check</button>
+      <p id="serialFeedback"></p>
+    </div>
+    
+    <!-- 移除原来的地图区域 -->
+
+  </div>
+
+  <!-- ✅ Add script.js reference -->
+  <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,203 @@
+/* —— 默认样式（适用于 PC 端）—— */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px; /* PC 端默认字体 */
+    background-color: #f9f9f9;
+
+.logout-btn {
+    position: fixed; /* 固定在页面右上角 */
+    top: 15px;
+    right: 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* 确保按钮始终在最上层 */
+}
+
+.logout-btn:hover {
+    background-color: #c82333;
+}
+    /* 背景图片 */
+    background-image: url('https://th.bing.com/th/id/OIP.S3aOGPnQPp0oXj6EqgnSHQHaLI?rs=1&pid=ImgDetMain'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.solution-header {
+    font-size: 26px; /* 再增大一点字体 */
+    font-weight: bold; /* 加粗 */
+    color: #007BFF; /* 蓝色 */
+    padding: 10px 0; /* 上下间距 */
+    border-bottom: 2px solid #007BFF; /* 添加蓝色底边 */
+    background-color: #f0f8ff; /* 添加浅蓝色背景 */
+    text-align: center;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1700px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* 标题 */
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+}
+
+/* 搜索框 */
+#searchInput {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* 框架布局 */
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /* 中间框更宽 */
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+/* 框的通用样式 */
+.frame {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 700px; /* 固定高度 */
+    overflow-y: auto;
+}
+
+/* 问题列表 */
+.problem-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.problem-box ul li {
+    margin-bottom: 10px;
+}
+
+.problem-box ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.problem-box ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 返回主页按钮 */
+.back-home-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: auto; /* 使按钮靠右 */
+}
+
+.back-home-button:hover {
+    background-color: #0056b3;
+}
+@media screen and (min-width: 769px) {
+    .frame.diagram-box {
+        display: flex;
+        justify-content: center; /* 水平居中 */
+        align-items: center; /* 垂直居中 */
+        height: 700px; /* 确保和其他框尺寸一致 */
+        overflow: hidden; /* 避免图片导致框变大 */
+    }
+
+    .frame.diagram-box img {
+        max-width: 80%; /* 限制最大宽度 */
+        max-height: 100%; /* 限制最大高度，避免超出框 */
+        height: auto; /* 保持比例 */
+        display: block;
+    }
+}
+
+
+
+/* —— 响应式调整（适用于屏幕宽度小于 768px 的手机端）—— */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px; /* 手机端字体缩小 */
+    }
+
+    .container {
+        width: 95%; /* 防止页面偏右 */
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem; /* 标题缩小 */
+    }
+
+    #searchInput {
+        font-size: 0.9rem;
+        max-width: 300px; /* 输入框缩短 */
+    }
+
+    /* 让框架在手机上适配 */
+    .grid-layout {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .frame {
+        width: 100%; /* 让框架适应小屏幕 */
+        height: auto; /* 取消固定高度 */
+        padding: 10px;
+    }
+
+    .frame.diagram-box {
+        display: flex;
+        justify-content: center; /* 水平居中 */
+        align-items: center; /* 垂直居中 */
+    }
+
+      .frame.diagram-box img {
+        width: 90%; /* 限制最大宽度，防止超出 */
+        height: auto; /* 保持比例 */
+        display: block;
+    }
+    .problem-box ul li a.active,
+    .problem-box ul li a.active:hover,
+    .problem-box ul li a.active:focus-visible {
+      background: #e0e0e0 !important;
+      color: #000 !important;
+      font-weight: 600 !important;
+    }
+}    

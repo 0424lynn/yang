@@ -1,0 +1,9 @@
+.venv/
+node_modules/
+.vscode/
+.env
+*.key
+*.pem
+secrets.toml
+service_account*.json
+credentials*.json
